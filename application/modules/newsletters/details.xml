@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2" type="content">
+	<name>
+		<en>Newsletters</en>
+		<es>Boletines</es>
+                <cn>新闻速递</cn>
+	</name>
+	<description>
+		<en>Let visitors subscribe via their email address.</en>
+		<es>Deja que tus visitores puedan suscribirse a por medio de su correo electrónico.</es>
+	</description>
+	<icon>newspaper_48.png</icon>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>view</method>
+			<method>create</method>
+			<method>send</method>
+			<method>export</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/newsletters/create">New newsletter</new_item>
+		</admin>
+	</navigation>
+</module>

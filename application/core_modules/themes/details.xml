@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.3" type="admin">
+	<name>
+		<en>Themes</en>
+		<en>Themes</en>
+		<cn>主题</cn>
+	</name>
+	<description>
+		<en>Allows admins and staff to change website theme, upload new themes and manage them in a more visual approach.</en>
+		<es>Permite a los administradores y miembros del staff cambiar el tema del sitio web, subir nuevos temas y manejar los ya existentes.</es>
+	</description>
+	<required>1</required>
+	<icon>tabs_48.png</icon>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>setdefault</method>
+			<method>upload</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/themes/upload">Upload theme</new_item>
+		</admin>
+	</navigation>
+</module>

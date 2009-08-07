@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.6" type="content">
+	<name>
+		<en>News</en>
+		<es>Noticias</es>
+                <cn>新闻</cn>
+	</name>
+	<description>
+		<en>Post news articles and blog entries.</en>
+		<es>Escribe entradas para los artículos y blogs (web log).</es>
+	</description>
+	<icon>newspaper_48.png</icon>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/news/create">New article</new_item>
+		</admin>
+	</navigation>
+</module>

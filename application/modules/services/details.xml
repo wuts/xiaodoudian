@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2" type="content">
+	<name>
+		<en>Services</en>
+		<es>Servicios</es>
+                <cn>服务</cn>
+	</name>
+	<description>
+		<en>Show visitors what services are on offer and allows images to be uploaded.</en>
+		<es>Muestra a tus visitantes que servicios ofreces, permitiéndote mostrar información sobre el precio e imagenes.</es>
+	</description>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/services/create">New service</new_item>
+		</admin>
+	</navigation>
+</module>

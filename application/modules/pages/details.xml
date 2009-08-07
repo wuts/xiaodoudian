@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.5" type="content">
+	<name>
+		<en>Pages</en>
+		<es>Páginas</es>
+                <cn>静态页面</cn>
+	</name>
+	<description>
+		<en>Add custom pages to the site with any content you want.</en>
+		<es>Agrega páginas customizadas al sitio con cualquier contenido que tu quieras.</es>
+	</description>
+	<required>1</required>
+	<icon>paper_content_48.png</icon>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/pages/create">New page</new_item>
+		</admin>
+	</navigation>
+</module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.4" type="content">
+	<name>
+		<en>Photos</en>
+		<es>Fotográficas</es>
+                <cn>图片</cn>
+	</name>
+	<description>
+		<en>Add photo albums and upload photos.</en>
+		<es>Agrega una galería fotográfica y sube fotos.</es>
+	</description>
+	<icon>image_48.png</icon>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/galleries/create">New album</new_item>
+		</admin>
+	</navigation>
+</module>

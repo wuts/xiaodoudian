@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.6" type="content">
+	<name>
+		<en>Comments</en>
+		<es>Comentarios</es>
+                <cn>评论</cn>
+	</name>
+	<description>
+		<en>Users and guests can write comments for almost anything with built-in cpatcha support.</en>
+		<es>Los usuarios y visitantes pueden escribir comentarios en casi todo el contenido con el soporte de un sistema de captcha incluído.</es>
+	</description>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.6" type="content">
+	<name>
+		<en>Users</en>
+		<es>Usuarios</es>
+                <cn>用户</cn>
+	</name>
+	<description>
+		<en>Let users register and log in to the site, and manage them via the control panel.</en>
+		<es>Permite el registro de usuario y loguearse en el sitio, manéjalos con el panel de control.</es>
+	</description>
+	<required>1</required>
+	<icon>users_two_48.png</icon>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/users/add">New user</new_item>
+		</admin>
+	</navigation>
+</module>

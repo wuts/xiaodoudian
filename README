@@ -1,0 +1,41 @@
+PyroCMS
+=======
+
+VERSION: 0.9.6
+AUTHOR: Philip Sturgeon < email[at]philsturgeon[dot]co[dot]uk >
+
+DESCRIPTION
+-----------
+
+PyroCMS is a CMS built using the CodeIgniter PHP framework. Using an MVC architecture
+it was built with modularity in mind. Lightweight, themeable and dynamic.
+
+INSTALLATION
+------------
+
+See INSTALL file for step-by-step installation instructions.
+
+
+BUGS / FEATURE REQUESTS
+-----------------------
+
+This project has a ticket/milestone planning page located at the URL below.
+Before reporting bugs or requesting any features, please check there is not already a ticket.
+
+http://github.com/philsturgeon/pyrocms/issues
+
+
+THANKS
+------
+
+Features
+
+That Lee Guy 		lee[at]thatleeguy[dot]com
+MrEnirO  			mreniro[at]gmail[dot]com
+Yorick Peterse		http://www.yorickpeterse.com/
+BenneX				http://github.com/BenneX
+
+
+Translations
+
+Demostenes Garcia	dgarcia[at]pixmatstudios[dot]com	(Spanish)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2" type="admin">
+	<name>
+		<en>Settings</en>
+		<es>Configuraciones</es>
+		<cn>设置</cn>
+	</name>
+	<description>
+		<en>Allows admins and staff to change website settings such as site name and description.</en>
+		<es>Permite a los administradores y staff configurar los detalles del sitio como el nombre del sitio y la descripción del mismo.</es>
+	</description>
+	<required>1</required>
+	<icon>spanner_48.png</icon>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+</module>
