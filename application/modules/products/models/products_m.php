@@ -35,17 +35,18 @@ class Products_m extends Model {
     }
 
     function getProducts($params = array()) {
-        $this->db->select('products.id, products.title, products.price, products.description, products.supplier_slug, products.updated_on, products.frontpage, suppliers.title AS supplier_title');
+        $this->db->select('products.id, products.title, products.price, products.category_slug,products.description, products.supplier_slug, products.updated_on, products.frontpage, categories.id AS category_id,categories.title AS category_title,suppliers.title AS supplier_title');
         $this->db->join('suppliers', 'products.supplier_slug = suppliers.slug', 'left');
+        $this->db->join('categories', 'products.category_slug = categories.slug', 'left');
         
        	// Limit the results based on 1 number or 2 (2nd is offset)
        	if(isset($params['limit']) && is_int($params['limit'])) $this->db->limit($params['limit']);
     	elseif(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
         
-    	if(!empty($params['category'])) $this->db->where('products.category_slug', $params['category']);
+    	if(!empty($params['category'])) $this->db->where('categories.id',$params['category']);
     	
         $query = $this->db->get('products');
-
+       
         if ($query->num_rows() > 0) {
             return $query->result();
         } else {

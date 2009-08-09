@@ -29,9 +29,12 @@ class Products extends Public_Controller
 	
 	function category($category = '')
 	{
-		if (empty($category)) redirect('products/index');		
-		$this->data->products = $this->products_m->getProducts($category);
-		
+		if (empty($category)) redirect('products/index');
+		$params['category']=$category;                
+		$this->data->products = $this->products_m->getProducts($params);
+                
+		if (empty($this->data->products)) redirect('products/index');
+                
 		foreach ($this->data->products as $product)
 		{
 			$query = $this->db->getwhere('products_images', array('product_id'=>$product->id, 'for_display'=>'1'));

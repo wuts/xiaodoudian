@@ -68,7 +68,7 @@ class Admin extends Admin_Controller
 		$this->data->suppliers = $this->suppliers_m->getSuppliers();
 		
 		// Load WYSIWYG editor
-		$this->layout->extra_head( $this->load->view('fragments/wysiwyg', $this->data, TRUE) );		
+		$this->layout->extra_head( $this->load->view('fragments/wysiwyg', $this->data, TRUE) );
 		$this->layout->create('admin/form', $this->data);
 	}
 	

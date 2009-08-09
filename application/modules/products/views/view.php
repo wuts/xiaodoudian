@@ -1,4 +1,5 @@
 <? $this->load->helper('typography'); ?>
+<h2><?= $product->title; ?></h2>
 
 <? if ($images): ?>
 	<? foreach ($images as $image): ?>
@@ -10,6 +11,5 @@
 	<? endforeach; ?>
 <? endif; ?>
 
-<h2><?= $product->title; ?></h2>
 <strong><?=lang('products_price_label');?>: <?= sprintf(lang('products_price_format'), $this->settings->item('currency'), $product->price); ?></strong>
 <p><?= auto_typography($product->description); ?></p>
