@@ -3,7 +3,7 @@
 		<div class="col float-left space-sep">
 			<h3>友情链接</h3>
 			<ul class="col-list">				
-				<li><a href="http://www.cssmania.com/">淘宝小店 - <span>本站的淘宝小店</span></a></li>
+				<li><a href="http://www.cssmania.com/">豆点商城 - <span>本站的淘宝小店</span></a></li>
 				<li><a href="http://www.alistapart.com/">迪斯尼 - <span>娱乐王国</span></a></li>
 				<li><a href="http://www.pdphoto.org/">飞利浦 - <span>医疗、保健、照明</span></a></li>
 				<li><a href="http://www.freephotos.se/">好孩子 - <span>育儿网</span></a></li>
