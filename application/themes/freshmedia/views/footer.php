@@ -31,7 +31,7 @@
 			<p>
 			<a href="http://getfirefox.com/"><img src="<?php echo base_url(); ?>application/themes/freshmedia/images/thumb.jpg" width="40" height="40" alt="firefox" class="float-left" /></a>
 			我们致力于营造温馨的三口之家的家庭氛围，将生活中的点滴心得、欣喜与大家分享。</p>
-						
+			   <p>欢迎随时<a href="http://www.xiaodoudian.com/contact">联系我们</a></p>
 			<p>&copy; copyright <?php echo date('Y'); ?> <strong><?php echo $this->settings->item('site_name'); ?></strong><br /> 
 			Powered by: <a href="http://www.pyrocms.com/" title="PyroCMS">PyroCMS</a> &nbsp; &nbsp;Design by: <a href="index.html">styleshout</a><br />
 			Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://validator.w3.org/check/referer">XHTML</a>
