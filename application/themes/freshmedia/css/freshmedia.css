@@ -40,7 +40,7 @@ a:hover {
 }
 
 /* headers */
-h1, h2, h3, h4 {
+h1, h2, h3, h4，h5 {
 	font-family: "Trebuchet MS", Tahoma, Arial, Sans-serif;
 	color: #555;
 }
@@ -70,6 +70,16 @@ h4 {
 	padding: 20px 10px 5px 10px;
 	margin: 0;
 }
+
+h5 {
+	font-size: 130%;
+	color: #895F30;
+        padding: 5px 10px 0px 30px;
+	margin: 0;
+        background: url(../images/bullet_arrow.gif) no-repeat 10px 10px;
+}
+
+h5 em{font-size:70%;padding-left:10px;color:gray;}
 
 p, dl { padding: 10px; margin: 0; }
 
