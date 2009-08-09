@@ -35,8 +35,8 @@
 				<div id="recent-posts">
 					<?php foreach ($this->news_m->getNews() as $news): ?>
 						<h3><?php echo anchor('news/' . date('Y/m') . '/'. strtolower($news->slug), $news->title); ?></h3>
-						<p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p>
-						<p><?php echo strip_tags($news->intro); ?></p>
+						 <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
+						 <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
 					<?php endforeach ?>
 				</div>
 				<? endif; ?>
