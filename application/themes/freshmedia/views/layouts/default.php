@@ -34,7 +34,7 @@
 			  	<h2>最新日志</h2>
 				<div id="recent-posts">
 					<?php foreach ($this->news_m->getNews() as $news): ?>
-						<h5><?php echo anchor('news/' . date('Y/m') . '/'. strtolower($news->slug), $news->title); ?><em><?= date('Y-M,d', $news->created_on); ?></em>&nbsp;</h5>
+						<h5><?php echo anchor('news/' . date('Y/m') . '/'. strtolower($news->slug), $news->title); ?><em><?= date('Y-M,d', $news->created_on); ?></em>&nbsp;&nbsp;</h5>
                                                 
 						 <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
 						 <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
