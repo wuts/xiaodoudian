@@ -1,5 +1,8 @@
 #config files
 application/config/config.php
 application/config/database.php
-application/cache/.
-codeigniter/logs/.
+application/cache/modules_m/*.cache
+application/cache/navigation_m/*.cache
+application/cache/news_m/*.cache
+application/cache/pages_m/*.cache
+codeigniter/logs/*.log
