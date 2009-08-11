@@ -29,7 +29,7 @@
 			  </div>
 	
 			  <!-- sidebar starts -->
-			  <div id="sidebar">
+			  <div id="sidebar">                               
 			  	<? if(is_module('news')): ?>
 			  	<h2>最新日志</h2>
 				<div id="recent-posts">

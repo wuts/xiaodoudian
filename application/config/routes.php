@@ -48,7 +48,8 @@ $route['admin'] = "admin";
 
 // Pages routing now handled with router extension
 // $route['([a-zA-Z0-9_-]+)'] = "pages/index/$1";
-$route['default_controller'] = "pages";
+//$route['default_controller'] = "pages";
+$route['default_controller'] = "news";
 $route['scaffolding_trigger'] = "";
 
 ?>
