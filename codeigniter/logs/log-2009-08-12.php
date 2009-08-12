@@ -4349,3 +4349,92 @@ ERROR - 2009-08-12 12:34:12 --> Severity: Notice  --> Undefined variable: news D
 ERROR - 2009-08-12 12:34:12 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
 ERROR - 2009-08-12 12:34:12 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
 ERROR - 2009-08-12 12:34:12 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-12 12:34:47 --> 404 Page Not Found --> 
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:47 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 71
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:50 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-12 12:34:50 --> 404 Page Not Found --> 
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 40
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
+ERROR - 2009-08-12 12:34:51 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\freshmedia\views\layouts\default.php 41
