@@ -1,0 +1,77 @@
+<!-- INCLUDE overall_header.html -->
+<!-- IF not S_USER_LOGGED_IN and not S_IS_BOT -->
+<form method="post" action="{S_LOGIN_ACTION}">
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td align="right"><span class="genmed">{L_USERNAME}:</span> <input class="post" type="text" name="username" size="10" />&nbsp; <span class="genmed">{L_PASSWORD}:</span> <input class="post" type="password" name="password" size="10" />&nbsp; <!-- IF S_AUTOLOGIN_ENABLED --> <span class="gensmall">{L_LOG_ME_IN}</span> <input type="checkbox" class="radio" name="autologin" /><!-- ENDIF -->&nbsp; <input type="submit" class="btnmain" name="login" value="{L_LOGIN}" /></td>
+</tr>
+</table>
+{S_FORM_TOKEN}
+</form>
+<!-- ENDIF -->
+<!-- IF U_MCP -->
+	<div id="pageheader">
+		<p class="linkmcp">[ <a href="{U_MCP}">{L_MCP}</a> ]</p>
+	</div>
+
+	<br clear="all" /><br />
+<!-- ENDIF -->
+
+<!-- INCLUDE forumlist_body.html -->
+
+<!-- IF not S_IS_BOT or U_TEAM -->
+	<span class="gensmall"><!-- IF not S_IS_BOT --><a href="{U_DELETE_COOKIES}">{L_DELETE_COOKIES}</a><!-- ENDIF --><!-- IF not S_IS_BOT and U_TEAM --> | <!-- ENDIF --><!-- IF U_TEAM --><a href="{U_TEAM}">{L_THE_TEAM}</a><!-- ENDIF --></span><br />
+<!-- ENDIF -->
+
+<br clear="all" />
+
+<!-- INCLUDE breadcrumbs.html -->
+
+<br clear="all" />
+<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat" colspan="2"><h4><!-- IF U_VIEWONLINE --><a href="{U_VIEWONLINE}" title="{L_WHO_IS_ONLINE}">{L_STATISTICS}</a><!-- ELSE -->{L_WHO_IS_ONLINE}<!-- ENDIF --></h4></td>
+	<tr>
+		<td class="row1" align="center" valign="middle"><img src="{T_THEME_PATH}/images/whosonline.gif" alt="{L_WHO_IS_ONLINE}" /></td>
+		<td class="row1" width="100%">
+			<table width="100%" cellspacing="1" border="0">
+				<tr>
+					<td class="row1" width="100%" valign="middle"><p class="genmed">{TOTAL_POSTS} | {TOTAL_TOPICS} | {TOTAL_USERS} | {NEWEST_USER}</p></td>
+				</tr>
+	<!-- IF S_DISPLAY_ONLINE_LIST -->
+				<tr>
+					<td class="row1" ><span class="genmed">{TOTAL_USERS_ONLINE} | {RECORD_USERS}<br /> {LOGGED_IN_USER_LIST}<br />{L_ONLINE_EXPLAIN}</span></td>
+				</tr>
+		<!-- IF LEGEND -->
+				<tr>
+					<td class="row1"><b class="gensmall">{L_LEGEND} :: {LEGEND}</b></td>
+				</tr>
+		<!-- ENDIF -->
+	<!-- ENDIF -->
+	<!-- IF S_DISPLAY_BIRTHDAY_LIST -->
+				<tr>
+					<td class="row1" width="100%"><p class="genmed"><!-- IF BIRTHDAY_LIST -->{L_CONGRATULATIONS}: <b>{BIRTHDAY_LIST}</b><!-- ELSE -->{L_NO_BIRTHDAYS}<!-- ENDIF --></p></td>
+				</tr>
+	<!-- ENDIF -->
+			</table>
+		</td>
+	</tr>
+</table>
+
+<br clear="all" />
+
+<table class="legend">
+<tr>
+	<td width="20" align="center">{FORUM_NEW_IMG}</td>
+	<td><span class="gensmall">{L_NEW_POSTS}</span></td>
+	<td>&nbsp;&nbsp;</td>
+	<td width="20" align="center">{FORUM_IMG}</td>
+	<td><span class="gensmall">{L_NO_NEW_POSTS}</span></td>
+	<td>&nbsp;&nbsp;</td>
+	<td width="20" align="center">{FORUM_LOCKED_IMG}</td>
+	<td><span class="gensmall">{L_FORUM_LOCKED}</span></td>
+</tr>
+</table>
+
+<!-- INCLUDE overall_footer.html -->

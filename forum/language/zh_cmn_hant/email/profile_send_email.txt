@@ -1,0 +1,13 @@
+
+{TO_USERNAME} 您好,
+
+您在 "{SITENAME}" 上的帳號收到了來自 {FROM_USERNAME} 的新email, 下面是email的內容. 如果是垃圾郵件或其他對您產生冒犯的內容請利用以下的連結聯繫討論區的管理員:
+
+{BOARD_CONTACT}
+
+在回覆中請包含完整的email內容 (特別是郵件標題). 請注意這個email的回覆位址已經被設置為帳號 {FROM_USERNAME}.
+
+以下是發送給您的內容
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

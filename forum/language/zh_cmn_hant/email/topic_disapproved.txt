@@ -1,0 +1,12 @@
+Subject: 主題未被批准 - "{TOPIC_TITLE}"
+
+{USERNAME} 您好,
+
+您收到這個通知是因為您在 "{SITENAME}" 上發表的主題 "{TOPIC_TITLE}" 未通過版主或管理員的批准.
+
+不批准的理由是:
+
+{REASON}
+
+
+{EMAIL_SIG}

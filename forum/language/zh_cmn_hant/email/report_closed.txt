@@ -1,0 +1,8 @@
+Subject: 舉報被關閉 - "{POST_SUBJECT}"
+
+{USERNAME} 您好,
+
+您收到這個通知是因為您在 "{SITENAME}" 上對主題 "{TOPIC_TITLE}" 中的文章 "{POST_SUBJECT}" 的舉報已經被版主或管理員處理後關閉. 如果您有更多的疑問請使用私人訊息聯繫 {CLOSER_NAME}.
+
+
+{EMAIL_SIG}

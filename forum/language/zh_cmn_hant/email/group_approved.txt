@@ -1,0 +1,10 @@
+Subject: 您的請求已經被批准
+
+恭喜,
+
+您在 "{SITENAME}" 上加入 "{GROUP_NAME}" 群組的請求已經被批准.
+點擊下面的連結可以看到您的群組訊息.
+
+{U_GROUP}
+
+{EMAIL_SIG}

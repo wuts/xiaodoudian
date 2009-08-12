@@ -1,0 +1,19 @@
+Subject: 版面文章通知 - "{FORUM_NAME}"
+
+{USERNAME} 您好,
+
+您收到這個通知是因為您在 "{SITENAME}" 上訂閱版面 "{FORUM_NAME}". 這個版面剛有人回覆了主題 "{TOPIC_TITLE}". 您可以使用下面的連結查看這個主題, 在您查看這個主題前不會再有任何通知.
+
+{U_NEWEST_POST}
+
+需要查看主題, 請點擊下面連結:
+{U_TOPIC}
+
+需要查看版面, 請點擊下面連結:
+{U_FORUM}
+
+如果您不想再訂閱這個版面, 您可以在上面的版面中點擊 "取消訂閱版面" 連結或點擊下面的連結:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

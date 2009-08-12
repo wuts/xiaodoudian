@@ -1,0 +1,13 @@
+Subject: 新主题通知 - "{FORUM_NAME}"
+
+Hello {USERNAME},
+
+您收到这个通知是因为您在 "{SITENAME}" 上订阅了版面 "{FORUM_NAME}". 刚刚有人在这个版面发表了新主题 "{TOPIC_TITLE}". 您可以点击下面的链接查看版面, 在您查看版面前不会再有更多的通知.
+
+{U_FORUM}
+
+如果您不希望再监视这个版面, 您可以点击版面页面上的 "取消订阅" 链接或者点击下面的链接:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

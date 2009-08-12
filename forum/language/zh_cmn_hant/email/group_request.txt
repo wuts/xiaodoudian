@@ -1,0 +1,10 @@
+Subject: 加入群組的申請
+
+{USERNAME}, 您好:
+
+會員 "{REQUEST_USERNAME}" 請求加入您在 "{SITENAME}" 中管理的群組 "{GROUP_NAME}".
+如果您需要進行批准或者駁回操作, 請使用如下連結:
+
+{U_PENDING}
+
+{EMAIL_SIG}

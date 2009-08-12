@@ -1,0 +1,92 @@
+/* For font size correction
+---------------------------------------- */
+
+p {
+   font-size: 1.2em;
+}
+
+ul.linklist li {
+   font-size: 1.2em;
+}
+
+li.header dt, li.header dd {
+   font-size: 1.2em;
+}
+
+li.header dt {
+   font-weight: normal;
+}
+
+ul.topiclist dt {
+   font-size: 1.2em;
+}
+
+dd.lastpost {
+   font-size: 1.2em;
+}
+
+h3 {
+   font-size: 1.2em;
+}
+
+a.forumtitle, a.topictitle {
+   font-family: Tahoma, Helvetica, Arial, Sans-serif;
+   font-size: 1em;
+}
+
+.copyright {
+   font-size: 1.2em;
+}
+
+.postbody h3.first, .postbody h3 {
+   font-size: 1.2em;
+}
+
+p.author {
+   font-size: 1.2em;
+}
+
+.postprofile dd, .postprofile dt {
+   font-size: 1.2em;
+}
+
+.pagination {
+   font-size: 1.1em;
+}
+
+fieldset.quickmod, fieldset.jumpbox, fieldset.display-options {
+   font-size: 1.2em;
+}
+
+#tabs li {
+   font-size: 1.2em;
+}
+
+#cp-main .panel p, #cp-main .panel ol {
+   font-size: 1.2em;
+}
+
+#navigation li {
+   font-size: 1.2em;
+   font-weight: normal;
+}
+
+#navigation a {
+   font-weight: normal;
+}
+
+dl.details {
+   font-size: 1.2em;
+}
+
+fieldset {
+   font-size: 1.2em;
+}
+
+div.rules {
+font-size: 1.2em;
+}
+
+.signature {
+font-size: 1.2em;
+}

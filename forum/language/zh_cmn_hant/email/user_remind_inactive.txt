@@ -1,0 +1,11 @@
+Subject: 帳號尚未啟用
+
+您好 {USERNAME}，
+
+您於 {REGISTER_DATE} 在 "{SITENAME}" 註冊了一個新帳號，但尚未啟用。要啟用它，請點擊如下連結：
+
+{U_ACTIVATE}
+
+感謝您在本站註冊，我們期待您的進一步參與！
+
+{EMAIL_SIG}

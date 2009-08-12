@@ -1,0 +1,17 @@
+Subject: "{SITENAME}" - 給朋友發送email
+
+{TO_USERNAME} 您好,
+
+這個email由 {FROM_USERNAME} 發送自 "{SITENAME}",  他/她覺得您可能會對這些內容感興趣:
+
+{TOPIC_NAME}
+
+您可以在如下連結中瀏覽:
+
+{U_TOPIC}
+
+ {FROM_USERNAME} 發送的郵件內容也在下面包含, 請注意這些內容並沒有經過討論區管理員批准或審查. 如果您對這類郵件表示不滿, 請聯繫討論區管理員 {BOARD_CONTACT}. 請在郵件中引用這個郵件的郵件標題內容.
+
+----------
+
+{MESSAGE}
