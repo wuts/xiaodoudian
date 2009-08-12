@@ -38,6 +38,17 @@ class News_m extends Model {
             return $query->row();
         }
     }
+
+    function getCategories(){
+        $this->db->select('Distinct news.category_id,categories.title AS category_title,categories.slug AS category_slug');
+        $this->db->join('categories','news.category_id=categories.id','left');     
+        $query = $this->db->get('news');
+        if ($query->num_rows() == 0) {
+            return FALSE;
+        } else {
+            return $query->result();
+        }
+    }
     
     function getNews($params = array())
     {

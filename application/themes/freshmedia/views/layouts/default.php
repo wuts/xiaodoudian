@@ -31,6 +31,15 @@
 			  <!-- sidebar starts -->
 			  <div id="sidebar">                               
 			  	<? if(is_module('news')): ?>
+                               <h2>目录</h2>
+                               <div id="catagories">
+					<?php foreach ($this->news_m->getCategories() as $category): ?>
+						<h5><?php echo anchor('news/category/'.$category->category_id,$category->category_title); ?></h5>
+
+						 <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
+						 <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
+					<?php endforeach ?>
+				</div>
 			  	<h2>最新日志</h2>
 				<div id="recent-posts">
 					<?php foreach ($this->news_m->getNews() as $news): ?>
@@ -40,7 +49,23 @@
 						 <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
 					<?php endforeach ?>
 				</div>
+                                  
+                                   <? if(!empty($archive_months)): ?>
+	                             <h2>存档</h2>
+	                             <ul class="list-unstyled">
+		                       <? foreach($archive_months as $month): ?>
+			                <li>
+			                   <a href="<?=site_url('news/archive/'.date('Y/m', $month->date));?>">
+					     <?=date("F 'y", $month->date) ?> (<?=$month->article_count; ?>)
+			                   </a>
+			                 </li>
+		                        <? endforeach; ?>
+	                              </ul>
+                                    <? endif; ?>
 				<? endif; ?>
+                                
+                        
+                       
 			  </div><!-- end #sidebar -->
 	
 			<!-- content-wrap ends-->	
