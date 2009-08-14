@@ -29,9 +29,9 @@ if ( ! function_exists('url_title'))
 {
 	function url_title($str, $separator = 'dash', $lowercase = FALSE)
     {
-        //if(preg_match("/[^A-Za-z0-9-_]+/",$str)){
-            //return md5($str).md5(date("Y-M-D"));
-        //}
+        if(preg_match("/[^A-Za-z0-9-_]+/",$str)){
+            return md5($str).md5(date("Y-M-D"));
+        }
         if ($separator == 'dash')
         {
             $search        = '_';
