@@ -29,9 +29,9 @@ if ( ! function_exists('url_title'))
 {
 	function url_title($str, $separator = 'dash', $lowercase = FALSE)
     {
-        if(preg_match("/[^A-Za-z0-9-_]+/",$str)){
-            return md5($str).md5(date("Y-M-D"));
-        }
+        //if(preg_match("/[^A-Za-z0-9-_]+/",$str)){
+            //return md5($str).md5(date("Y-M-D"));
+        //}
         if ($separator == 'dash')
         {
             $search        = '_';
@@ -47,7 +47,7 @@ if ( ! function_exists('url_title'))
                         '&\#\d+?;'                => '',
                         '&\S+?;'                => '',
                         '\s+'                    => $replace,
-                        '[^a-zАБВГҐДЕЄЁЖЗИІЫЇЙКЛМНОПРСТУФХЦЧШЩЮЯЬЪабвгґдеєёжзиіыїйклмнопрстуфхцчшщюяьъ0-9\-\._]' => '',
+                        '[^a-z袗袘袙袚覑袛袝袆衼袞袟袠袉蝎袊袡袣袥袦袧袨袩袪小孝校肖啸笑效楔些挟携鞋歇邪斜胁谐覒写械褦褢卸蟹懈褨褘褩泄泻谢屑薪芯锌褉褋褌褍褎褏褑褔褕褖褞褟褜褗0-9\-\._]' => '',
                         $replace.'+'            => $replace,
                         $replace.'$'            => $replace,
                         '^'.$replace            => $replace,

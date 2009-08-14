@@ -13,6 +13,7 @@
 	<icon>users_two_48.png</icon>
 	<is_frontend>1</is_frontend>
 	<is_backend>1</is_backend>
+        <is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -23,7 +24,10 @@
 	</controllers>
 	<navigation>
 		<admin>
-			<new_item href="admin/users/add">New user</new_item>
+			<new_item href="admin/users/add">
+				<en>New user</en>
+                                <cn>新建用户</cn>
+			</new_item>
 		</admin>
 	</navigation>
 </module>

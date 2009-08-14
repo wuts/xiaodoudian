@@ -3,7 +3,7 @@
 	<name>
 		<en>Twitter</en>
 		<es>Twitter</es>
-                <cn>Twitter</cn>
+		<cn>Twitter</cn>
 	</name>
 	<description>
 		<en>Show twitter posts and support general Twitter integration.</en>
@@ -12,6 +12,7 @@
 	<required>1</required>
 	<is_frontend>0</is_frontend>
 	<is_backend>0</is_backend>
+        <is_backend_sidebar>0</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -22,7 +23,10 @@
 	</controllers>
 	<navigation>
 		<admin>
-			<new_item href="admin/themes/upload">Upload theme</new_item>
+			<new_item href="admin/themes/upload">
+				<en>Upload theme</en>
+				<cn>上传主题</cn>
+			</new_item>
 		</admin>
 	</navigation>
 </module>

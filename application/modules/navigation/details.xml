@@ -11,6 +11,7 @@
 	</description>
 	<is_frontend>0</is_frontend>
 	<is_backend>1</is_backend>
+        <is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -27,7 +28,10 @@
 	</controllers>
 	<navigation>
 		<admin>
-			<new_item href="admin/navigation/create">New link</new_item>
+			<new_item href="admin/navigation/create">
+				<en>New link</en>
+                                <cn>新建链接</cn>
+			</new_item>
 		</admin>
 	</navigation>
 </module>

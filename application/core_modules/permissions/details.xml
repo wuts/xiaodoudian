@@ -28,7 +28,10 @@
 	</controllers>
 	<navigation>
 		<admin>
-			<new_item href="admin/permissions/create">New rule</new_item>
+			<new_item href="admin/permissions/create">
+				<en>New rule</en>
+                                <cn>New rule</cn>
+			</new_item>
 		</admin>
 	</navigation>
 </module>

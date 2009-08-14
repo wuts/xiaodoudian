@@ -10,13 +10,17 @@
 		editor_selector : "wysiwyg-simple",
 		editor_class : "wysiwyg-simple",
 		theme : "advanced",
+                
+                language : "<?php echo CURRENT_LANGUAGE;?>",
 
 		width : 325,
 
 		force_p_newlines : false,
 		force_br_newlines : true,
 		forced_root_block : '',
-		
+                
+		button_tile_map : true,
+                
 		// Theme options
 		theme_advanced_buttons1 : "bold,italic,underline,strikethrough,code",
 		theme_advanced_buttons2 : '',
@@ -33,6 +37,8 @@
 		editor_selector : "wysiwyg-advanced",
 		editor_class : "wysiwyg-advanced",
 
+                language : "<?php echo CURRENT_LANGUAGE;?>",
+                
 		width : 650,
 		height : 600,
 		constrain_menus : true,
@@ -47,13 +53,17 @@
 		theme_advanced_toolbar_location : "top",
 		theme_advanced_toolbar_align : "left",
 		theme_advanced_resizing : true,
+                theme_advanced_statusbar_location : "bottom",
+		theme_advanced_resize_horizontal : false,
+                
+		document_base_url: "<?php echo BASE_URI ;?>",
+		content_css : "<?php echo css_path('style.css'); ?>",
 
-		document_base_url: "<?= BASE_URI ;?>",
-		
+		button_tile_map : true,		
 		media_strict: false,
 
 		// Default ruleset
-		valid_elements : "@[id|class|style|title|dir<ltr?rtl|lang|xml::lang|onclick|ondblclick|"
+		valid_elements : "@[id|class|style|title|dir|lang|xml::lang|onclick|ondblclick|"
 			+ "onmousedown|onmouseup|onmouseover|onmousemove|onmouseout|onkeypress|"
 			+ "onkeydown|onkeyup],a[rel|rev|charset|hreflang|tabindex|accesskey|type|"
 			+ "name|href|target|title|class|onfocus|onblur],strong/b,em/i,strike,u,"
