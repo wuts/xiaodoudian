@@ -26,13 +26,7 @@
 				<?=$this->load->view($theme_view_folder.'leftnav'); ?>
 			</div>
 			
-			<? if(is_module('twitter')): ?>
-			<div id="recent-posts">
-				<h2>Thoughts</h2>
-				<?= $this->load->module_view('twitter', 'fragments/my_tweets'); ?>
-			</div>
 			
-			<? endif; ?>
 			<? if(is_module('news')): ?>
 			<div id="recent-posts">
 				<h2>Recent Posts</h2>

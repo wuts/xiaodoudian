@@ -1,37 +1,37 @@
 <?php
 
 // labels
-$lang['service_label'] 												= 'Service';
-$lang['service_price_label'] 									= 'Price';
-$lang['service_updated_label'] 								= 'Updated';
-$lang['service_actions_label'] 								= 'Actions';
-$lang['service_view_label'] 									= 'View';
-$lang['service_edit_label'] 									= 'Edit';
-$lang['service_delete_label'] 								= 'Delete';
-$lang['service_title_label'] 									= 'Title';
-$lang['service_desc_label'] 									= 'Description';
-$lang['service_one_off_label'] 								= 'one off';
-$lang['service_per_hour_label'] 							= 'per Hour';
-$lang['service_per_day_label'] 								= 'per Day';
-$lang['service_per_week_label'] 							= 'per Week';
-$lang['service_per_month_label'] 							= 'per Month';
-$lang['service_per_year_label'] 							= 'per Year';
+$lang['service_label'] 												= '服务';
+$lang['service_price_label'] 									= '价格';
+$lang['service_updated_label'] 								= '已更新';
+$lang['service_actions_label'] 								= '操作';
+$lang['service_view_label'] 									= '浏览';
+$lang['service_edit_label'] 									= '编辑';
+$lang['service_delete_label'] 								= '删除';
+$lang['service_title_label'] 									= '标题';
+$lang['service_desc_label'] 									= '描述';
+$lang['service_one_off_label'] 								= '一次性';
+$lang['service_per_hour_label'] 							= '每小时';
+$lang['service_per_day_label'] 								= '每天';
+$lang['service_per_week_label'] 							= '每周';
+$lang['service_per_month_label'] 							= '每月';
+$lang['service_per_year_label'] 							= '每年';
 
 // titles
-$lang['service_title'] 												= 'Services';
-$lang['service_create_title'] 								= 'Create service';
-$lang['service_edit_title'] 									= 'Edit service "%s"';
+$lang['service_title'] 												= '服务';
+$lang['service_create_title'] 								= '创建新服务';
+$lang['service_edit_title'] 									= '编辑服务 "%s"';
 
 // messages
-$lang['service_no_services'] 									= 'There are no services.';
+$lang['service_no_services'] 									= '目前没有服务';
 $lang['service_price_format'] 								= '%s %s %s';
-$lang['service_no_offered_services'] 					= 'We are currently not offering any services.';
-$lang['service_add_success'] 									= 'The service "%s" was added.';
-$lang['service_add_error'] 										= 'An error occured.';
-$lang['service_edit_success'] 								= 'The service "%s" was saved.';
-$lang['service_edit_error'] 									= 'An error occurred.';
-$lang['service_delete_no_selected_error'] 		= 'You need to select one or more services to delete.';
-$lang['service_delete_success'] 							= 'The service(s) were deleted.';
-$lang['service_already_exist_notice'] 				= 'A service with the name "%s" already exists.';
+$lang['service_no_offered_services'] 					= '我们暂时未提供任何服务。';
+$lang['service_add_success'] 									= '服务 "%s" 已添加。';
+$lang['service_add_error'] 										= '发生错误。';
+$lang['service_edit_success'] 								= '服务 "%s" 已保存。';
+$lang['service_edit_error'] 									= '生错误。';
+$lang['service_delete_no_selected_error'] 		= '您尚未选择一个或多个要删除的服务。';
+$lang['service_delete_success'] 							= '服务已删除。';
+$lang['service_already_exist_notice'] 				= '名为 "%s" 的服务已存在。';
 
 ?>

@@ -8,7 +8,7 @@ $lang['contact_company_name_label']						= '公司';
 $lang['contact_subject_label']								= '主题';
 $lang['contact_other_label']									= '其他';
 $lang['contact_message_label']								= '留言';
-$lang['contact_captcha_label'] 								= 'Captcha';
+$lang['contact_captcha_label'] 								= '验证码';
 $lang['contact_send_label'] 									= '发送';
 $lang['contact_mail_ip_label'] 								= 'IP: ';
 $lang['contact_mail_os_label'] 								= 'OS: ';
@@ -23,11 +23,11 @@ $lang['contact_sent_title'] 									= '留言已发送';
 $lang['contact_title'] 												= '联系我们';
 
 // texts
-$lang['contact_mail_text'] 										= 'This message was sent via the contact form on %s with the following details:';
-$lang['contact_sent_text'] 										= 'Your message has been sent. We will get back to you as soon as we can.';
-$lang['contact_capchar_text'] 								= 'Submit the word you see below:';
+$lang['contact_mail_text'] 										= '您提交的以下信息 %s 已经成功发送:';
+$lang['contact_sent_text'] 										= '您的留言已提交，我们会尽快给您反馈。';
+$lang['contact_capchar_text'] 								= '输入验证码:';
 
 // messages
-$lang['contact_capchar_error'] 								= 'You filled in the Captcha phrase wrong.';
+$lang['contact_capchar_error'] 								= '验证码输入错误。';
 
 ?>

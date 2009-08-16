@@ -4,5 +4,5 @@
 </div>
 
 <img src="<?=image_path('bg/balloons.gif', '_theme_') ?>" alt="balloons" class="balloons" />
-<img src="<?=image_path('bg/header_left.jpg', '_theme_') ?>" alt="left slice" class="left" />
-<img src="<?=image_path('bg/header_right.jpg', '_theme_') ?>" alt="right slice" class="right" />    
+<img src="<?=image_path('bg/header_left.png', '_theme_') ?>" alt="left slice" class="left" />
+<img src="<?=image_path('bg/header_right.png', '_theme_') ?>" alt="right slice" class="right" />

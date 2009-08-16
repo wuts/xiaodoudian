@@ -48,7 +48,7 @@
 			<?php if($this->settings->item('captcha_enabled') AND $this->user_lib->logged_in() == false): ?>
 			<p>
 				<?php echo lang('contact_capchar_text');?>
-				<?php echo $captcha['image'];?><br />
+				<?php echo $captcha['image'];?><br />                               
 				<input type="text" name="captcha" id="captcha" maxlength="40" />
 				<input type="hidden" name="captcha_id" id="captcha_id" value="<?php echo $captcha['time']; ?>" />
 			</p>

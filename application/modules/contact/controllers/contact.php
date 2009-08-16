@@ -2,12 +2,12 @@
 class Contact extends Public_Controller
 {	
 	var $subjects = array(
-		'support'	=>	'Support',
-		'sales'		=>	'Sales',
-		'payments'	=>	'Payments',
-		'business'	=>	'Business Development',
-		'feedback'	=>	'Feedback/Suggestions',
-		'other'		=>	'Other'				
+		'support'	=>	'技术支持',
+		'sales'		=>	'售后服务',
+		'payments'	=>	'付款方式',
+		'business'	=>	'商务合作',
+		'feedback'	=>	'反馈/建议',
+		'other'		=>	'其他'
 	);
 	
 	// Fields must match this certain criteria
@@ -41,8 +41,9 @@ class Contact extends Public_Controller
 			$vals = array(
 				'img_path'	 => $this->settings->item('captcha_folder'),
 				'img_url'	 => base_url().$this->settings->item('captcha_folder')
-			);			
+			);
 			$this->data->captcha = create_captcha($vals);
+                       
 			$this->session->set_flashdata('captcha_'.$this->data->captcha['time'], $this->data->captcha['word']);
 		}
 		
