@@ -13,4 +13,4 @@
 
 <p><em><?=$article->intro;?></em></p>
 
-<?=htmlentities(stripslashes($article->body), ENT_COMPAT,'UTF-8');?> 
+<?=html_entity_decode(stripslashes($article->body),ENT_COMPAT,'UTF-8');?>

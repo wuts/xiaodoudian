@@ -7,7 +7,7 @@
 	<? endif; ?>
 </p>
 <hr/>
-<?=html_entity_decode(stripslashes($article->body));?>
+<?=html_entity_decode(stripslashes($article->body),ENT_COMPAT,'UTF-8');?>
 <hr/>
 <?= $this->load->view('fragments/social_bookmarking/toolbar', array('bookmark' => array('title' => $article->title))); ?>
 <hr/>

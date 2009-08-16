@@ -1215,3 +1215,28 @@ ERROR - 2009-08-16 13:48:11 --> Severity: Notice  --> Undefined variable: news D
 ERROR - 2009-08-16 13:48:11 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
 ERROR - 2009-08-16 13:48:11 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
 ERROR - 2009-08-16 13:48:11 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 71
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 37
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Undefined variable: news D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
+ERROR - 2009-08-16 13:51:30 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\themes\lazydays\views\layouts\default.php 38
