@@ -28,6 +28,16 @@
 			
 			
 			<? if(is_module('news')): ?>
+                        <h2>日志分类</h2>
+                               <div id="catagories">
+					<?php foreach ($this->news_m->getCategories() as $category): ?>
+                                               <? if(!empty($category->category_title)): ?>
+						<h5><?php echo anchor('news/category/'.$category->category_id,$category->category_title); ?></h5>
+                                                <? endif;?>
+						 <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
+						 <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
+					<?php endforeach ?>
+				</div>
 			<div id="recent-posts">
 				<h2>最新日志</h2>
 				<?= $this->news_m->getNewsHome(); ?>
