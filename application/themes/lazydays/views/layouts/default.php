@@ -29,7 +29,7 @@
 			
 			<? if(is_module('news')): ?>
 			<div id="recent-posts">
-				<h2>Recent Posts</h2>
+				<h2>最新日志</h2>
 				<?= $this->news_m->getNewsHome(); ?>
 			</div>
 			<? endif; ?>

@@ -765,3 +765,13 @@ ERROR - 2009-08-16 12:21:22 --> Severity: Warning  --> fopen(application/cache/t
 ERROR - 2009-08-16 12:21:22 --> Unable to write Cache file: application/cache/twitter_lib\aa98bec878782be32448b752d3c8ca808f81e049.cache
 ERROR - 2009-08-16 12:54:43 --> Severity: Notice  --> Undefined property: CI_Loader::$validation D:\xampp\htdocs\xiaodoudian.com\application\modules\contact\views\index.php 20
 ERROR - 2009-08-16 12:54:43 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\contact\views\index.php 20
+ERROR - 2009-08-16 13:23:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-16 13:23:35 --> 404 Page Not Found --> 
+ERROR - 2009-08-16 13:23:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-16 13:23:35 --> 404 Page Not Found --> 
+ERROR - 2009-08-16 13:23:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-16 13:23:35 --> 404 Page Not Found --> 
+ERROR - 2009-08-16 13:23:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-16 13:23:35 --> 404 Page Not Found --> 
+ERROR - 2009-08-16 13:23:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
+ERROR - 2009-08-16 13:23:35 --> 404 Page Not Found --> 
