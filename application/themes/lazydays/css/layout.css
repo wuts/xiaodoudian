@@ -129,14 +129,16 @@
   display: inline;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 4px;
+  
 }
 
 #mainMenu li a {
   float: left;
+  display:block;
   margin: 0 2px;
   padding: 5px 0.5em;
-
+ 
   font: 400 1.6em "trebuchet ms", serif;
   text-decoration: none;
   text-transform: lowercase;
@@ -168,7 +170,7 @@ ul.sideMenu {
 
 .sideMenu li {
   display: inline;
-  
+ 
   /* Needed since IE fails when you give it list-style: none; */  
   list-style-image: url(foo.gif);
   font: 400 1.3em "trebuchet ms", serif;
@@ -178,7 +180,7 @@ ul.sideMenu {
   display: block;
   margin: 0.2em 0;
   padding: 3px 5px;    
-  
+ 
   text-decoration: none;
   color: #FFF;
 } 

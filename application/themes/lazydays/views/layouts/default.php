@@ -23,6 +23,7 @@
 	    <div class="width-quater float-left leftColumn">
 	
 	        <div id="sideMenu">
+                    
 				<?=$this->load->view($theme_view_folder.'leftnav'); ?>
 			</div>
 			
@@ -73,6 +74,12 @@
 	<div id="footer">
 		<?$this->load->view($theme_view_folder.'footer'); ?>
 	</div>
+
+        <script type="text/javascript">           
+            $("ul.float-left>li").bind("click",function(){
+               $(this).css({"background-color":"red"});
+           });
+       </script>
 	
 	</body>
 

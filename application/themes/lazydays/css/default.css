@@ -85,6 +85,8 @@ a {
   color: #8BE6FA;
 }
 
+.current{background-color:red;}
+
 /* Uncomment this if you would like a visited link style 
 a:visited {
   text-decoration: line-through;

@@ -27,7 +27,7 @@ class News extends Public_Controller
 		$meta = $this->_articles_metadata($this->data->news);
 		
 		$this->layout->set_metadata('description', $meta['description']);
-		$this->layout->set_metadata('keywords', $meta['keywords']);
+		$this->layout->set_metadata('keywords', $meta['keywords']);              
 		$this->layout->create('index', $this->data);
 	}
 	
