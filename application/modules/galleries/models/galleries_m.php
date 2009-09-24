@@ -14,8 +14,8 @@ class Galleries_m extends Model {
         $image_cfg['source_image'] = APPPATH.'assets/img/galleries/' . $gallery_slug . '/' . $filename;
         $image_cfg['create_thumb'] = TRUE;
         $image_cfg['maintain_ratio'] = TRUE;
-        $image_cfg['width'] = '150';
-        $image_cfg['height'] = '125';
+        $image_cfg['width'] = '300';
+        $image_cfg['height'] = '250';
         $this->load->library('image_lib', $image_cfg);
         $this->image_lib->resize();
         

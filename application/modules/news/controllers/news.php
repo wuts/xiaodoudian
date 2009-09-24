@@ -9,7 +9,8 @@ class News extends Public_Controller
 		parent::Public_Controller();		
 		$this->load->model('news_m');
 		$this->load->module_model('categories', 'categories_m');
-		$this->load->module_model('comments', 'comments_m');        
+		$this->load->module_model('comments', 'comments_m');
+                $this->load->module_model('statistics','statistics_m');
 		$this->load->helper('text');
 		$this->lang->load('news');
 		
@@ -25,6 +26,12 @@ class News extends Public_Controller
 		
 		// Set meta description based on article titles
 		$meta = $this->_articles_metadata($this->data->news);
+
+                //get news statistics
+                foreach($this->data->news as $news){
+                    $statistics=$this->statistics_m->countStatistics('news',$news->id);
+                    $news->click_count=!empty($statistics)?$statistics[0]->click_count:0;
+                }
 		
 		$this->layout->set_metadata('description', $meta['description']);
 		$this->layout->set_metadata('keywords', $meta['keywords']);              
@@ -46,6 +53,7 @@ class News extends Public_Controller
 		
 		// Set meta description based on article titles
 		$meta = $this->_articles_metadata($this->data->news);
+
 		
 		// Build the page
 		$this->layout->title($this->lang->line('news_news_title').' | '.$this->data->category->title)		
@@ -101,7 +109,30 @@ class News extends Public_Controller
 		{
 			$this->layout->add_breadcrumb($article->category_title, 'news/category/'.$article->category_slug);
 		}
-		
+
+                //set click count
+                $statistics=$this->statistics_m->countStatistics('news',$article->id);               
+                if(empty($statistics)){
+                    $input=array("approval_count"=>0,
+                                 "opposition_count"=>0,
+                                 "click_count"=>1,
+                                 "module"=>'news',
+                                 "module_id"=>$article->id
+                                );
+                    $this->statistics_m->newStatistics($input);
+                }
+                else
+                {
+                    $input=array("approval_count"=>$statistics[0]->approval_count,
+                                 "opposition_count"=>$statistics[0]->opposition_count,
+                                 "click_count"=>$statistics[0]->click_count+1,
+                                 "module"=>'news',
+                                 "module_id"=>$article->id
+                                );
+                    $this->statistics_m->updateStatistics($input,$statistics[0]->id);
+                }
+
+                $this->data->click_count=$statistics[0]->click_count+1;
 		$this->layout->add_breadcrumb($article->title, 'news/'.date('Y/m', $article->created_on).'/'.$article->slug);
 		$this->layout->create('view', $this->data);
 	}	

@@ -26,7 +26,7 @@ $lang['news_all_articles_label'] 						= '所有文章';
 $lang['news_articles_of_category_suffix'] 	= ' 文章';
 $lang['news_rss_name_suffix'] 							= ' 日志';
 $lang['news_rss_category_suffix'] 					= ' 日志';
-$lang['news_posted_label'] 									= '已发布';
+$lang['news_posted_label'] 									= '发布时间';
 $lang['news_other_comments_label'] 					= '他们说...';
 $lang['news_your_comments_label'] 					= '你说...?';
 $lang['news_author_name_label'] 						= 'Author name';
@@ -40,6 +40,7 @@ $lang['news_comments_title'] 								= '评论';
 $lang['news_articles_title'] 								= '文章';
 $lang['news_rss_articles_title'] 						= 'News articles for %s';
 $lang['news_news_title'] 										= '日志';
+$lang['news_click_count_label'] 		=                            '点击数';
 
 // messages
 $lang['news_no_articles'] 									= 'There are no articles.';

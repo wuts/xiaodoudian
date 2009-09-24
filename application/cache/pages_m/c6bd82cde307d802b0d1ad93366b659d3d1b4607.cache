@@ -1,4 +1,75 @@
-a:3:{s:16:"__cache_contents";O:8:"stdClass":11:{s:2:"id";s:1:"1";s:4:"slug";s:4:"home";s:5:"title";s:15:"关于小豆点";s:4:"body";s:2136:"<p>小豆点是凌晨要加奶的小豆点<br />小豆点是咬着奶头才入睡的小豆点<br />小豆点是屎巴巴也要捡起来吃的小豆点<br />小豆点是蹲在睡觉的爸爸脸上撒尿的小豆点<br />小豆点是出门必须带天线宝宝的滑板车的小豆点<br />小豆点是把妈妈的手机放进微波炉里转两圈的小豆点<br />&hellip;&hellip;<br />小豆点是所有妈妈的小豆点<br />我们都喜欢小豆点</p>
-<p>&nbsp;</p>
-<p>关于小豆点妈<br /> <br /> 小豆点妈是为没奶而愁得掉泪的妈<br /> 小豆点妈是为小豆点高烧夜不能寐的妈<br /> 小豆点妈是给小豆点唱歌伴小豆点入睡的妈<br /> 小豆点妈是看着小豆点学会走路而欣喜若狂的妈<br /> 小豆点妈是为小豆点能上好点的幼儿园东奔西走的妈<br /> 小豆点妈是用说&ldquo;我数三下&rdquo;来警告小豆点不看电视的妈<br /> &hellip;&hellip;<br /> 小豆点妈是所有小豆点的妈妈<br /> 小豆点觉得妈妈最爱它<br /> <img src="http://l.yimg.com/a/i/us/msg/site/9/scr/feature_avatars.jpg" alt="" width="301" height="320" /><br /> <br /> 关于小豆点爸<br /> <br /> 小豆点爸是在医院躺椅上三天三夜的爸<br /> 小豆点爸是半夜听到小豆点哭故意装睡的爸<br /> 小豆点爸是全家出门逛公园永远要扛手推车的爸<br /> 小豆点爸是出差归来总要给小豆点带点新鲜玩具的爸<br /> 小豆点爸是下班回家后首先要抱起小豆点向上扔两下的爸<br /> 小豆点爸是对熟睡中的小豆点说希望它将来长大比自己强的爸<br /> &hellip;&hellip;<br /> 小豆点爸是所有小豆点的爸爸<br /> 小豆点觉得爸爸最伟大<br /> <img src="http://graphics8.nytimes.com/images/blogs/themoment/posts/siriano-avatar330.jpg" alt="" width="330" height="388" /><br /> <br /> 小豆点一家<br /> <br /> 小豆点一家是普通的一家<br /> 小豆点一家是充满爱与欢笑的一家<br /> 小豆点一家就是我们每个人心中最美好的家<br /> &hellip;&hellip;<br /> 让我们爱护这个家<br /> 让我们装扮这个家</p>
-<p>&nbsp;</p>";s:6:"parent";s:1:"0";s:4:"lang";s:2:"cn";s:11:"layout_file";s:7:"default";s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:10:"updated_on";s:10:"1249786959";}s:15:"__cache_created";i:1249786961;s:20:"__cache_dependencies";a:0:{}}
+a:3:{s:16:"__cache_contents";O:8:"stdClass":11:{s:2:"id";s:1:"4";s:4:"slug";s:4:"home";s:5:"title";s:6:"首页";s:4:"body";s:6584:"<div id="beacon"><img src="http://geo.yahoo.com/f?s=792600119&t=cb2afc55c250f35ad1bc17a1cb7f6a58&r=http://www.flickr.com/&fl_ev=0&lang=en&intl=au" alt="" width="0" height="0" /></div>
+<p><img style="position: absolute; top: 0pt; right: 0pt;" src="http://geo.yahoo.com/p?s=792600119&t=1274458463&position=top" alt="" /></p>
+<div id="top" class="wrap">
+<div class="wrap-inner">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div id="featured-image">
+<div id="logo"><img class="trans_png" src="http://l.yimg.com/g/images/logo_home.png.v2" alt="Flickr" width="162" height="64" /></div>
+<a class="image_link" href="http://www.flickr.com/photos/lynhana/416152814/"><img src="http://l.yimg.com/g/images/home_photo_lyn.jpg" alt="" width="500" height="333" /></a><cite id="featured-image-caption"><a class="image_link" href="http://www.flickr.com/creativecommons/"><img class="trans_png" src="http://l.yimg.com/g/images/home_cc.png" alt="Creative Commons License" width="16" height="16" /></a> By <a href="http://www.flickr.com/photos/lynhana/">+lyn </a></cite></div>
+</td>
+<td>
+<div id="featured-intro">
+<p id="featured-signin"><a href="http://www.flickr.com/signin/">Sign In</a></p>
+<div id="featured-create-account"><a class="image_link" href="http://www.flickr.com/signup/"><img class="trans_png" src="http://l.yimg.com/g/images/en-us/home_create_button.png" alt="Create Account" width="195" height="39" /></a>
+<p>Only takes a moment with your Yahoo! ID</p>
+</div>
+<div style="position: relative;"><img class="trans_png" src="http://l.yimg.com/g/images/en-us/home_tagline.png.v8" alt="Share your photos. Watch the world." width="400" height="90" />
+<div id="vid_andvideos"><img class="trans_png" src="http://l.yimg.com/g/images/en-us/video/rosette_andvideo.png.v1" alt="And Video" width="50" height="51" /></div>
+</div>
+<div id="featured-search">&lt;form action="/search/" method="get"&gt;&lt;input name="q" size="20" type="text" /> &lt;input class="Butt" type="submit" value="SEARCH" /&gt;&lt;/form></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="strip" class="wrap">
+<div class="wrap-inner">
+<ul>
+<li class="first"><strong>5,591</strong> uploads in <a href="http://www.flickr.com/photos/">the last minute</a> <strong>&middot;</strong></li>
+<li><strong>160,129</strong> things tagged with <a href="http://www.flickr.com/photos/tags/morning/clusters/">morning</a> <strong>&middot;</strong></li>
+<li><strong>3.4 million</strong> things <a href="http://www.flickr.com/map/">geotagged</a> this month <strong>&middot;</strong></li>
+<li class="tour"><a href="http://www.flickr.com/tour/">Take the tour</a></li>
+</ul>
+</div>
+</div>
+<div id="promo-ad" class="wrap">
+<div class="wrap-inner">
+<div class="left"><a class="image_link" href="http://www.flickr.com/tour/share/"><img id="hp_share" src="http://l.yimg.com/g/images/en-us/home_share.png.v1" alt="Share & stay in touch" width="235" height="166" /></a> <a class="image_link" href="http://www.flickr.com/tour/upload/"><img id="hp_up" src="http://l.yimg.com/g/images/en-us/home_upload.png.v1" alt="Upload & organize" width="239" height="153" /></a> <br /><br /> <a class="image_link" href="http://www.flickr.com/tour/edit/"><img id="pk_edit" src="http://l.yimg.com/g/images/en-us/home_edit.png.v1" alt="Edit" width="146" height="139" /></a> <a class="image_link" href="http://www.flickr.com/explore/"><img id="hp_explore" src="http://l.yimg.com/g/images/en-us/home_explore.png.v1" alt="Explore..." width="288" height="139" /></a></div>
+</div>
+</div>
+<div id="tour" class="wrap">
+<div class="wrap-inner">
+<table border="0">
+<tbody>
+<tr>
+<td width="220"><a class="image_link" href="http://www.flickr.com/tour/"><img class="trans_png" src="http://l.yimg.com/g/images/en-us/home_tour_button.png" alt="Take the Tour" width="195" height="39" /></a></td>
+<td width="600">
+<p>Explore <a href="http://blog.flickr.com/">Flickr Blog</a>, the <a href="http://www.flickr.com/map/">World Map</a>, <a href="http://www.flickr.com/cameras/">Camera Finder</a> or interesting uploads from <a href="http://www.flickr.com/explore/">the last 7 days</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="foot" class="wrap">
+<div class="wrap-inner">
+<div id="yahoo_co"><a class="image_link" href="http://www.yahoo.com/"><img src="http://l.yimg.com/g/images/home_yahoo_grey.gif.v2" alt="a Yahoo! company" width="99" height="11" /></a></div>
+<p id="LanguageSelector" class="LanguageSelector"><span class="choose">Choose a language:</span> <span> <a id="lang_zh-hk" class="image_link" href="http://www.flickr.com/change_language.gne?lang=zh-hk&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">繁體中文</a> <strong>&middot;</strong> <a href="http://www.flickr.com/change_language.gne?lang=de-de&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">Deutsch</a> <strong>&middot;</strong> <a class="selected" href="http://www.flickr.com/change_language.gne?lang=en-us&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">English</a> <strong>&middot;</strong> <a href="http://www.flickr.com/change_language.gne?lang=es-us&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">Espa&ntilde;ol</a> <strong>&middot;</strong> <a href="http://www.flickr.com/change_language.gne?lang=fr-fr&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">Fran&ccedil;ais</a> <strong>&middot;</strong> <a id="lang_ko-kr" class="image_link" href="http://www.flickr.com/change_language.gne?lang=ko-kr&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">한글</a> <strong>&middot;</strong> <a href="http://www.flickr.com/change_language.gne?lang=it-it&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">Italiano</a> <strong>&middot;</strong> <a href="http://www.flickr.com/change_language.gne?lang=pt-br&magic_cookie=73b707f2f488b83ecd32bf7e207dddd6">Portugu&ecirc;s</a> </span></p>
+<ul>
+<li><a href="http://blog.flickr.com/">Flickr Blog</a></li>
+<li>&middot; <a href="http://www.flickr.com/about/">About Flickr</a></li>
+<li>&middot; <a>Terms of Service</a></li>
+<li>&middot; <a href="http://www.flickr.com/privacy_policy.gne">Your Privacy</a></li>
+<li>&middot; <a href="http://au.docs.yahoo.com/info/terms/">Copyright/IP Policy</a></li>
+<li>&middot; <a href="http://www.flickr.com/guidelines.gne">Community Guidelines</a></li>
+<li>&middot; <a id="ft-report-abuse" href="http://www.flickr.com/report_abuse.gne">Report Abuse</a></li>
+</ul>
+<p id="copyright">Copyright &copy; 2009 Yahoo!7 Pty Limited. All rights reserved.</p>
+</div>
+</div>
+<p><img style="position: absolute; top: 0pt; right: 0pt;" src="http://geo.yahoo.com/p?s=792600119&t=256447498&position=bottom" alt="" /></p>";s:6:"parent";s:1:"0";s:4:"lang";s:2:"cn";s:11:"layout_file";s:7:"default";s:10:"meta_title";s:0:"";s:13:"meta_keywords";s:0:"";s:16:"meta_description";s:0:"";s:10:"updated_on";s:10:"1251208951";}s:15:"__cache_created";i:1251208954;s:20:"__cache_dependencies";a:0:{}}

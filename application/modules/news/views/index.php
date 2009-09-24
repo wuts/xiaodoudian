@@ -6,6 +6,7 @@
 			<p><?= nl2br($article->intro) ?> <?= anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, lang('news_read_more_label'))?></p>
 			<p>
 				<em><?=lang('news_posted_label');?>: <?= date('Y-m-d', $article->created_on); ?></em>&nbsp;
+                                <em><?=lang('news_click_count_label');?>: <?= $article->click_count; ?></em>&nbsp;
 				<? if($article->category_slug): ?>
 					<em><?=lang('news_category_label');?>: <?=anchor('news/category/'.$article->category_slug, $article->category_title);?></em>
 				<? endif; ?>

@@ -1,7 +1,7 @@
 <? $this->load->helper('typography'); ?>
 <h2><?= $article->title; ?></h2>
 <p>
-	<strong><?=lang('news_posted_label');?>:</strong> <?= date('M d, Y', $article->created_on); ?><br/>		
+	<strong><?=lang('news_posted_label');?>:</strong> <?= date('M d, Y', $article->created_on); ?>|<strong><?=lang('news_click_count_label');?>:</strong> <?= $click_count; ?><br/>
 	<? if($article->category_slug): ?>
 		<strong><?=lang('news_category_label');?>:</strong> <?=anchor('news/category/'.$article->category_slug, $article->category_title);?>
 	<? endif; ?>
