@@ -5,4 +5,4 @@
 
 
 <!--<img src="<?=image_path('bg/header_left.png', '_theme_') ?>" alt="left slice" class="left" />-->
-<img src="<?=image_path('bg/header_right.jpg', '_theme_') ?>" alt="right slice" class="right" />
+<!--<img src="<?=image_path('bg/header_right.jpg', '_theme_') ?>" alt="right slice" class="right" />-->
