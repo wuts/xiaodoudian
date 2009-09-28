@@ -45,7 +45,8 @@
 
 #header {
   position: relative;
-  height: 193px;
+  height: 260px;
+  background: #FBE3CB url(../img/bg/header.jpg) repeat-x top left;
 }
 
 /* Holds the site title and subtitle */
@@ -53,7 +54,7 @@
   position: absolute;
   z-index: 3;
   top: 10px;
-  left: 130px;
+  left: 600px;
 
   padding: 5px;
   text-align: right;
@@ -117,7 +118,8 @@
 #mainMenu { 
   float: left;
   width: 100%;
-  clear: both;  
+  clear: both;
+  
 }
 
 #mainMenu ul {
@@ -138,11 +140,12 @@
   display:block;
   margin: 0 2px;
   padding: 5px 0.5em;
- 
-  font: 400 1.6em "trebuchet ms", serif;
+  background-color: #FD8E59;
+  font: 400 1.2em "trebuchet ms", serif;
+  font-weight:bold;
   text-decoration: none;
   text-transform: lowercase;
-  color: #FFF;
+  color: #000;
 }
 
 #mainMenu li a:hover,
@@ -232,7 +235,7 @@ ul.sideMenu {
 
 #page h2 {
 	clear:both;
-	color:#FFFFFF;
+	color:#000;
 	font-family:"trebuchet ms",serif;
 	font-size:2.5em;
 	font-size-adjust:none;
@@ -249,7 +252,7 @@ ul.sideMenu {
   padding: 1em 1em 3em 1em;
   margin-bottom: 2em;
   width:72%;
-  background: #555 url(../img/bg/gradient.jpg) repeat-x bottom left; 
+  background: #FBE3CB;
 }
 
 
