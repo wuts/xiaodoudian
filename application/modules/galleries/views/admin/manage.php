@@ -6,15 +6,36 @@
 				<? foreach($photos as $photo): ?>
 					<div class="float-left align-center spacer-right">
 						<input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /><br />
-						<?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?><br />
+						<a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a><br />
+                                                <div id="photo-description<?=$photo->id?>" style="display:none;"><textarea cols="2" rows="2" name="photo-description<?=$photo->id?>"><?= $photo->description ?></textarea><span class="required-icon tooltip"><?=lang('gal_required_label');?></span><br /><a href="#photo-description<?=$photo->id?>" onclick="ajax_update_photo_description('photo-description<?=$photo->id?>');" style="font-size:1.2em;padding:5px;">更新</a></div>
 					</div>
 				<? endforeach; ?>			
-			<br class="clear-both" />
+			<br class="clear-both" />                        
 			<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('delete') )); ?>
 		<?= form_close(); ?>	
 	</div>
 	<hr class="clear-both" />
 <? endif; ?>
+
+ <script type="text/javascript">
+     function toggle_photo_description(id){
+         if($(id).css('display')=="none"){
+            $(id).show();
+         }else{
+            $(id).hide();
+         }
+     }
+
+     function ajax_update_photo_description(id){
+         var description=$("textarea[name='"+id+"']").val();
+         $.ajax({
+             type:"POST",
+             url:"",
+             data:"description="+description,
+             success:""
+         });
+     }
+ </script>
 
 <?= form_open_multipart('admin/galleries/upload/' . $this->uri->segment(4)); ?>
 	<div class="fieldset fieldsetBlock active tabs">		

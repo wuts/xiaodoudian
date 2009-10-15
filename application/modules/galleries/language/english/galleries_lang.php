@@ -19,6 +19,7 @@ $lang['gal_parent_gallery_label'] 					= 'Parent gallery';
 $lang['gal_no_parent_select_label'] 				= '-- None --';
 $lang['gal_other_comments_label'] 					= 'They said...';
 $lang['gal_your_comments_label'] 						= 'You say...?';
+$lang['gal_catagories_label'] 						= 'Gallery Catagories';
 
 // titles
 $lang['gal_manage_title'] 									= 'Photos in this Gallery';

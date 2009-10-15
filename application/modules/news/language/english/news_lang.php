@@ -32,6 +32,8 @@ $lang['news_your_comments_label'] 					= 'You say...?';
 $lang['news_author_name_label'] 						= 'Author name';
 $lang['news_read_more_label'] 							= 'Read More&nbsp;&raquo;';
 $lang['news_click_count_label'] 		=                            'click';
+$lang['news_latest_posts_label'] 		=                            'Lastest Post';
+$lang['news_catagories_label'] 		=                            'catagories';
 
 // titles
 $lang['news_create_title'] 									= 'Create article';

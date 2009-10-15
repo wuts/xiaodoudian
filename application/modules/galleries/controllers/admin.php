@@ -243,6 +243,11 @@ class Admin extends Admin_Controller
 		}		
 		redirect('admin/galleries/manage/'.$slug);              	
 	}
+
+        //update image description
+        function update_photo_description(){
+
+        }
 	
 	// Admin: Delete Gallery Photos
 	function delete_photo($id = 0)

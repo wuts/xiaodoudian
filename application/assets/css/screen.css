@@ -1,0 +1,249 @@
+/* global */
+
+    body{ 
+		background:#fff url(../images/bg_body.gif) repeat-x;
+        font:80% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+		color:#333;
+		line-height:180%;
+		margin:0;
+		padding:0;
+		text-align:center;
+        }
+
+    /* headings */
+        h1{
+			font-size:200%;
+			font-weight:normal;
+            }		
+		h2, h3, h4, h5, h6{
+			font-weight:normal;
+			margin:1em 0;
+			}	
+        h2{            
+			font-size:160%;
+            }	
+        .col h2{            
+			padding-bottom:.5em;
+            }				
+        h3{          
+			font-size:140%;
+            }
+        h4{          
+			font-size:120%;
+            }				
+    /* // headings */
+
+    /* image replacement */
+        .graphic, #header h1, #prevBtn, #nextBtn{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+
+    /* clearfix */
+
+		#content:after, ul:after{
+			content:"."; 
+			display:block; 
+			height:0; 
+			clear:both; 
+			visibility:hidden;
+			}
+		#content, ul{
+			display:block;
+			}
+		/*  \*/
+		#content, ul{
+			min-height:1%;
+			}
+		* html #content, * html ul{
+			height:1%;
+			}
+
+    /* // clearfix */
+	
+	/* HTML Tags */
+        a{
+			text-decoration:none;
+			color:#00758e;
+            }
+        a:hover{
+			color:#999;
+            }			
+		table, input, textarea, select, li{
+			font:100% Arial, Helvetica, Sans-Serif;
+			line-height:160%;
+			color:#333;
+			}				
+		p, blockquote, ul, ol, form{
+			margin:1em 0;
+			}
+		blockquote{
+			}
+		img{
+			border:none;
+			}			
+		hr{
+			display:none;
+			}	
+		table{
+			margin:1em 0;
+			width:100%;
+			border-collapse:collapse;
+			}
+		th, td{	
+			padding:2px 5px;
+			}	
+		th{	
+			text-align:left;
+			}	
+		li{
+			display:list-item;
+			}
+		cite{
+			font-size:17px;
+			font-weight:bold;
+			}
+	
+	/* // HTML Tags */	
+	
+/* // Global */
+
+/* page setup */
+
+	#container{	
+		margin:0 auto;
+		position:relative;
+		text-align:left;
+		width:696px;
+		background:#fff;		
+		margin-bottom:2em;
+		}	
+	.col{
+		float:left;
+		display:inline;	
+		width:299px;	
+		margin-left:36px;
+		padding:0 0 1em 0;
+		}
+	.full{
+		clear:both;	
+		padding:1em 36px;
+		}	
+	#footer{
+		clear:both;
+		background:url(../images/bg_footer.gif) no-repeat 0 100%;
+		height:80px;		
+		padding:0 36px;
+		font-size:12px;
+		color:#fff;
+		}		
+
+/* //page setup */
+
+/* header */
+
+	#header h1{
+		position:absolute;
+		margin:0;
+		padding:0;
+		width:203px;
+		height:110px;
+		top:34px;
+		left:36px;
+		background:url(../images/bg_logo.gif) no-repeat 0 0;	
+		}				
+
+/* // header */
+
+/* content */
+				
+	.left{
+		float:left;
+		margin-top:.5em;
+		margin-right:15px;
+		}			
+	.left img{
+		border:1px solid #e1e1e1;
+		border-top:1px solid #e8e8e8e8;
+		border-left:1px solid #e8e8e8e8;
+		background:#f1f1f1;
+		padding:5px;
+		}				
+			
+	/* slider */
+
+		#slider ul, #slider li{ 
+			margin:0;
+			padding:0;
+			list-style:none;
+			}	
+		#slider, #slider li{ 
+			height:220px;
+			width:696px;
+			overflow:hidden;
+			}	
+		#slider{ 
+			margin-left:5px;
+			}	
+		#prevBtn, #nextBtn{ 
+			display:block;
+			width:30px;
+			height:77px;
+			position:absolute;
+			left:-25px;
+			top:71px;
+			}	
+		#nextBtn{ 
+			left:701px;
+			}														
+		#prevBtn a, #nextBtn a{  
+			display:block;
+			width:30px;
+			height:77px;
+			background:url(../images/btn_prev.gif) no-repeat 0 0;	
+			}	
+		#nextBtn a{ 
+			background:url(../images/btn_next.gif) no-repeat 0 0;	
+			}								
+	
+	/* // slider */													
+
+	.col strong, .full strong{
+		padding:0 2px;
+		background:#f1f1f1;
+		}
+	.col a, .full a{
+		font-weight:bold;
+		text-decoration:underline;
+		}		
+
+
+	.full ul, .full li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	.full li{
+		padding:3px 15px;
+		background:#f1f1f1;
+		margin-bottom:1px;
+		}		
+
+/* // content */
+
+/* footer */
+
+	#footer p{
+		margin:0;	
+		line-height:76px;		
+		}	
+	#footer a{
+		color:#ccc;
+		text-decoration:underline;	
+		}				
+
+/* // footer */

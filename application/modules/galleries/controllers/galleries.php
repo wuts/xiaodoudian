@@ -12,7 +12,20 @@ class Galleries extends Public_Controller
 	// Public: List Galleries
 	function index()
 	{
-		$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
+		//$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
+                $this->load->helper('string');
+
+		// Get Galleries and create pages tree
+		$tree = array();
+		if($galleries = $this->galleries_m->getGalleries())
+		{
+			foreach($galleries as $gallery)
+			{
+				$tree[$gallery->parent][] = $gallery;
+			}
+		}
+		unset($galleries);
+		$this->data->galleries =& $tree;
 		$this->layout->create('index', $this->data);
 	}
 	

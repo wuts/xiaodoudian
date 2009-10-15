@@ -150,6 +150,7 @@ class Galleries_m extends Model {
         }
         foreach ($query->result() as $photo) {
             $string .= '<li><a href="'. image_path('galleries/' . $photo->gallery_slug . '/' . $photo->filename) . '" rel="modal" title="' . $photo->description . '">' . image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description)) . '</a></li>';
+            $string .='<li>'.$photo->description.'</li>';
         }
         $string .= '</ul>';
         return $string;

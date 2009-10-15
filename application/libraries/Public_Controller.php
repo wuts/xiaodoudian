@@ -33,7 +33,7 @@ class Public_Controller extends MY_Controller
 
 	    else
 	    {
-	    	$this->layout->wrapper('layouts/default');
+	    	$this->layout->wrapper('layouts/default-wide');
 	    }
 	    
 	    // Make sure whatever page the user loads it by, its telling search robots the correct formatted URL
