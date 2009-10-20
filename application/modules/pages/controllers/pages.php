@@ -62,7 +62,7 @@ class Pages extends Public_Controller {
 
 	    else
 	    {
-	    	$this->layout->wrapper('layouts/'.$page->layout_file);
+	    	$this->layout->wrapper('layouts/default-wide');
 	    }
         
         // Create page output
