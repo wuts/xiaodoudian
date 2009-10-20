@@ -45,8 +45,8 @@
 
 #header {
   position: relative;
-  height: 260px;
-  background: #FBE3CB url(../img/bg/header.jpg) repeat-x top left;
+  height: 147px;
+  background: #FFFFFF url(../img/bg/header.jpg) no-repeat;
 }
 
 /* Holds the site title and subtitle */
