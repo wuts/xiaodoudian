@@ -33,7 +33,7 @@
 <body id="css-zen-garden" style="text-align:center;margin:0;padding:0;background:url(application/assets/img/bg.jpg) repeat-x;">
  
 <div id="container" style="text-align:left;width:960px;margin:0 auto;background:url(application/assets/img/solgan.jpg) no-repeat">
-   <div id="main_box">
+   <div id="main_box" style="height:auto;">
         <a href="news" style="display:block;text-decoration:none;height:674px;"><span style="display:none;">成长日志</span></a>
     </div>
 </div>
