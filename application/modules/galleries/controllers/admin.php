@@ -246,7 +246,9 @@ class Admin extends Admin_Controller
 
         //update image description
         function update_photo_description(){
-
+            $description=$this->input->post('description');
+            $photo_id=$this->input->post('id');
+            $this->galleries_m->updatePhotoDescription($description,$id);
         }
 	
 	// Admin: Delete Gallery Photos

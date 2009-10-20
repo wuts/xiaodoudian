@@ -7,7 +7,7 @@
 					<div class="float-left align-center spacer-right">
 						<input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /><br />
 						<a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a><br />
-                                                <div id="photo-description<?=$photo->id?>" style="display:none;"><textarea cols="2" rows="2" name="photo-description<?=$photo->id?>"><?= $photo->description ?></textarea><span class="required-icon tooltip"><?=lang('gal_required_label');?></span><br /><a href="#photo-description<?=$photo->id?>" onclick="ajax_update_photo_description('photo-description<?=$photo->id?>');" style="font-size:1.2em;padding:5px;">更新</a></div>
+                                                <div id="photo-description<?=$photo->id?>" style="display:none;"><textarea cols="2" rows="2" name="photo-description<?=$photo->id?>"><?= $photo->description ?></textarea><span class="required-icon tooltip"><?=lang('gal_required_label');?></span><br /><a href="#photo-description<?=$photo->id?>" onclick="ajax_update_photo_description(<?=$photo->id?>);" style="font-size:1.2em;padding:5px;">更新</a></div>
 					</div>
 				<? endforeach; ?>			
 			<br class="clear-both" />                        
@@ -27,12 +27,15 @@
      }
 
      function ajax_update_photo_description(id){
-         var description=$("textarea[name='"+id+"']").val();
+         var description=$("textarea[name=#photo-description'"+id+"']").val();
+         alert(description);
          $.ajax({
              type:"POST",
-             url:"",
-             data:"description="+description,
-             success:""
+             url:"admin/update_photo_description",
+             data:"description="+description+"&id="+id,
+             success:function(){
+                 alert("msg");
+             }
          });
      }
  </script>

@@ -11,16 +11,12 @@
 
 	<!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
 	<?= js('jquery/jquery.js'); ?>
-        <?= js('jquery/easySlider1.5.js'); ?>
+       
 	<link href="application/assets/css/home.css" rel="stylesheet" type="text/css" media="screen" />
         
 	<link rel="Shortcut Icon" type="image/x-icon" href="http://www.csszengarden.com/favicon.ico" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml" />
-        <script type="text/javascript">
-		$(document).ready(function(){
-			$("#slider").easySlider();
-		});
-	</script>
+       
 </head>
 
 <!--
@@ -42,13 +38,7 @@
 	
     <a href="news" style="display:block;text-decoration:none;"><img style="border:0;" src="application/assets/img/solgan.jpg" /><span style="display:none;">成长日志</span></a>
     <div id="slider">
-			<ul>
-				<li><a href="application/assets/img/homepage/01.jpg"><img src="application/assets/img/homepage/01.jpg" alt="Css Template Preview" /></a></li>
-				<li><a href="application/assets/img/homepage/02.jpg"><img src="application/assets/img/homepage/02.jpg" alt="Css Template Preview" /></a></li>
-				<li><a href="application/assets/img/homepage/03.jpg"><img src="application/assets/img/homepage/03.jpg" alt="Css Template Preview" /></a></li>
-				<li><a href="application/assets/img/homepage/04.jpg"><img src="application/assets/img/homepage/04.jpg" alt="Css Template Preview" /></a></li>
-				<li><a href="application/assets/img/homepage/05.jpg"><img src="application/assets/img/homepage/05.jpg" alt="Css Template Preview" /></a></li>
-			</ul>
+			
 		</div>
 </div>
 
