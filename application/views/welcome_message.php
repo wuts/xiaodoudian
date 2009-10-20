@@ -2,18 +2,16 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Dave Shea" />
 	<meta name="keywords" content="design, css, cascading, style, sheets, xhtml, graphic design, w3c, web standards, visual, display" />
 	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design." />
 	<meta name="robots" content="all" />
-	<title>css Zen Garden: The Beauty in CSS Design</title>
+	<title>小豆点儿童创意工作室</title>
 
 	<!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
 	<?= js('jquery/jquery.js'); ?>
-       
-	<link href="application/assets/css/home.css" rel="stylesheet" type="text/css" media="screen" />
-        
+               
 	<link rel="Shortcut Icon" type="image/x-icon" href="http://www.csszengarden.com/favicon.ico" />
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml" />
        
@@ -32,16 +30,12 @@
 
 -->
 
-<body id="css-zen-garden" style="background-color:green;">
-
-<div id="container">
-	
-    <a href="news" style="display:block;text-decoration:none;"><img style="border:0;" src="application/assets/img/solgan.jpg" /><span style="display:none;">成长日志</span></a>
-    <div id="slider">
-			
-		</div>
+<body id="css-zen-garden" style="text-align:center;margin:0;padding:0;background-color:#11294B;">
+ 
+<div id="container" style="text-align:left;width:960px;margin:0 auto;background:url(application/assets/img/solgan.jpg) no-repeat">
+   <div id="main_box">
+        <a href="news" style="display:block;text-decoration:none;height:674px;"><span style="display:none;">成长日志</span></a>
+    </div>
 </div>
-
-
 </body>
 </html>
