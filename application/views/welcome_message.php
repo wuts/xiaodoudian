@@ -37,5 +37,6 @@
         <a href="news" style="display:block;text-decoration:none;height:674px;"><span style="display:none;">成长日志</span></a>
     </div>
 </div>
+  <div id="footer" style="height:auto;"></div>
 </body>
 </html>
