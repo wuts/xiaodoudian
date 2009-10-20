@@ -1,6 +1,6 @@
 <div id="title">
-	<h1><?=$this->settings->item('site_name'); ?></h1>
-  <h4><?=$this->settings->item('site_slogan'); ?></h4>
+  <!--<h1><?=$this->settings->item('site_name'); ?></h1>-->
+  <!--<h4><?=$this->settings->item('site_slogan'); ?></h4>-->
 </div>
 
 
