@@ -30,7 +30,7 @@
 
 -->
 
-<body id="css-zen-garden" style="text-align:center;margin:0;padding:0;background-color:#11294B;">
+<body id="css-zen-garden" style="text-align:center;margin:0;padding:0;background:url(application/assets/img/bg.jpg) repeat-x;">
  
 <div id="container" style="text-align:left;width:960px;margin:0 auto;background:url(application/assets/img/solgan.jpg) no-repeat">
    <div id="main_box">
