@@ -8,7 +8,7 @@
 	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design." />
 	<meta name="robots" content="all" />
 	<title>小豆点儿童创意工作室</title>
-
+        <?=css('assets/css/home.css')?>
 	<!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
 	<?= js('jquery/jquery.js'); ?>
                
@@ -30,10 +30,10 @@
 
 -->
 
-<body id="css-zen-garden" style="text-align:center;margin:0;padding:0;background:url(application/assets/img/bg.jpg) repeat-x;">
+<body>
  
-<div id="container" style="text-align:left;width:960px;margin:0 auto;background:url(application/assets/img/solgan.jpg) no-repeat">
-   <div id="main_box" style="height:auto;">
+<div class="Wp">
+   <div id="mainbox">
         <a href="news" style="display:block;text-decoration:none;height:674px;"><span style="display:none;">成长日志</span></a>
     </div>
 </div>

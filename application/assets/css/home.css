@@ -1,229 +1,24 @@
-/* css Zen Garden submission 157 - 'Bugs', by Zohar Arad, http://www.captainserious.co.uk/ */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-/* All associated graphics copyright 2005, Zohar Arad */
-/* Added: Mar. 7th, 2005 */
+@charset "gb2312";
+/*for all*/
+a:link,a:visited{color:#5a5a5a; text-decoration:none}
+a:hover,a:active{color:#000; }
 
-/* IMPORTANT */
-/* This design is not a template. You may not reproduce it elsewhere without the
-   designer's written permission. However, feel free to study the CSS and use
-   techniques you learn from it elsewhere. */
+*{ margin:0; padding:0;}
+li{list-style:none;vertical-align:middle;}
+ol li{list-style:inside decimal;}
+img{ border:0;}
+table{ border:0;cell-spacing:0;border-collapse: collapse;}
+.Hide{border-top:1px solid transparent !important;margin-top:-1px !important;border-top:0;margin-top:0;clear:both;visibility:hidden;font:0px/0px Lucida Sans;}
+input,select{ color:#004874}
 
+body{font:12px Lucida Sans,¡°ËÎÌå¡±;color:#fff;text-align:center; background:#060c13 url(../img/bg.jpg) repeat-x}
+.Wp {text-align:left; margin:0 auto;width:960px; background:url(../img/solgan.jpg) no-repeat;}
 
+h1 img{ margin:0 0 0 180px;}
+#mainbox h3{ width:158px; height:53px; overflow:hidden; margin:238px auto 0;}
+#mainbox h3 a{background:url(application/assets/img/in.gif) 0 -53px no-repeat ; display:block;}
+#mainbox h3 a:hover{ background:url(img/in.gif)  0 0 no-repeat;}
 
-
-/* General Styles */
-body{
-	color:#000;
-	font: normal 11px Times, serif;
-	line-height:1.4em;
-	letter-spacing: 1pt;
-	margin:0 0 20px 0;
-	padding:0;
-	text-align:center;
-}
-
-a{font-weight:bold;color: #8B3C12;text-decoration:none}
-
-a:hover{text-decoration:underline;}
-
-a:active, a:visited{color: #B07D03;}
-
-h3{margin:0; padding:0;}
-
-/* General DIV Styles */
-
-#container{	
-	margin:0 auto; padding: 20px 20px 0; position:relative; width:685px;height:auto; text-align:left;
-}
-
-#container p{margin: 0 20px; padding: 5px 0}
-
-.p1:first-letter{font-size: 18px;}
-
-#intro, #supportingText{width:415px; background-color:#FBD1BC; padding:0; margin:0}
-
-#pageHeader{display:none}
-
-#quickSummary{position:absolute; top: 310px; margin:0 0 0 115px; padding:0}
-
-#quickSummary p{margin:0; padding:0;}
-
-#quickSummary p.p1{display:none}
-
-#footer{margin:-25px 0 0 0;width: 415px;text-align:center;}
-
-#footer a{color:#FFFFFF}
-
-/* headings replacement styles */
-
-#preamble h3{
-	display:block;
-	background: transparent url(heading1.gif) no-repeat center left;
-	height: 161px;
-	width: 415px;
-}
-
-#preamble h3 span{display:none;}
-
-#explanation h3{
-	display:block;
-	background: transparent url(so.gif) no-repeat center center;
-	height: 45px;
-	width: 415px;
-}
-
-#explanation h3 span{display:none;}
-
-#participation h3{
-	display:block;
-	background: transparent url(heading2.gif) no-repeat center left;
-	height: 173px;
-	width: 415px;
-}
-
-#participation h3 span{display:none;}
-
-#benefits h3{
-	display:block;
-	background: transparent url(benefits.gif) no-repeat center center;
-	height: 45px;
-	width: 415px;
-}
-
-#benefits h3 span{display:none;}
-
-#requirements{
-	background: transparent url(footer.gif) no-repeat bottom center;
-	padding-bottom:70px;
-}
-
-#requirements h3{
-	display:block;
-	background: transparent url(heading3.gif) no-repeat center left;
-	height: 173px;
-	width: 415px;
-}
-
-#requirements h3 span{display:none;}
-
-/* Navigation Styles */
-
-#linkList{
-	position:absolute;
-	top: 330px;
-	margin-left: 445px;
-	padding-bottom: 360px;
-	background: #EEFFC5 url(link_footer.gif) no-repeat bottom center;
-	width:200px;
-}
-
-#linkList ul{
-	list-style-type:none;
-	margin:0 20px;
-	padding:30px 0 20px 0;
-}
-
-#linkList li{
-	background: transparent url(leaf.gif) no-repeat top left;
-	padding:0 0 0 28px;
-	margin-bottom: 10px;
-}
-
-#lselect a{
-	display:block;
-	padding: 0;
-	margin:0;
-}
-
-#lselect a.c{
-	display:inline;
-	color:#2B7F01;
-}
-
-#larchives ul{
-	padding:30px 0 5px 0;
-}
-
-#lresources ul{
-	padding:20px 0;
-}
-
-#lselect h3{
-	display:block;
-	background: transparent url(choose.gif) no-repeat center left;
-	height: 112px;
-	width: 200px;
-}
-
-#lselect h3 span{display:none;}
-
-#larchives h3{
-	display:block;
-	background: transparent url(archive.gif) no-repeat center left;
-	height: 96px;
-	width: 200px;
-}
-
-#larchives h3 span{display:none;}
-
-#lresources h3{
-	display:block;
-	background: transparent url(resources.gif) no-repeat center center;
-	height: 25px;
-	width: 200px;
-}
-
-#lresources h3 span{display:none;}
-
-/*
-
-Original images used in this design were downloaded from morguefile.com and manipulated for the
-purpose of this design only.
-
-This style sheet was created to symbolise the endless bugs Web artists have to deal with on a daily
-basis and give hope (as well as a good laugh) to all those who work hard to make the Web a better
-and bug-free environment
-
-Style Sheet by Zohar Arad
-
-*/
-
-/* Easy Slider */
-
-	#slider{}
-	#slider ul, #slider li{
-		margin:0;
-		padding:0;
-		list-style:none;
-		}
-	#slider li{
-		/*
-			define width and height of list item (slide)
-			entire slider area will adjust according to the parameters provided here
-		*/
-		width:696px;
-		height:241px;
-		overflow:hidden;
-		}
-	#prevBtn, #nextBtn{
-		display:block;
-		width:30px;
-		height:77px;
-		position:absolute;
-		left:-20px;
-		top:600px;
-		}
-	#nextBtn{
-		left:720px;
-		}
-	#prevBtn a, #nextBtn a{
-		display:block;
-		width:30px;
-		height:77px;
-		background:url(../img/homepage/btn_prev.gif) no-repeat 0 0;
-		}
-	#nextBtn a{
-		background:url(../img/homepage/btn_next.gif) no-repeat 0 0;
-		}
-
-/* // Easy Slider */
+#hotbox{ margin:10px 0 0 180px;}
+#hotbox li{ float:left; margin:10px 60px 0 0}
+#hotbox li a:hover{ border-bottom:2px solid #e9cc8a}
