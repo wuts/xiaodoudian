@@ -10,7 +10,7 @@ html {
 
 body {
   height: 100%;
-
+  
   margin: 0;
   padding: 0;
   text-align: center;
@@ -18,7 +18,7 @@ body {
   font: 400 0.8em verdana, arial, sans-serif;
   line-height: 170%;
 
-  background: #79D2FE;
+  background: #58C1FB;
   color: #000;
 }
 

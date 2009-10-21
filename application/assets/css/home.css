@@ -11,7 +11,7 @@ table{ border:0;cell-spacing:0;border-collapse: collapse;}
 .Hide{border-top:1px solid transparent !important;margin-top:-1px !important;border-top:0;margin-top:0;clear:both;visibility:hidden;font:0px/0px Lucida Sans;}
 input,select{ color:#004874}
 
-body{font:12px Lucida Sans,¡°ËÎÌå¡±;color:#fff;text-align:center; background:#060c13 url(../img/bg.jpg) repeat-x}
+body{font:12px Lucida Sans,¡°ËÎÌå¡±;color:#fff;text-align:center; background:url(../img/bg.jpg) repeat-x}
 .Wp {text-align:left; margin:0 auto;width:960px; background:url(../img/solgan.jpg) no-repeat;}
 
 h1 img{ margin:0 0 0 180px;}
