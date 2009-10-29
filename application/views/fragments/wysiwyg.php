@@ -33,7 +33,7 @@
 	// General options
     tinyMCE.init({
 
-    	mode : "specific_textareas",
+    	        mode : "specific_textareas",
 		editor_selector : "wysiwyg-advanced",
 		editor_class : "wysiwyg-advanced",
 
@@ -41,16 +41,16 @@
                 
 		width : 650,
 		height : 600,
-		constrain_menus : true,
-		
+		constrain_menus : true,	
+
 		theme : "advanced",
-		plugins : "safari,pagebreak,style,layer,advhr,advimage,advlink,emotions,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,fullscreen,noneditable,visualchars,xhtmlxtras,template",
+		plugins : "safari,pagebreak,style,layer,advhr,advimage,advlink,emotions,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,noneditable,fullscreen,visualchars,xhtmlxtras,template,table",
 
 		// Theme options
 		theme_advanced_buttons1 : "bold,italic,underline,strikethrough,blockquote,|,sub,sup,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
 		theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,undo,redo,|,search,replace,|,bullist,numlist,|,outdent,indent,|,insertdate,inserttime,|,forecolor,backcolor,|,print,preview,fullscreen,code",
-		theme_advanced_buttons3 : "image,anchor,link,unlink,|,charmap,emotions,media,advhr,",
-                plugins : "table",
+		theme_advanced_buttons3 : "image,anchor,link,unlink,|,charmap,emotions,media,advhr",
+                
 	        theme_advanced_buttons3_add : "tablecontrols",
 	        table_styles : "Header 1=header1;Header 2=header2;Header 3=header3",
 	        table_cell_styles : "Header 1=header1;Header 2=header2;Header 3=header3;Table Cell=tableCel1",
@@ -58,7 +58,8 @@
 	        table_cell_limit : 100,
 	        table_row_limit : 5,
 	        table_col_limit : 5,
-
+                fullscreen_new_window : true,
+	        
 		theme_advanced_toolbar_location : "top",
 		theme_advanced_toolbar_align : "left",
 		theme_advanced_resizing : true,
