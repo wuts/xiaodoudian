@@ -1,7 +1,6 @@
     <div class="width-half float-left">
       &copy;2008 <?=$this->settings->item('site_name'); ?> <span class="grey">|</span>
-      valid <a href="http://validator.w3.org/check?uri=referer" title="Validate XHTML">XHTML</a> <span class="grey">|</span>
-      should be valid <a href="http://jigsaw.w3.org/css-validator" title="Validate CSS">CSS</a>
+      <a href="http://www.miibeian.gov.cn/" title="沪ICP备09082525号">沪ICP备09082525号</a>
     </div>
 
     <div class="width-half float-right">
