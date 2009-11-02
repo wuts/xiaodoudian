@@ -140,8 +140,9 @@ class Galleries_m extends Model {
         } else {
             $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), 5, 0);
         }
-        foreach ($query->result() as $photo) {
-            $string .= '<li><a href="'. image_path('galleries/' . $photo->gallery_slug . '/' . $photo->filename) . '" rel="modal" title="' . $photo->description . '">' . image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description)) . '</a></li>';
+        foreach ($query->result() as $photo) {            
+            $string .= '<li><a href="'. image_path('galleries/' . $photo->gallery_slug . '/' . $photo->filename) . '" rel="modal" title="' . $photo->description . '">' . image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>"width:300px")) . '</a></li>';
+            $string.='<h3>'.$photo->description.'</h3>';
         }
         $string .= '</ul></div>';
         return $string;

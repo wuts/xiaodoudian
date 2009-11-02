@@ -1,6 +1,6 @@
-<h2><?=lang('home_title');?></h2>
+<hr />
 <div class="width-quater float-left leftColumn">
-   
+   <div class="col-title"><?=lang('home_news');?></div>
    <? if(!empty($news)): ?>
       <ul>
         <? foreach($news as $article): ?>
@@ -12,7 +12,7 @@
     <table><tr><td><?=image("icons/chat_online.jpg.png","_theme_");?></td></tr></table>
 </div>
 <div class="float-left width-half">
-  
+  <div class="col-title"><?=lang('home_works_list');?></div>
   <? if($photos): ?>   
     <?=$photos; ?>
   <? else: ?>
@@ -20,7 +20,7 @@
 </div>
 
 <div class="float-right width-quater">
-    
+    <div class="col-title"><?=lang('home_students');?></div>
     <ul>
     <? foreach($staffs as $staff): ?>
       <h3><?=$staff->name; ?></h3>

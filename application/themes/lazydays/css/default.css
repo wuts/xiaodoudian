@@ -67,6 +67,15 @@ h1, h2, h3, h4, h5, h6, p, dl {
   padding: 10px 15px;
 }
 
+.col-title{
+    color:white;
+    padding:5px 15px 5px 15px;
+    margin-top:5px;
+    font-size:1.4em;
+    font-weight:bold;
+    background: #58C1FB url(../img/bg/col_title_bg.png) top left no-repeat;
+}
+
 /* Done so the leftmost column aligns properly with the header.
    If the leftmost column has class gradient applied to it, 
    this class isn't required. */
