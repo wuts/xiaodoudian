@@ -84,7 +84,7 @@ class Galleries_m extends Model {
     }
     
     function getPhotos($slug = '') {     
-        $query = $this->db->getwhere('photos', array('gallery_slug'=>$slug));
+        $query = $this->db->getwhere('photos', array('gallery_slug'=>$slug));       
         if ($query->num_rows() == 0) {
             return FALSE;
         } else {
@@ -162,7 +162,9 @@ class Galleries_m extends Model {
         }
         $string .= '</ul>';
         return $string;
-    }  
+    }
+
+    
 }
 
 ?>

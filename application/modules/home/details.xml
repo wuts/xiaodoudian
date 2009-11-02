@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2" type="content">
+	<name>
+		<en>Home</en>		
+                <cn>主页</cn>
+	</name>
+	<description>
+		<en>Manage homepage to display latest news,photos,products, etc.</en>
+                <cn>管理主页以显示最新的新闻、照片、产品等</cn>
+	</description>
+	<is_frontend>1</is_frontend>
+	<is_backend>1</is_backend>
+        <is_backend_sidebar>1</is_backend_sidebar>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+			<method>create</method>
+			<method>edit</method>
+			<method>delete</method>
+		</controller>
+	</controllers>
+	<navigation>
+		<admin>
+			<new_item href="admin/home/create">
+				<en>Setting</en>
+                                <cn>设置</cn>
+			</new_item>
+		</admin>
+	</navigation>
+</module>

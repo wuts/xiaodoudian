@@ -63,6 +63,7 @@ class Admin extends Admin_Controller
 			}
 			
 			$upload_cfg['allowed_types'] = 'gif|jpg|png';
+                        $upload_cfg['encrypt_name']=TRUE;
 			$this->load->library('upload', $upload_cfg);
 			
 			// Validation passed, attempt uploading the file

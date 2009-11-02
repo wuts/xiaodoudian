@@ -1,8 +1,7 @@
-<div id="title">
-  <!--<h1><?=$this->settings->item('site_name'); ?></h1>-->
-  <!--<h4><?=$this->settings->item('site_slogan'); ?></h4>-->
+<div style="float:left;height:40px;padding-left:10px;">   
 </div>
-
-
-<!--<img src="<?=image_path('bg/header_left.png', '_theme_') ?>" alt="left slice" class="left" />-->
-<!--<img src="<?=image_path('bg/header_right.jpg', '_theme_') ?>" alt="right slice" class="right" />-->
+<div style="float:right;padding-left:10px;padding-right:10px;">
+<table>
+     <tr><td><?=image("icons/contact.gif","_theme_");?></td><td><span style="color:black;">64978749</span></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;">在线咨询</span></td></tr>
+</table>
+</div>
