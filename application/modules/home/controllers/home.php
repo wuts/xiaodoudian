@@ -18,7 +18,7 @@ class Home extends Public_Controller{
         //get latest news
         $this->data->news=$this->news_m->getNews();
         //get latest photos
-        $this->data->photos=$this->galleries_m->galleryPhotos();
+        //$this->data->photos=$this->galleries_m->galleryPhotos();
 
         //get all staff
         $this->data->staffs=$this->staff_m->getStaff();

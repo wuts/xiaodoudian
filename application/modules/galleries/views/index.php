@@ -22,7 +22,7 @@
 <div class="float-left width-half">
 
 <? if ($galleries): ?>	
-	 <?=$this->galleries_m->galleryPhotosList();?>
+	 <?=$this->galleries_m->galleryPhotos();?>
 <? else: ?>
 	<p><?=lang('gal_currently_no_photos_error');?></p>
 <? endif; ?>

@@ -62,7 +62,8 @@
 				
 				<div class="field">
 					<label><?=lang('gal_desc_label');?></label>
-					<input type="text" class="text" name="description" id="description" maxlength="100" />
+					<!-- <input type="text" class="text" name="description" id="description" maxlength="100" />-->
+                                        <textarea cols="2" rows="2" name="description" id="description"></textarea>
 					<span class="required-icon tooltip"><?=lang('gal_required_label');?></span>
 				</div>
 				

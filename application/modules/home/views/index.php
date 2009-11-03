@@ -14,10 +14,10 @@
 </div>
 <div class="float-left width-half">
   <div class="col-title"><?=lang('home_works_list');?></div>
-  <? if($photos): ?>   
-    <?=$photos; ?>
-  <? else: ?>
-  <? endif; ?>
+  
+    <?=$this->galleries_m->galleryPhotos();?>
+ 
+ 
 </div>
 
 <div class="float-right width-quater">
