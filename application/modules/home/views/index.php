@@ -12,20 +12,13 @@
    <? endif; ?>
     <table><tr><td><?=image("icons/chat_online.jpg.png","_theme_");?></td></tr></table>
 </div>
-<div class="float-left width-half">
-  <div class="col-title"><?=lang('home_works_list');?></div>
-  
-    <?=$this->galleries_m->galleryPhotos();?>
- 
- 
+<div class="float-left width-three-quaters">
+    <div class="col-title"><?=lang('home_works_list');?></div>
+    <? if(!empty($photos)): ?>
+        <? foreach($photos as $photo): ?>
+          <?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>"width:200px"));?>
+        <? endforeach; ?>
+    <? else: ?>
+    <? endif; ?>
 </div>
 
-<div class="float-right width-quater">
-    <div class="col-title"><?=lang('home_students');?></div>
-    <ul>
-    <? foreach($staffs as $staff): ?>
-      <h3><?=$staff->name; ?></h3>
-      <li><?=anchor('staff/'.$staff->slug,image('staff/'.$staff->filename,'',array("style"=>'width:15em')),array("title"=>$staff->name)); ?></li>
-    <? endforeach; ?>
-    </ul>
-</div>

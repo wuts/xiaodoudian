@@ -166,6 +166,16 @@ class Galleries_m extends Model {
         return $string;
     }
 
+    function galleryLatestPhotos($gallery = '', $numPhotos = 5){
+        if (empty($gallery)) {
+            $this->db->order_by('updated_on', 'DESC');
+            $query = $this->db->get('photos', 5, 0);
+
+        } else {
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), $numPhotos, 0);
+        }        
+        return $query->result();
+    }
     
 }
 
