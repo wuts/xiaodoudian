@@ -169,7 +169,7 @@ class Galleries_m extends Model {
     function galleryLatestPhotos($gallery = '', $numPhotos = 5){
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
-            $query = $this->db->get('photos', 5, 0);
+            $query = $this->db->get('photos',$numPhotos, 0);
 
         } else {
             $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), $numPhotos, 0);
