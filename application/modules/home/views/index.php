@@ -1,5 +1,4 @@
-<h2><?=lang("home_title"); ?></h2>
-
+<hr />
 <div class="width-quater float-left leftColumn">
    <div class="col-title"><?=lang('home_news');?></div>
    <? if(!empty($news)): ?>

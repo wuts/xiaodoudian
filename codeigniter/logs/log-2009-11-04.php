@@ -10,3 +10,4 @@ ERROR - 2009-11-04 15:47:40 --> 404 Page Not Found -->
 ERROR - 2009-11-04 15:51:40 --> 404 Page Not Found --> 
 ERROR - 2009-11-04 15:51:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 217
 ERROR - 2009-11-04 15:51:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-04 15:57:46 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 71
