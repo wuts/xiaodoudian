@@ -16,7 +16,7 @@
     <div class="col-title"><?=lang('home_works_list');?></div>
     <? if(!empty($photos)): ?>
         <? foreach($photos as $photo): ?>
-          <?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>"width:150px"));?>
+          <a href="<?=image_path('galleries/' . $photo->gallery_slug . '/' . $photo->filename);?>" rel="modal" title="<?=$photo->description; ?>"><?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>"width:150px"));?> </a>
         <? endforeach; ?>
     <? else: ?>
     <? endif; ?>
