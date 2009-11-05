@@ -32,8 +32,7 @@ class Galleries extends Public_Controller
 	// Public: View an Gallery
 	function view($slug = '')
 	{
-		$this->load->module_model('comments', 'comments_m');
-		
+		$this->load->module_model('comments', 'comments_m');		
 		if($this->data->gallery = $this->galleries_m->getGallery($slug))
 		{
 			$this->data->photos = $this->galleries_m->getPhotos($slug);		

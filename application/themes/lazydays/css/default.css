@@ -231,24 +231,24 @@ a:hover img {
 
 ul.photos-list{
   list-style-type :none;
-  margin:0px 0px;
+  margin:5px 0px;
   padding:0px;
  
 }
 
 ul.photos-list li{
    float:left;
-   width:150px;
-   height:150px;
+   width:160px;
+   height:160px;
    text-align: center;
    overflow: hidden;
-   display:inline;
+   display:inline;   
    background-color:#444;
 }
 ul.photos-list li img{
-   width:120px;
-   height:120px;
-   margin:2px;
+   width:130px;
+   height:130px;
+   margin:10px 2px 5px 2px;
    padding:4px;
    background: #eee;
    color:#f60;
