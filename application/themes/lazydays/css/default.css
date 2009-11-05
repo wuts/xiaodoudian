@@ -262,6 +262,11 @@ ul.photos-list li a:hover img {
       border: solid 1px #FF9A33;
 }
 
+ul.photo {
+     list-style-type :none;
+     list-style-image: url();
+}
+
 /**************************************************************
    Browser
  **************************************************************/

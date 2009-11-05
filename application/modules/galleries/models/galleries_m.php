@@ -15,8 +15,8 @@ class Galleries_m extends Model {
         $image_cfg['source_image'] = APPPATH.'assets/img/galleries/' . $gallery_slug . '/' . $filename;
         $image_cfg['create_thumb'] = TRUE;
         $image_cfg['maintain_ratio'] = TRUE;
-        $image_cfg['width'] = '300';
-        $image_cfg['height'] = '250';
+        $image_cfg['width'] = '200';
+        $image_cfg['height'] = '200';
         $this->load->library('image_lib', $image_cfg);
         $this->image_lib->resize();
         
@@ -25,6 +25,15 @@ class Galleries_m extends Model {
                                           'description'=>$description,
                                           'updated_on'=>now()));
         return $this->db->insert_id();
+    }
+
+    function getPhoto($id){
+        $query=$this->db->getwhere('photos',array('id'=>$id));        
+        if($query->num_rows==0){
+            return FALSE;
+        }else{
+            return $query->row();
+        }
     }
     
     function checkTitle($title = '') {
