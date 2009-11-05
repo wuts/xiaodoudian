@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p, dl {
     margin-top:5px;
     font-size:1.4em;
     font-weight:bold;
-    background: #58C1FB url(../img/bg/col_title_bg.png) top left no-repeat;
+   
 }
 
 /* Done so the leftmost column aligns properly with the header.
@@ -229,6 +229,31 @@ a:hover img {
   border: 2px solid #8BE6FA;
 }
 
+ul.photos-list{
+  list-style-type :none;
+  margin:0px 0px;
+  padding:0px;
+ 
+}
+
+ul.photos-list li{
+   float:left;
+   width:150px;
+   height:150px;
+   text-align: center;
+   overflow: hidden;
+   display:inline;
+   background-color:#444;
+}
+ul.photos-list li img{
+   width:120px;
+   height:120px;
+   margin:2px;
+   padding:4px;
+   background: #eee;
+   color:#f60;
+   border: solid 1px #ddd;
+}
 
 /**************************************************************
    Browser
