@@ -16,11 +16,18 @@
 <? // Show photos in this gallery ?>
 <? if(!empty($photos)): ?>
 
-		<ul id="photos">
-			<? foreach ($photos as $photo):?>
-				<li><a href="<?= image_path('galleries/'.$gallery->slug .'/' . $photo->filename); ?>" title="<?=$photo->description;?>" rel="modal"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a></li>
-			<? endforeach; ?>
-		</ul>
+    <ul class="photos-list-intro">
+        <? foreach($photos as $photo): ?>
+          <li>
+	    <table>
+		<tr>
+                    <td><a href="<?= image_path('galleries/'.$photo->gallery_slug .'/' . $photo->filename); ?>" title="<?=$photo->description;?>" rel="modal"><?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a></td>
+		    <td valign="bottom"><?=$photo->description; ?></td>
+                </tr>
+	     </table>
+          </li>
+        <? endforeach; ?>
+     </ul>
 					
 		<h3><?=lang('gal_comments_title');?></h3>
 		

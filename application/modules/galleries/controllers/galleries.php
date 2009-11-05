@@ -26,6 +26,7 @@ class Galleries extends Public_Controller
 		}
 		unset($galleries);
 		$this->data->galleries =& $tree;
+                $this->data->photos=$this->galleries_m->galleryLatestPhotos();
 		$this->layout->create('index', $this->data);
 	}
 	
