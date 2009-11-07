@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.5" type="admin">
+	<name>
+		<en>Modules</en>
+		<fr>Modules</fr>
+                <cn>模块</cn>
+	</name>
+	<description>
+		<en>ALlows admins to see a list of currently installed modules.</en>
+		<es>ALlows admins to see a list of currently installed modules.</es>
+		<fr>Permet aux administrateurs de voir la liste des modules installés</fr>
+                <cn>允许管理员查看当前已经安装的模块列表</cn>
+	</description>
+	<required>1</required>
+	<icon>spanner_48.png</icon>
+	<is_frontend>0</is_frontend>
+	<is_backend>1</is_backend>
+	<controllers>
+		<controller name="admin">
+			<method>index</method>
+		</controller>
+	</controllers>
+</module>

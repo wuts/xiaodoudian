@@ -1,5 +1,10 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-
+/**
+ * @name 		Main admin controller
+ * @author 		Phil Sturgeon and Yorick Peterse - PyroCMS Development Team
+ * @package 	PyroCMS
+ * @subpackage 	Controllers
+ */
 class Admin extends Admin_Controller
 {
 	function __construct()
@@ -13,9 +18,41 @@ class Admin extends Admin_Controller
  	// Admin: Control Panel
  	function index()
 	{
+		// Load stuff
 		$this->load->model('modules_m');
  		$this->data->modules = $this->modules_m->getModules();
-				  
+		
+		// Don't you love the smell of burning CPUs in the morning ?
+		$this->load->module_model('comments','comments_m');
+		$this->load->module_model('pages','pages_m');
+		$this->load->module_model('news','news_m');
+		$this->load->module_model('users','users_m');
+		
+		// Count comment related stuff
+		$this->data->total_comments			= $this->comments_m->countComments();
+		$this->data->approved_comments 		= $this->comments_m->countComments(array('is_active' => 1));
+		$this->data->pending_comments	 	= $this->comments_m->countComments(array('is_active' => 0));
+		
+		// Count page related stuff
+		$this->data->total_pages			= $this->pages_m->countPages();
+		
+		// Count the news articles
+		$this->data->live_articles			= $this->news_m->countArticles(array('status' => 'live'));
+		
+		// Count users
+		$this->data->total_users			= $this->users_m->countUsers(array('is_active' => 1));
+		
+		// Dashboard RSS feed (using SimplePie)
+		$this->load->library('simplepie');
+		$this->simplepie->set_cache_location(APPPATH . 'cache/simplepie/');
+		$this->simplepie->set_feed_url( $this->settings->item('dashboard_rss') );
+		$this->simplepie->init();
+		$this->simplepie->handle_content_type();
+		
+		// Store the feed items
+		$this->data->rss_items     			= $this->simplepie->get_items(0, $this->settings->item('dashboard_rss_count'));
+
+		// Load the layout/view/whatever
 		$this->layout->create('admin/cpanel', $this->data);
 	}
      
@@ -34,7 +71,7 @@ class Admin extends Admin_Controller
 	    {
 	    	redirect('admin');
 		}
-		        
+				
 	    $this->layout->wrapper(FALSE);
 	    $this->layout->create('admin/login', $this->data);		
 	}
@@ -57,6 +94,6 @@ class Admin extends Admin_Controller
 	   		$this->validation->set_message('_check_login', $this->lang->line($this->user_lib->error_code));
 	    	return FALSE;
 	    }
-  }    
+	}    
 }
 ?>

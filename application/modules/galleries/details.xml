@@ -3,11 +3,13 @@
 	<name>
 		<en>Photos</en>
 		<es>Fotográficas</es>
+                <fr>Photos</fr>
                 <cn>图片</cn>
 	</name>
 	<description>
 		<en>Add photo albums and upload photos.</en>
 		<es>Agrega una galería fotográfica y sube fotos.</es>
+                <fr>Ajouter des albums photo et envoyer vos photos.</fr>
 	</description>
 	<icon>image_48.png</icon>
 	<is_frontend>1</is_frontend>
@@ -25,6 +27,7 @@
 		<admin>
 			<new_item href="admin/galleries/create">
 				<en>New album</en>
+                                <fr>Nouvel album</fr>
                                 <cn>新建相册</cn>
 			</new_item>
 		</admin>

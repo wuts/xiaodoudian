@@ -16,7 +16,7 @@
 <? // Show photos in this gallery ?>
 <? if(!empty($photos)): ?>
 
-    <ul class="photos-list-intro">
+     <ul class="photos-list-intro">
         <? foreach($photos as $photo): ?>
           <li>
           <a href="<?= image_path('galleries/'.$photo->gallery_slug .'/' . $photo->filename); ?>" title="<?=$photo->description;?>" rel="modal"><?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a>

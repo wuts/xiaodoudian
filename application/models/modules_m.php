@@ -59,14 +59,16 @@ class Modules_m extends Model {
 		        		// This user has no permissions for this module
 		        		if(!$this->permissions_m->hasAdminAccess( $this->user_lib->user_data->role, $module['slug']) ) continue;
 		        	}
-
-                                // Check a module is intended for the sidebar
-				if(isset($params['is_backend_sidebar']) && $module['is_backend_sidebar'] != $params['is_backend_sidebar']) continue;
-	        
-	        		$modules[] = $module;
+	       			
+				 	// Check a module is intended for the sidebar
+					if(isset($params['is_backend_sidebar']) && $module['is_backend_sidebar'] != $params['is_backend_sidebar']) continue;
+ 
+	        		$modules[$module['name']] = $module;
 	        	}
 	        }
         }
+        
+        ksort($modules);
     	
         return $modules;
     }
@@ -133,7 +135,7 @@ class Modules_m extends Model {
     		'required'		=>	$xml->required == 1,
     		'is_frontend'	=>	$xml->is_frontend == 1,
     		'is_backend'	=>	$xml->is_backend == 1,
-    	        'is_backend_sidebar'	 =>	$xml->is_backend_sidebar == 1,
+    		'is_backend_sidebar'	 =>	$xml->is_backend_sidebar == 1,
     		'controllers'	=>	$controllers
     	);
     }
@@ -146,7 +148,7 @@ class Modules_m extends Model {
     		'search' => array()
     	);
     	
-    	$xml = simplexml_load_file($xml_file);      
+    	$xml = simplexml_load_file($xml_file);
     	
     	// New item
     	if( !empty($xml->navigation->admin->new_item) )
@@ -175,7 +177,7 @@ class Modules_m extends Model {
     		}
     	}
     	
-    	return $toolbar;       
+    	return $toolbar;
     	
     }
 }

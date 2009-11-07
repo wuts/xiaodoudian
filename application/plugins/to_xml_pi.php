@@ -1,15 +1,15 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /* to_xml Plugin for Code Igniter
-version for PHP 4 and above */
+   version for PHP 4 and above  */
 
 function to_xml($object, $element_name)
 {
-header("Content-Type: text/xml; charset=utf-8;");
-header("Content-Disposition: attachment; filename=$element_name.xml");
+	header("Content-Type: text/xml; charset=utf-8;");
+	header("Content-Disposition: attachment; filename=$element_name.xml");
 
    $obj =& get_instance();
-
+   
    /* determine whether the $object is a table name or query result */
    switch (TRUE){
    case is_string($object): // treat object as a tablename
@@ -30,14 +30,14 @@ header("Content-Disposition: attachment; filename=$element_name.xml");
       }
       break;
    }
-
-   /* Prepare XML Writer */
+   
+   /* Prepare XML Writer  */
    $obj->xmlwriter4 = new Xmlwriter4();
    $xml = $obj->xmlwriter4;
 
-   /* Start XML */
+   /* Start XML */  
    $xml->push('newsletter_information', array('total' => $total));
-
+   
    /* Create an element for each query result */
    foreach ($query->result_array() as $row)
    {
@@ -47,7 +47,7 @@ header("Content-Disposition: attachment; filename=$element_name.xml");
       }
       $xml->emptyelement($element_name, $allfields);
    } //end loop through query
-
+     
    /* close XML and output */
    $xml->pop();
    print $xml->getXml();
@@ -59,7 +59,7 @@ class Xmlwriter4 {
     var $xml;
     var $indent;
     var $stack = array();
-    function Xmlwriter4($indent = ' ') {
+    function Xmlwriter4($indent = '   ') {
         $this->indent = $indent;
         $this->xml = '<?xml version="1.0" encoding="utf-8"?>'."\r\n";
     }

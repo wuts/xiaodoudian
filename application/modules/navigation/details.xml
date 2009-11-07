@@ -3,15 +3,19 @@
 	<name>
 		<en>Navigation</en>
 		<es>Navegación</es>
-                <cn>导航</cn>
+		<fr>Navigation</fr>
+                <cn>菜单</cn>
+
 	</name>
 	<description>
 		<en>Manage links on navigation menu's and all the navigation groups they belong to.</en>
 		<es>Administra links en los menús de navegación y en todos los grupos de navegación al cual pertenecen.</es>
+		<fr>Gérer les liens du menu Navigation et tous les groupes de navigation auxquels ils appartiennent.</fr>
+                <cn>管理网站导航链接，例如顶部菜单和边栏菜单</cn>
 	</description>
 	<is_frontend>0</is_frontend>
 	<is_backend>1</is_backend>
-        <is_backend_sidebar>1</is_backend_sidebar>
+	<is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -30,6 +34,7 @@
 		<admin>
 			<new_item href="admin/navigation/create">
 				<en>New link</en>
+				<fr>Nouveau Lien</fr>
                                 <cn>新建链接</cn>
 			</new_item>
 		</admin>

@@ -30,9 +30,7 @@ class Products extends Public_Controller
 	function category($category = '')
 	{
 		if (empty($category)) redirect('products/index');
-		$params['category']=$category;                
-		$this->data->products = $this->products_m->getProducts($params);
-                
+		$this->data->products = $this->products_m->getProducts($category);
 		if (empty($this->data->products)) redirect('products/index');
                 
 		foreach ($this->data->products as $product)

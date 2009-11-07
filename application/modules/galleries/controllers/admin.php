@@ -4,8 +4,7 @@ class Admin extends Admin_Controller
 {
 	function __construct()
 	{
-		parent::Admin_Controller();        
-		$this->load->helper('galleries');
+		parent::Admin_Controller(); 
 		$this->load->model('galleries_m');
 		$this->lang->load('galleries');
 	}

@@ -153,7 +153,7 @@ Then, on the page that accepts the submission you'll have something like this:
 */
 function create_captcha($data = '', $img_path = '', $img_url = '', $font_path = '')
 {		
-	$defaults = array('word' => '', 'img_path' => '', 'img_url' => '', 'img_width' => '150', 'img_height' => '30', 'font_path' => '', 'expiration' => 7200);
+	$defaults = array('word' => '', 'img_path' => '', 'img_url' => '', 'img_width' => '150', 'img_height' => '30', 'font_path' => '', 'expiration' => 7200);		
 	
 	foreach ($defaults as $key => $val)
 	{
@@ -312,7 +312,7 @@ function create_captcha($data = '', $img_path = '', $img_url = '', $font_path = 
 		$x = rand(0, $img_width/($length/1.5));
 		$y = $font_size+2;
 	}
-        
+
 	for ($i = 0; $i < strlen($word); $i++)
 	{
 		if ($use_font == FALSE)

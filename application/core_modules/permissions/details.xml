@@ -3,11 +3,14 @@
 	<name>
 		<en>Permissions</en>
 		<es>Permisos</es>
-		<cn>权限</cn>
+		<fr>Permissions</fr>
+                <cn>权限</cn>
 	</name>
 	<description>
 		<en>Control what type of users can see certain sections within the site.</en>
 		<es>Controla que tipo de usuarios pueden ver secciones específicas dentro del sitio.</es>
+		<fr>Permet de contrôler quel rôle utilisateur peut visualiser certaines parties du site.</fr>
+                <cn>控制何种类型的用户可以访问网站的特定部分.</cn>
 	</description>
 	<required>1</required>
 	<icon>users_two_warning_48.png</icon>
@@ -30,7 +33,8 @@
 		<admin>
 			<new_item href="admin/permissions/create">
 				<en>New rule</en>
-                                <cn>New rule</cn>
+				<fr>Nouvelle Règle</fr>
+                                <cn>新规则</cn>
 			</new_item>
 		</admin>
 	</navigation>

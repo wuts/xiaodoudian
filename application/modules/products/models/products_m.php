@@ -43,7 +43,7 @@ class Products_m extends Model {
        	if(isset($params['limit']) && is_int($params['limit'])) $this->db->limit($params['limit']);
     	elseif(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
         
-    	if(!empty($params['category'])) $this->db->where('categories.id',$params['category']);
+    	if(!empty($params['category'])) $this->db->where('products.category_slug', $params['category']);
     	
         $query = $this->db->get('products');
        

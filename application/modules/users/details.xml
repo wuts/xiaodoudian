@@ -3,17 +3,19 @@
 	<name>
 		<en>Users</en>
 		<es>Usuarios</es>
-                <cn>用户</cn>
+		<fr>Utilisateurs</fr>
+		 <cn>用户</cn>
 	</name>
 	<description>
 		<en>Let users register and log in to the site, and manage them via the control panel.</en>
 		<es>Permite el registro de usuario y loguearse en el sitio, manéjalos con el panel de control.</es>
+		<fr>Permet aux utilisateurs de s'enregistrer et de se connecter au site et de les gérer via le panneau de contrôle</fr>
 	</description>
 	<required>1</required>
 	<icon>users_two_48.png</icon>
 	<is_frontend>1</is_frontend>
 	<is_backend>1</is_backend>
-        <is_backend_sidebar>1</is_backend_sidebar>
+	<is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -26,7 +28,8 @@
 		<admin>
 			<new_item href="admin/users/add">
 				<en>New user</en>
-                                <cn>新建用户</cn>
+				<fr>Nouvel utilisateur</fr>
+				<cn>新建用户</cn>
 			</new_item>
 		</admin>
 	</navigation>

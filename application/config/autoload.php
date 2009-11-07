@@ -39,7 +39,7 @@
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'session', 'cache', 'layout', 'settings'=>'settings','widgets');
+$autoload['libraries'] = array('database', 'session', 'cache', 'layout', 'settings'=>'settings', 'widgets');
 
 
 /*
@@ -51,7 +51,7 @@ $autoload['libraries'] = array('database', 'session', 'cache', 'layout', 'settin
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'form', 'language', 'matchbox', 'xhtml', 'asset', 'pagination', 'debug');
+$autoload['helper'] = array('url', 'form', 'language', 'pages' => 'pages', 'matchbox', 'xhtml', 'asset', 'pagination', 'debug');
 
 
 /*
@@ -79,7 +79,7 @@ $autoload['plugin'] = array();
 |
 */
 
-$autoload['config'] = array('asset', 'cache', 'language');
+$autoload['config'] = array('asset', 'language');
 
 
 /*
@@ -95,7 +95,7 @@ $autoload['config'] = array('asset', 'cache', 'language');
 |
 */
 
-$autoload['language'] = array('errors', 'fragments', 'users' => 'user');
+$autoload['language'] = array('main', 'errors', 'fragments', 'users' => 'user');
 
 
 /*

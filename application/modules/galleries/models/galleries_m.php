@@ -3,8 +3,7 @@
 class Galleries_m extends Model {
 
     function __construct() {
-        parent::Model();
-        $this->load->helper("text");
+        parent::Model();       
     }
     
     function addPhoto($image = array(), $gallery_slug = '', $description) {
@@ -15,8 +14,8 @@ class Galleries_m extends Model {
         $image_cfg['source_image'] = APPPATH.'assets/img/galleries/' . $gallery_slug . '/' . $filename;
         $image_cfg['create_thumb'] = TRUE;
         $image_cfg['maintain_ratio'] = TRUE;
-        $image_cfg['width'] = '200';
-        $image_cfg['height'] = '200';
+        $image_cfg['width'] = '150';
+        $image_cfg['height'] = '125';
         $this->load->library('image_lib', $image_cfg);
         $this->image_lib->resize();
         

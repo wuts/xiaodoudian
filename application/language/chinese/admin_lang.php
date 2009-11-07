@@ -12,6 +12,7 @@ $lang['cp_logout_label'] 				= '退出';
 $lang['cp_edit_profile_label'] 			= '编辑个人资料';
 
 $lang['cp_nav_settings']				= '设置';
+$lang['cp_nav_modules']					= '模块'; #translate
 $lang['cp_nav_edit_settings']			= '编辑设置';
 $lang['cp_nav_themes']					= '主题';
 $lang['cp_nav_permissions']				= '权限';

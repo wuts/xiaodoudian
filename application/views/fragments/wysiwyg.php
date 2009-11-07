@@ -25,8 +25,7 @@
 		theme_advanced_buttons1 : "bold,italic,underline,strikethrough,code",
 		theme_advanced_buttons2 : '',
 
-		valid_elements : 'b/strong,i/em,u,strike,br',
-			
+		valid_elements : 'b/strong,i/em,u,strike,br'			
     });
 
 
@@ -38,6 +37,7 @@
 		editor_class : "wysiwyg-advanced",
 
                 language : "<?php echo CURRENT_LANGUAGE;?>",
+                convert_urls : false,
                 
 		width : 650,
 		height : 600,
@@ -72,6 +72,20 @@
 		button_tile_map : true,		
 		media_strict: false,
 
+                file_browser_callback : 'tinycimm',
+                
+		<?php
+			$this->config->load('tinycimm');
+		?>
+		tinycimm_image_controller : '<?php echo $this->config->item('tinycimm_image_controller');?>',
+		tinycimm_link_controller : '<?php echo $this->config->item('tinycimm_link_controller');?>',
+		tinycimm_assets_path : '<?php echo $this->config->item('tinycimm_asset_path');?>',
+		tinycimm_resize_default_intial_width : '<?php echo $this->config->item('default_initial_width', 'tinycimm_image_resize_config');?>',
+		tinycimm_thumb_width : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_width');?>',
+		tinycimm_thumb_height : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_height');?>',
+		tinycimm_thumb_lightbox_class : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_lightbox_class');?>',
+		tinycimm_thumb_lightbox_gallery : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_lightbox_gallery');?>',
+
 		// Default ruleset
 		valid_elements : "@[id|class|style|title|dir|lang|xml::lang|onclick|ondblclick|"
 			+ "onmousedown|onmouseup|onmouseover|onmousemove|onmouseout|onkeypress|"
@@ -99,6 +113,48 @@
 			+',embed[width|height|name|flashvars|src|bgcolor|align|play|loop|quality|allowscriptaccess|type|pluginspage]'
 
     });
+
+    
+	function tinycimm(field_name, url, type, win) {
+
+		if ((type != 'image') && (field_name != 'href')) return;
+
+		if (type == 'image') {
+			// image manager
+			var url = win.tinyMCE.baseURI.relative+'/plugins/tinycimm/'+type+'.htm';
+
+			tinyMCE.activeEditor.windowManager.open({
+				file : url,
+				width : 574,
+				height : 462,
+				resizable : "yes",
+				inline : "yes",
+				close_previous : "no"
+			}, {
+				window : win,
+				tinyMCEPopup : win.tinyMCEPopup,
+				input : field_name
+			});
+			return false;
+		} else {
+			// link manager
+			var url = win.tinyMCE.baseURI.relative+'/plugins/tinycimm/link.htm';
+
+			tinyMCE.activeEditor.windowManager.open({
+				file : url,
+				width : 340,
+				height : 362,
+				resizable : "yes",
+				inline : "yes",
+				close_previous : "no"
+			}, {
+				window : win,
+				tinyMCEPopup : win.tinyMCEPopup,
+				input : field_name
+			});
+		}
+	}
+
     
 	// Example content CSS (should be your site CSS)
 	//content_css : "css/content.css",

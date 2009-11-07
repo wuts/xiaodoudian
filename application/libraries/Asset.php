@@ -262,9 +262,9 @@ class Asset
 		
 			// Its in a module, ignore the current 
 			if($module_name) {
-                            
-				if(is_dir('modules/'.$module_name))
-				{
+				
+				if(is_dir(APPPATH.'modules/'.$module_name))
+				{	
 					$asset_location .= 'modules/'.$module_name.'/';
 				}
 				else

@@ -3,15 +3,18 @@
 	<name>
 		<en>Staff</en>
 		<es>Staff</es>
+		<fr>Personnel</fr>
                 <cn>员工</cn>
 	</name>
 	<description>
 		<en>Add staff to the system and show visitors their basic details and photograph.</en>
 		<es>Agrega staff al sistema y muéstrale a tus visitantes una informacion básica y su fotografía.</es>
+		<fr>Ajoute des membres du personnel dans le système et affiche les informations basiques et la photo des visiteurs.</fr>
+                <cn>添加员工以让访问者了解他们的基本信息以及照片</cn>
 	</description>
 	<is_frontend>1</is_frontend>
 	<is_backend>1</is_backend>
-        <is_backend_sidebar>1</is_backend_sidebar>
+	<is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -24,6 +27,7 @@
 		<admin>
 			<new_item href="admin/staff/create">
 				<en>New staff member</en>
+				<fr>Nouveau menbre du personnel</fr>
                                 <cn>新建员工</cn>
 			</new_item>
 		</admin>

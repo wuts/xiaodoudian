@@ -31,7 +31,6 @@ $lang['news_other_comments_label'] 				= 'Ellos dijeron...';
 $lang['news_your_comments_label'] 				= 'Tu dijiste...?';
 $lang['news_author_name_label'] 					= 'Nombre del autor';
 $lang['news_read_more_label'] 					= 'Leer m&aacute;s&nbsp;&raquo;';
-$lang['news_click_count_label'] 		=                            'click';
 
 // titles
 $lang['news_create_title'] 						= 'Crear un art&iacute;culo';

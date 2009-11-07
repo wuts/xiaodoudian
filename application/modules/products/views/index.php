@@ -6,7 +6,7 @@
 		<h3><?= anchor('products/' . $product->id, $product->title); ?></h3>
                 <? $img = $images[$product->id]->filename; ?>
 		<a href="<?=site_url('products/' . $product->id);?>">
-			<?=image('products/' . substr($img, 0, -4) . '_thumb' . substr($img, -4));?>
+			<?=image('products/' . substr($img, 0, -4) . '_home' . substr($img, -4));?>
 		</a>
                 <p>
                 <? if($product->category_slug): ?>

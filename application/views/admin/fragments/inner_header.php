@@ -1,22 +1,23 @@
 <!-- Title -->
-<div id="page-title" class="b2">
+<div id="content-head" class="b2">
 	<h2><?=$module_data['name'] ? $module_data['name'] : lang('cp_title'); ?></h2>
 	
 	<? if( !empty($toolbar) ): ?>	
 	<!-- TitleActions -->
-	<div id="titleActions">
+	<div id="page-actions">
 		
 		<? if( !empty($toolbar['new_item']) ): ?>
 		<!-- new item -->
-		<div class="newPost actionBlock">
-			<a href="<?= site_url($toolbar['new_item']['link']) ?>" class="button">
+		<div class="actionBlock">
+			<a id="new-item" href="<?= site_url($toolbar['new_item']['link']) ?>" class="button">
 				<strong><?= $toolbar['new_item']['title'] ?><?= image('admin/icons/add_48.png', NULL, array('alt' => $toolbar['new_item']['title'] .' icon', 'class' => 'icon') ); ?></strong>
 			</a>
 		</div>
 		<!-- /new item -->
 		<? endif; ?>
 		
-		<? if( !empty($toolbar['search']) ): ?>
+		<? // Never finished
+		if( !empty($toolbar['search']) ): ?>
 		<!-- ListSearch -->
 		<div class="listSearch actionBlock">
 			<div class="search">
@@ -34,8 +35,10 @@
 	<!-- /TitleActions -->
 	<? endif; ?>	
 </div>
+
 <!-- Title -->
-<? if( !empty($toolbar['links']) ): ?>
+<?php // Also never finished!
+if( !empty($toolbar['links']) ): ?>
 <div id="toolbarActions">
 	<p>Links:</p>
 	<ul>

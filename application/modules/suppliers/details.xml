@@ -3,15 +3,18 @@
 	<name>
 		<en>Suppliers</en>
 		<es>Suplidores</es>
+		<fr>Fournisseurs</fr>
                 <cn>供应商</cn>
 	</name>
 	<description>
 		<en>List the suppliers of your products.</en>
 		<es>Lista los suplidores de tus productos.</es>
+		<fr>Liste des fournisseurs de vos produits</fr>
+                <cn>产品供应商列表</cn>
 	</description>
 	<is_frontend>1</is_frontend>
 	<is_backend>1</is_backend>
-        <is_backend_sidebar>1</is_backend_sidebar>
+	<is_backend_sidebar>1</is_backend_sidebar>
 	<controllers>
 		<controller name="admin">
 			<method>index</method>
@@ -24,7 +27,8 @@
 		<admin>
 			<new_item href="admin/suppliers/create">
 				<en>New supplier</en>
-                                <cn>新建供应商</cn>
+				<fr>Nouveau fournisseur</fr>
+                                <cn>新供应商</cn>
 			</new_item>
 		</admin>
 	</navigation>

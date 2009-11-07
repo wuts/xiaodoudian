@@ -8,7 +8,7 @@
 			<? endif; ?>
 		</div>
     
-    <div class="tabs">
+		<div class="tabs">
 			
 			<ul class="clear-both">
 				<li><a href="#fieldset1" title="Write post"><span><?=lang('news_content_label');?></span></a></li>
@@ -21,7 +21,7 @@
 			
 				<div class="field">
 					<label for="title"><?=lang('news_title_label');?></label>
-					<?=form_input('title', $article->title, 'class="text" maxlength="100"'); ?>
+					<?=form_input('title', $article->title, 'maxlength="100"'); ?>
 					<span class="required-icon tooltip"><?=lang('news_required_label');?></span>
 				</div>
 				
@@ -31,7 +31,7 @@
 				</div>
 				
 				<div class="field spacer-left">
-					<?=form_textarea(array('id'=>'body', 'name'=>'body', 'value' =>  htmlentities(stripslashes($article->body),ENT_COMPAT,'UTF-8'), 'rows' => 50, 'class'=>'wysiwyg-advanced')); ?>
+					<?=form_textarea(array('id'=>'body', 'name'=>'body', 'value' =>  stripslashes($article->body), 'rows' => 50, 'class'=>'wysiwyg-advanced')); ?>
 				</div>
 		
 			</fieldset>
@@ -43,13 +43,13 @@
 				
 				<div class="field">
 					<label for="category_id"><?=lang('news_category_label');?></label>
-					<?=form_dropdown('category_id', array(lang('news_no_category_select_label'))+$categories, @$article->category_id) ?>	
-							[ <?= anchor('admin/categories/create', lang('news_new_category_label'), 'target="_blank"'); ?> ]
+					<?=form_dropdown('category_id', array(lang('news_no_category_select_label'))+$categories, @$article->category_id) ?> 	
+					[ <?= anchor('admin/categories/create', lang('news_new_category_label'), 'target="_blank"'); ?> ]
 				</div>
 				
 				<div class="field">
 					<label for="category_id"><?=lang('news_status_label');?></label>
-					<?=form_dropdown('status', array('live'=>lang('news_live_label'),'draft'=>lang('news_draft_label')), $article->status) ?>
+					<?=form_dropdown('status', array('draft'=>lang('news_draft_label'), 'live'=>lang('news_live_label')), $article->status) ?>	
 				</div>
 				
 				<div class="field">

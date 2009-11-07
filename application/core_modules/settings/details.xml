@@ -3,11 +3,14 @@
 	<name>
 		<en>Settings</en>
 		<es>Configuraciones</es>
-		<cn>设置</cn>
+		<fr>Paramètres</fr>
+                 <cn>设置</cn>
 	</name>
 	<description>
 		<en>Allows admins and staff to change website settings such as site name and description.</en>
 		<es>Permite a los administradores y staff configurar los detalles del sitio como el nombre del sitio y la descripción del mismo.</es>
+		<fr>Pertmet aux admistrateurs et au personnel de modifier les paramètres du site : nom du site et description</fr>
+                 <cn>允许管理员和员工改变网站设置，例如修改网站名称和描述等。</cn>
 	</description>
 	<required>1</required>
 	<icon>spanner_48.png</icon>

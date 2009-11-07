@@ -2,12 +2,15 @@
 <module version="0.3" type="admin">
 	<name>
 		<en>Themes</en>
-		<en>Themes</en>
-		<cn>主题</cn>
+		<es>Temas</es>
+		<fr>Thèmes</fr>
+                 <cn>主题</cn>
 	</name>
 	<description>
 		<en>Allows admins and staff to change website theme, upload new themes and manage them in a more visual approach.</en>
 		<es>Permite a los administradores y miembros del staff cambiar el tema del sitio web, subir nuevos temas y manejar los ya existentes.</es>
+		<fr>Permet aux administrateurs et au personnel de modifier le thème du site, de charger de nouveaux thèmes et de le gérer de.</fr>
+                <cn>允许管理员和员工修改网站主题，上传新主题以及以一种更直观的方式管理。</cn>
 	</description>
 	<required>1</required>
 	<icon>tabs_48.png</icon>
@@ -23,7 +26,11 @@
 	</controllers>
 	<navigation>
 		<admin>
-			<new_item href="admin/themes/upload">Upload theme</new_item>
+			<new_item href="admin/themes/upload">
+				<en>Upload theme</en>
+				<fr>Charger un thème</fr>
+                                <cn>上传主题</cn>
+			</new_item>
 		</admin>
 	</navigation>
 </module>

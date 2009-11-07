@@ -3,11 +3,14 @@
 	<name>
 		<en>Packages</en>
 		<es>Paquetes</es>
-                <cn>包裹</cn>
+		<fr>Packages</fr>
+                <cn>包</cn>
 	</name>
 	<description>
 		<en>Combines services and products into package deals.</en>
 		<es>Combina servicios y productos dentro de paquetes promocionales.</es>
+		<fr>Combine les services et les produits dans des offres packagées.</fr>
+                  <cn>将服务和产品打包处理</cn>
 	</description>
 	<name></name>
 	<icon>box_48.png</icon>
@@ -25,7 +28,8 @@
 		<admin>
 			<new_item href="admin/packages/create">
 				<en>New package</en>
-                                <cn>New package</cn>
+				<es>Nouveau package</es>
+                                <cn>新包</cn>
 			</new_item>
 		</admin>
 	</navigation>
