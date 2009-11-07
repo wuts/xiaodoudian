@@ -16,12 +16,13 @@
 <? // Show photos in this gallery ?>
 <? if(!empty($photos)): ?>
 
-     <ul class="photos-list-intro">
+      <ul class="photos-list-intro">
         <? foreach($photos as $photo): ?>
           <li>
           <a href="<?= image_path('galleries/'.$photo->gallery_slug .'/' . $photo->filename); ?>" title="<?=$photo->description;?>" rel="modal"><?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a>
 
-         <p><?=$photo->description; ?></p>
+         <dl><dt class="float-left width-third"><?=mb_substr($photo->description,0,80,'UTF-8'); ?></dt><dt class="float-right width-third"><?=mb_substr($photo->description,80,80,'UTF-8'); ?><?=anchor('galleries/photo/'.$photo->id,'全文阅读');?></dt></dl>
+
           </li>
         <? endforeach; ?>
      </ul>
