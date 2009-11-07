@@ -1351,3 +1351,81 @@ ERROR - 2009-11-07 09:39:03 --> Severity: Notice  --> Trying to get property of 
 ERROR - 2009-11-07 09:39:03 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
 ERROR - 2009-11-07 09:39:03 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
 ERROR - 2009-11-07 09:39:03 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 13:39:12 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:12 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:12 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:12 --> Severity: Notice  --> unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 77 of 6923 bytes D:\xampp\htdocs\xiaodoudian.com\application\libraries\Simplepie.php 8686
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:13 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Exceptions.php:166) D:\xampp\htdocs\xiaodoudian.com\codeigniter\libraries\Output.php 230
+ERROR - 2009-11-07 13:39:17 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:17 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:17 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 13:39:22 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:39:22 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:39:43 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:39:43 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:45 --> Severity: Notice  --> Undefined property: CI_Loader::$validation D:\xampp\htdocs\xiaodoudian.com\application\modules\contact\views\index.php 23
+ERROR - 2009-11-07 13:53:45 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\contact\views\index.php 23
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:53:47 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-07 13:53:47 --> 404 Page Not Found --> 
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 13:56:21 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 14:10:25 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 14:11:02 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 14:11:08 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 14:50:16 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 14:50:16 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 14:50:16 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:55 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-07 15:03:58 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10

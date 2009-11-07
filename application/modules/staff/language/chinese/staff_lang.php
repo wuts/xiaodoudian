@@ -24,6 +24,7 @@ $lang['staff_title'] 													= 'Staff';
 $lang['staff_edit_title'] 										= 'Edit member of staff "%s"';
 $lang['staff_crop_image_title'] 							= 'Crop Image';
 $lang['staff_mamber_add_title'] 							= 'Add member of staff';
+$lang["staff_train_teachers_title"]="培训师介绍";
 
 // messages
 $lang['staff_back_to_team_page'] 							= '&laquo; Back to the team page';

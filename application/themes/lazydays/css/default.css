@@ -280,18 +280,18 @@ ul.photos-list-intro li{
 -moz-background-origin:padding;
 background:#444 url(../img/bg/main_bg.gif) repeat-x;
 border:1px solid #EEEEEE;
-height:250px;
+height:160px;
 margin:0 0 5px;
 padding:5px;
 width:650px;
 
 }
-ul.photos-list-intro li a{display:block;width:280px;height:220px;float:left;}
-ul.photos-list-intro li p{display:block;width:300px;height:200px;float:left;color:white;}
+ul.photos-list-intro li a{display:block;width:30%;height:150px;float:left;}
+ul.photos-list-intro dl dt{padding-left:10px;}
 ul.photos-list-intro li img{
    float:left;
-   width:250px;
-   height:250px;
+   width:150px;
+   height:150px;
    background: #eee;
    color:#f60;
    border: solid 0px #ddd;

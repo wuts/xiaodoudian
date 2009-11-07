@@ -1,4 +1,8 @@
-<h2><?= lang('staff_title');?></h2>
+<h2><?=lang('staff_train_teachers_title');?></h2>
+<div class="width-quater float-left leftColumn">
+  <h3><?=lang('staff_train_teachers_title');?></h3>
+</div>
+<div class="float-left width-three-quaters">
 <? if ($staffs): ?>
 	<? foreach ($staffs as $staff): ?>
 		<div class="staffHolder">
@@ -13,3 +17,4 @@
 <? else: ?>
 	<p><?= lang('staff_no_members_available');?></p>
 <? endif; ?>
+</div>
