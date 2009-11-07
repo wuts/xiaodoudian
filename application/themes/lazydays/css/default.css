@@ -244,7 +244,7 @@ ul.photos-list li{
    text-align: center;
    overflow: hidden;
    display:inline;   
-   background-color:#444;
+   background:#444 url(../img/bg/main_bg.gif) repeat-x;
 }
 ul.photos-list li img{
    width:150px;
@@ -278,7 +278,7 @@ ul.photos-list-intro li{
  -moz-background-clip:border;
 -moz-background-inline-policy:continuous;
 -moz-background-origin:padding;
-background:#444 none repeat scroll 0 0;
+background:#444 url(../img/bg/main_bg.gif) repeat-x;
 border:1px solid #EEEEEE;
 height:250px;
 margin:0 0 5px;
