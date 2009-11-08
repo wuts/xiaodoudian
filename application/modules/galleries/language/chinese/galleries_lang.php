@@ -4,6 +4,7 @@
 $lang['gal_upload_label'] 									= '上传';
 $lang['gal_page_content_label'] 						= '页面内容';
 $lang['gal_photo_label'] 										= '图片';
+$lang['gal_edit_photo_label'] 										= '编辑图片';
 $lang['gal_desc_label'] 										= '描述';
 $lang['gal_required_label'] 								= '必须的';
 $lang['gal_album_label'] 										= '相册';
@@ -24,6 +25,7 @@ $lang['gal_catagories_label'] 						= '图片目录';
 // titles
 $lang['gal_manage_title'] 									= '图库中的照片';
 $lang['gal_add_photo_title'] 								= '添加照片';
+$lang['gal_edit_photo_title'] 								= '编辑照片';
 $lang['gal_create_title'] 									= '创建图库';
 $lang['gal_edit_title'] 										= '编辑图库 "%s"';
 $lang['gal_comments_title'] 								= '评论';
@@ -48,5 +50,7 @@ $lang['gal_photo_delete_no_select_error'] 	= 'You need to select one or more pho
 $lang['gal_photo_delete_success'] 					= 'Deleted %s image(s) successfully.';
 $lang['gal_photo_delete_error'] 						= 'No images were deleted.';
 $lang['gal_name_already_exist_error'] 			= 'A gallery with this name already exists.';
+$lang['gal_photo_update_success'] 					= '图片更新成功.';
+$lang['gal_photo_update_error'] 						= '发生错误，图片更新失败.';
 
 ?>

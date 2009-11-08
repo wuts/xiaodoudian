@@ -3,13 +3,19 @@
 	<div id="photos">
 		<?=form_open('admin/galleries/delete_photo');?>
 			<?=form_hidden('gallery', $gallery->slug);?>
+                           <table>
 				<? foreach($photos as $photo): ?>
-					<div class="float-left align-center spacer-right">
-						<input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /><br />
-						<a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a><br />
-                                                <div id="photo-description<?=$photo->id?>" style="display:none;"><textarea cols="2" rows="2" name="photo-description<?=$photo->id?>"><?= $photo->description ?></textarea><span class="required-icon tooltip"><?=lang('gal_required_label');?></span><br /><a href="#photo-description<?=$photo->id?>" onclick="ajax_update_photo_description(<?=$photo->id?>);" style="font-size:1.2em;padding:5px;">更新</a></div>
-					</div>
-				<? endforeach; ?>			
+                                <tr>
+                                   <td><input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /></td>
+                                   <td><a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>'width:100px;'));?></a></td>
+                                   <td style="width:300px;"><?=mb_substr($photo->description,0,100,'UTF-8'); ?>......</td>
+                                   <td><?= anchor('galleries/photo/' . $photo->id, lang('gal_view_label'), 'target="_blank"') . ' | ' .
+					    anchor('admin/galleries/edit_photo/' . $photo->id, lang('gal_edit_label')) . ' | ' .
+					    anchor('admin/galleries/delete_photo/' . $photo->id, lang('gal_delete_label'), array('class'=>'confirm')); ?>
+                                     </td>
+                                </tr>
+				<? endforeach; ?>                              
+                           </table>
 			<br class="clear-both" />                        
 			<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('delete') )); ?>
 		<?= form_close(); ?>	

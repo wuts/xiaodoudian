@@ -47,11 +47,17 @@ class Galleries_m extends Model {
     }
 
 
-    function updatePhotoDescription($description,$id){
-        $this->db->update('photos', array(
+    function updatePhoto($description,$id){
+        $this->load->helper('date');
+        if($this->db->update('photos', array(
         	'description' 	=> $description,        	
         	'updated_on'	=> now()
-        ), array('id'=>$id));
+        ), array('id'=>$id))){
+           return TRUE;
+        }else{
+            return FALSE;
+        }
+
     }
     
     function newGallery($input = array()) {

@@ -243,14 +243,36 @@ class Admin extends Admin_Controller
 		redirect('admin/galleries/manage/'.$slug);              	
 	}
 
-        //update image description
-        function update_photo_description(){
-            $description=$this->input->post('description');
-            $photo_id=$this->input->post('id');
-            $this->galleries_m->updatePhotoDescription($description,$id);
+
+        //Admin:Edit Gallery Photos
+        function edit_photo($id=0){
+                $this->data->photo=$this->galleries_m->getPhoto($id);
+                // Load WYSIWYG editor
+		$this->layout->extra_head( $this->load->view('fragments/wysiwyg', $this->data, TRUE) );
+		$this->layout->create('admin/photo_edit_form', $this->data);
+        }
+
+        //Admin:Edit Gallery Photos
+        function update_photo($id=0){
+                $this->load->library('validation');		
+		$rules['description'] = 'trim|required';
+		$this->validation->set_rules($rules);
+		$this->validation->set_fields();
+                $description=$this->input->post('description');
+                $slug=$this->input->post('slug');
+                if($this->validation->run()){
+                    if($this->galleries_m->updatePhoto($description,$id)){
+                        $this->session->set_flashdata('success',$this->lang->line('gal_photo_update_success'));
+                    }else{
+                        $this->session->set_flashdata('error',$this->lang->line('gal_photo_update_error'));
+                    }
+                }else{
+                  $this->session->set_flashdata('error', $this->validation->error_string);
+                }
+                redirect('admin/galleries/manage/'.$slug);
         }
 	
-	// Admin: Delete Gallery Photos
+	// Admin: Update Gallery Photos
 	function delete_photo($id = 0)
 	{
 		$gallery = $this->input->post('gallery');		

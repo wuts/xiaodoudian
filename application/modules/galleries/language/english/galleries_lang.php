@@ -4,6 +4,7 @@
 $lang['gal_upload_label'] 									= 'Upload';
 $lang['gal_page_content_label'] 						= 'Page content';
 $lang['gal_photo_label'] 										= 'Photo';
+$lang['gal_edit_photo_label'] 										= 'Edit A Photo';
 $lang['gal_desc_label'] 										= 'Description';
 $lang['gal_required_label'] 								= 'Required';
 $lang['gal_album_label'] 										= 'Album';
@@ -24,6 +25,7 @@ $lang['gal_catagories_label'] 						= 'Gallery Catagories';
 // titles
 $lang['gal_manage_title'] 									= 'Photos in this Gallery';
 $lang['gal_add_photo_title'] 								= 'Add a Photo';
+$lang['gal_edit_photo_title'] 								= 'Edit a Photo';
 $lang['gal_create_title'] 									= 'Create gallery';
 $lang['gal_edit_title'] 										= 'Edit gallery "%s"';
 $lang['gal_comments_title'] 								= 'Comments';
@@ -48,5 +50,7 @@ $lang['gal_photo_delete_no_select_error'] 	= 'You need to select one or more pho
 $lang['gal_photo_delete_success'] 					= 'Deleted %s image(s) successfully.';
 $lang['gal_photo_delete_error'] 						= 'No images were deleted.';
 $lang['gal_name_already_exist_error'] 			= 'A gallery with this name already exists.';
+$lang['gal_photo_update_success'] 					= 'Update photo successfully.';
+$lang['gal_photo_update_error'] 						= 'An error occurred.';
 
 ?>
