@@ -204,6 +204,16 @@ class Galleries_m extends Model {
         }        
         return $query->result();
     }
+
+    function galleryListPhotos($gallery = ''){
+        if (empty($gallery)) {
+            $this->db->order_by('updated_on', 'DESC');
+            $query = $this->db->getwhere('photos');
+        } else {
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery));
+        }
+        return $query->result();
+    }
     
 }
 

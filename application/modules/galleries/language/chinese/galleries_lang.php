@@ -27,6 +27,7 @@ $lang['gal_no_parent_select_label'] 				= '-- None --';
 $lang['gal_other_comments_label'] 					= '他们说...';
 $lang['gal_your_comments_label'] 						= '你想说...?';
 $lang['gal_catagories_label'] 						= '图片目录';
+$lang['gal_more_label'] 						= '更多...';
 
 // titles
 $lang['gal_manage_title'] 									= '图库中的照片';

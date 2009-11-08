@@ -20,7 +20,7 @@
 |	http://www.codeigniter.com/user_guide/general/routing.html
 */
 
-$route['galleries/([a-zA-Z0-9_-]+)'] = "galleries/view/$1";
+$route['galleries/([a-zA-Z0-9_-]+)'] = "galleries/index/$1";
 
 $route['photos'] = "galleries";
 $route['photos/view'] = "galleries";

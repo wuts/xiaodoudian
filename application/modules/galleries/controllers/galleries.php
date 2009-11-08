@@ -10,7 +10,7 @@ class Galleries extends Public_Controller
 	}
 	
 	// Public: List Galleries
-	function index()
+	function index($slug = '')
 	{
 		//$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
                 $this->load->helper('string');
@@ -26,7 +26,12 @@ class Galleries extends Public_Controller
 		}
 		unset($galleries);
 		$this->data->galleries =& $tree;
-                $this->data->photos=$this->galleries_m->galleryGetLatestPhotos();
+                if($slug){
+                    $this->data->photos=$this->galleries_m->galleryListPhotos($slug);
+                }else{
+                    $this->data->photos=$this->galleries_m->galleryListPhotos();
+                }
+                
 		$this->layout->create('index', $this->data);
 	}
 	
