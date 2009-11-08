@@ -18,7 +18,7 @@
 	
 	<div class="field">
 		<label for="description"><?=lang('service_desc_label');?></label>
-		<?=form_textarea(array('id'=>'description', 'name'=>'description', 'value' => $service->description, 'rows' => 10, 'class'=>'wysiwyg-simple')); ?>
+		<?=form_textarea(array('id'=>'description', 'name'=>'description', 'value' => $service->description, 'rows' => 50, 'class'=>'wysiwyg-advanced')); ?>
 	</div>
 	
 	<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('save', 'cancel') )); ?>

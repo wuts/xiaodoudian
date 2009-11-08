@@ -1,4 +1,4 @@
-<div class="col-title"><?=lang('service_title');?></div>
+<div class="col-title"><?=lang('service_enrollment_title');?></div>
 <? if ($services): ?>		
 	<? foreach ($services as $service): ?>
 		<p><?=anchor('services/view/' . $service->slug, $service->title);?><br /><?=word_limiter($service->description, 30);?></p>
