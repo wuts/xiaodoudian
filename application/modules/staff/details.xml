@@ -4,7 +4,7 @@
 		<en>Staff</en>
 		<es>Staff</es>
 		<fr>Personnel</fr>
-                <cn>员工</cn>
+                <cn>老师</cn>
 	</name>
 	<description>
 		<en>Add staff to the system and show visitors their basic details and photograph.</en>
@@ -28,7 +28,7 @@
 			<new_item href="admin/staff/create">
 				<en>New staff member</en>
 				<fr>Nouveau menbre du personnel</fr>
-                                <cn>新建员工</cn>
+                                <cn>新建老师</cn>
 			</new_item>
 		</admin>
 	</navigation>

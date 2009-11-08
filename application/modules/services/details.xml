@@ -4,7 +4,7 @@
 		<en>Services</en>
 		<es>Servicios</es>
 		<fr>Prestations</fr>
-                <cn>服务</cn>
+                <cn>招生</cn>
 	</name>
 	<description>
 		<en>Show visitors what services are on offer and allows images to be uploaded.</en>
@@ -28,7 +28,7 @@
 			<new_item href="admin/services/create">
 				<en>New service</en>
 				<fr>Nouvelle prestation</fr>
-                                <en>新建服务</en>
+                                <en>新建招生服务</en>
 			</new_item>
 		</admin>
 	</navigation>
