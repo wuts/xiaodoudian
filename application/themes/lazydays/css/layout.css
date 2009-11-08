@@ -45,7 +45,7 @@
 
 #header {
   position: relative;
-  height: 180px;
+  height: 160px;
   background: #58C1FB url(../img/bg/header-bg.png) top left no-repeat;
   
 }
@@ -221,6 +221,12 @@ ul.sideMenu {
   background: #5F5F5F url(../img/bg/bullet.gif) no-repeat 10px 0px;
 }
 
+/**************************************************************
+   #left sidebar: Holds the left sidebar content.
+ **************************************************************/
+#left-sidebar{
+ 
+}
 
 
 /**************************************************************
@@ -230,9 +236,9 @@ ul.sideMenu {
 #page {
   float: left;
   width: 100%;
-  clear: both;
-  
-  padding-bottom: 4em;
+  clear: both;  
+  padding-bottom: 4em; 
+  background: url(../img/bg/title_bg.png) repeat-x left top;
 }
 
 #page h2 {

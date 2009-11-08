@@ -1,5 +1,4 @@
-<hr />
-<div class="width-quater float-left leftColumn">
+<div id="left-sidebar" class="width-quater float-left leftColumn">
    <div class="col-title"><?=lang('home_news');?></div>
    <? if(!empty($news)): ?>
       <ul>
@@ -11,7 +10,7 @@
    <? endif; ?>
     <table><tr><td><?=image("icons/chat_online.jpg.png","_theme_");?></td></tr></table>
 </div>
-<div class="float-left width-three-quaters">
+<div id="main-content" class="float-left width-three-quaters">
     <div class="col-title"><?=lang('home_works_list');?></div>
    
     <? if(!empty($photos)): ?>

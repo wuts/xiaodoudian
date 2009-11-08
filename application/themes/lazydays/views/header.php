@@ -4,7 +4,7 @@
 
  <div class="float-right" style="padding:0.5em;text-align:right">
      <table>
-     <tr> <td><?=image("icons/contact.gif","_theme_");?></td><td><span style="color:black;">苗先生：13601834122</span></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;">在线咨询</span></td><td><? if($this->user_lib->logged_in()): ?>
+     <tr> <td><?=image("icons/contact.gif","_theme_");?></td><td><span style="color:black;">13601834122</span></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;">在线咨询</span></td><td><? if($this->user_lib->logged_in()): ?>
 				<?= sprintf(lang('logged_in_welcome'), $user->first_name.' '.$user->last_name );?> <a href="<?=site_url('users/logout');?>"><?= lang('logout_label');?></a>
 
 				<? if($this->settings->item('enable_profiles')): ?>

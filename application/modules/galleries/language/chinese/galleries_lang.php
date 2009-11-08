@@ -6,6 +6,7 @@ $lang['gal_page_content_label'] 						= '页面内容';
 $lang['gal_photo_label'] 										= '图片';
 $lang['gal_photo_title_label'] 										= '标题';
 $lang['gal_photo_description_label'] 								        = '描述';
+$lang['gal_photos_list_label'] 										= '图片库';
 $lang['gal_photo_show_in_homepage_label'] 								= '首页显示';
 $lang['gal_photo_yes_label'] 								= '是';
 $lang['gal_photo_no_label'] 								= '否';

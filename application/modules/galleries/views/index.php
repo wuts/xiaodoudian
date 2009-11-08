@@ -1,6 +1,5 @@
-<h2><?=lang('gal_photo_galleries_title');?></h2>
 <div class="width-quater float-left leftColumn">
-   <h2><?=lang('gal_catagories_label');?></h2>
+   <div class="col-title"><?=lang('gal_catagories_label');?></div>
    <div id="catagories">
 	<ul class="galleryHolder">
 	   <? if (!empty($galleries)): ?>
@@ -21,7 +20,7 @@
 </div>
 
 <div class="float-left width-three-quaters">
-
+<div class="col-title"><?=lang('gal_photos_list_label');?></div>
 <? if ($galleries): ?>
     <ul class="photos-list-intro">
         <? foreach($photos as $photo): ?>

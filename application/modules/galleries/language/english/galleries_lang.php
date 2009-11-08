@@ -6,6 +6,7 @@ $lang['gal_page_content_label'] 						= 'Page content';
 $lang['gal_photo_label'] 										= 'Photo';
 $lang['gal_photo_title_label'] 										= 'Title';
 $lang['gal_photo_description_label'] 										= 'Description';
+$lang['gal_photos_list_label'] 										= 'Photos List';
 $lang['gal_photo_show_in_homepage_label'] 								= 'Show In Homepage';
 $lang['gal_photo_yes_label'] 								= 'Yes';
 $lang['gal_photo_no_label'] 								= 'No';
