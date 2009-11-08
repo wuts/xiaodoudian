@@ -206,8 +206,10 @@ class Admin extends Admin_Controller
 	function upload($slug = '')
 	{
 		$this->load->library('validation');
+                $rules['title'] = 'trim|required';
 		$rules['userfile'] = 'trim';
 		$rules['description'] = 'trim|required';
+                $rules['show_in_homepage'] = 'trim|required';
 		$this->validation->set_rules($rules);
 		$this->validation->set_fields();
 		
@@ -222,7 +224,7 @@ class Admin extends Admin_Controller
 			if($this->upload->do_upload())
 			{
 				$image = $this->upload->data();			
-				if( $this->galleries_m->addPhoto($image, $slug, $this->input->post('description')) )
+				if( $this->galleries_m->addPhoto($image, $slug, $this->input->post('title'),$this->input->post('description'),$this->input->post('show_in_homepage')) )
 				{
 					$this->session->set_flashdata('success', sprintf($this->lang->line('gal_upload_success'), $image['file_name']));
 				}				
@@ -258,10 +260,12 @@ class Admin extends Admin_Controller
 		$rules['description'] = 'trim|required';
 		$this->validation->set_rules($rules);
 		$this->validation->set_fields();
+                $title=$this->input->post('title');
                 $description=$this->input->post('description');
+                $show_in_homepage=$this->input->post('show_in_homepage');
                 $slug=$this->input->post('slug');
                 if($this->validation->run()){
-                    if($this->galleries_m->updatePhoto($description,$id)){
+                    if($this->galleries_m->updatePhoto($title,$description,$show_in_homepage,$id)){
                         $this->session->set_flashdata('success',$this->lang->line('gal_photo_update_success'));
                     }else{
                         $this->session->set_flashdata('error',$this->lang->line('gal_photo_update_error'));
@@ -304,6 +308,17 @@ class Admin extends Admin_Controller
 		}		
 		redirect('admin/galleries/manage/'.$gallery);
 	}
+
+        //admin:change show in homepage
+        function ajax_change_show_in_homepage(){
+           $id=$this->input->post('id');
+           $show_in_homepage=$this->input->post('show_in_homepage');
+           if($this->galleries_m->change_show_in_homepage($id,$show_in_homepage)){
+               echo "success";
+           }else{
+               echo "failure";
+           }
+        }
 	
 	// Callback: from create()
 	function _createTitleCheck($title = '')

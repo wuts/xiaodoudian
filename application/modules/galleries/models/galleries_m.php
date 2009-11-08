@@ -6,7 +6,7 @@ class Galleries_m extends Model {
         parent::Model();       
     }
     
-    function addPhoto($image = array(), $gallery_slug = '', $description) {
+    function addPhoto($image = array(), $gallery_slug = '', $title='',$description='',$show_in_homepage=0) {
         $this->load->helper('date');
         $filename = $image['file_name'];
         
@@ -19,9 +19,11 @@ class Galleries_m extends Model {
         $this->load->library('image_lib', $image_cfg);
         $this->image_lib->resize();
         
-        $this->db->insert('photos', array('filename'=>$filename, 
+        $this->db->insert('photos', array('title'=>$title,
+                                          'filename'=>$filename,
                                           'gallery_slug'=>$gallery_slug,
                                           'description'=>$description,
+                                          'show_in_homepage'=>$show_in_homepage,
                                           'updated_on'=>now()));
         return $this->db->insert_id();
     }
@@ -46,11 +48,22 @@ class Galleries_m extends Model {
         }
     }
 
+    function change_show_in_homepage($id,$show_in_homepage){
+        $show_in_homepage=(empty($show_in_homepage))?1:0;
+        if($this->db->update('photos',array('show_in_homepage'=>$show_in_homepage),array('id'=>$id))){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+    }
 
-    function updatePhoto($description,$id){
+
+    function updatePhoto($title,$description,$show_in_homepage,$id){
         $this->load->helper('date');
         if($this->db->update('photos', array(
-        	'description' 	=> $description,        	
+                'title'=>$title,
+        	'description' 	=> $description,
+                'show_in_homepage'=>$show_in_homepage,
         	'updated_on'	=> now()
         ), array('id'=>$id))){
            return TRUE;
@@ -180,13 +193,13 @@ class Galleries_m extends Model {
         return $string;
     }
 
-    function galleryLatestPhotos($gallery = '', $numPhotos = 5){
+    function galleryGetLatestPhotos($gallery = '', $numPhotos = 5){
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
-            $query = $this->db->get('photos',$numPhotos, 0);
+            $query = $this->db->getwhere('photos',array('show_in_homepage'=>1),$numPhotos, 0);
 
         } else {
-            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), $numPhotos, 0);
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'show_in_homepage'=>1), $numPhotos, 0);
         }        
         return $query->result();
     }

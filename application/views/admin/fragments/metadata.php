@@ -23,6 +23,7 @@
 <?php echo js('jquery/jquery.ajaxify.js'); ?>
 <?php echo js('jquery/jquery.history.fixed.js'); ?>
 <?php echo js('jquery/jquery.metadata.min.js'); ?>
+<?php echo js('jquery/jquery.url.packed.js'); ?>
 
 <?php echo js('facebox.js').css('facebox.css'); ?>
 	

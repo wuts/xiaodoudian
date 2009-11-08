@@ -4,6 +4,11 @@
 $lang['gal_upload_label'] 									= '上传';
 $lang['gal_page_content_label'] 						= '页面内容';
 $lang['gal_photo_label'] 										= '图片';
+$lang['gal_photo_title_label'] 										= '标题';
+$lang['gal_photo_description_label'] 								        = '描述';
+$lang['gal_photo_show_in_homepage_label'] 								= '首页显示';
+$lang['gal_photo_yes_label'] 								= '是';
+$lang['gal_photo_no_label'] 								= '否';
 $lang['gal_edit_photo_label'] 										= '编辑图片';
 $lang['gal_desc_label'] 										= '描述';
 $lang['gal_required_label'] 								= '必须的';

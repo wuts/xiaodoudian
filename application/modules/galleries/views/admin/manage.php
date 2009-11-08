@@ -3,19 +3,39 @@
 	<div id="photos">
 		<?=form_open('admin/galleries/delete_photo');?>
 			<?=form_hidden('gallery', $gallery->slug);?>
-                           <table>
-				<? foreach($photos as $photo): ?>
+                       <table border="0" class="listTable">
+                               <thead>
+			<tr>
+				<th class="first"><div></div></th>
+				<th><a href="#"><?=lang('gal_photo_title_label');?></a></th>
+				<th><a href="#"><?=lang('gal_photo_description_label');?></a></th>
+				<th><a href="#"><?=lang('gal_photo_show_in_homepage_label');?>?</a></th>
+				<th class="last"><span><?=lang('gal_actions_label');?></span></th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="5">
+					<div class="inner"><? $this->load->view('admin/fragments/pagination'); ?></div>
+				</td>
+			</tr>
+		</tfoot>
+                <tbody>
+
+                                <? foreach($photos as $photo): ?>
                                 <tr>
                                    <td><input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /></td>
                                    <td><a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>'width:100px;'));?></a></td>
-                                   <td style="width:300px;"><?=mb_substr($photo->description,0,100,'UTF-8'); ?>......</td>
-                                   <td><?= anchor('galleries/photo/' . $photo->id, lang('gal_view_label'), 'target="_blank"') . ' | ' .
+                                   <td style="width:300px;"><h3><?=$photo->title;?></h3><?=mb_substr($photo->description,0,100,'UTF-8'); ?>......</td>
+                                   <td><a href="#" onclick="ajax_change_show_in_homepage(<?=$photo->id?>,<?=$photo->show_in_homepage; ?>);"><?if($photo->show_in_homepage): ?><?=image('icons/yes.png','_theme_');?><? else: ?><?=image('icons/no.png','_theme_');?><? endif; ?></a></td>
+                                   <td><?= anchor('galleries/photo/' . $photo->id, lang('gal_view_label'), 'target="_blank"') . ' | ' .                                            
 					    anchor('admin/galleries/edit_photo/' . $photo->id, lang('gal_edit_label')) . ' | ' .
 					    anchor('admin/galleries/delete_photo/' . $photo->id, lang('gal_delete_label'), array('class'=>'confirm')); ?>
                                      </td>
                                 </tr>
-				<? endforeach; ?>                              
-                           </table>
+				<? endforeach; ?>
+                           </tbody>
+                       </table>
 			<br class="clear-both" />                        
 			<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('delete') )); ?>
 		<?= form_close(); ?>	
@@ -23,24 +43,14 @@
 	<hr class="clear-both" />
 <? endif; ?>
 
- <script type="text/javascript">
-     function toggle_photo_description(id){
-         if($(id).css('display')=="none"){
-            $(id).show();
-         }else{
-            $(id).hide();
-         }
-     }
-
-     function ajax_update_photo_description(id){
-         var description=$("textarea[name=#photo-description'"+id+"']").val();
-         alert(description);
-         $.ajax({
+ <script type="text/javascript">  
+     function ajax_change_show_in_homepage(id,show_in_homepage){
+         jQuery.ajax({
              type:"POST",
-             url:"admin/update_photo_description",
-             data:"description="+description+"&id="+id,
-             success:function(){
-                 alert("msg");
+             url:"../ajax_change_show_in_homepage",
+             data:"id="+id+"&show_in_homepage="+show_in_homepage,
+            success:function(result){                
+                location.reload();
              }
          });
      }
@@ -59,7 +69,12 @@
 			
 			<!-- Page content tab -->
 			<fieldset id="fieldset1" >
-				<legend><?=lang('gal_page_content_label');?></legend>	
+				<legend><?=lang('gal_page_content_label');?></legend>
+                                <div class="field">
+					<label><?=lang('gal_photo_title_label');?></label>
+					<input type="text" class="text" name="title" id="title" />
+                                        <span class="required-icon tooltip"><?=lang('gal_required_label');?></span>
+				</div>
 		
 				<div class="field">
 					<label><?=lang('gal_photo_label');?></label>
@@ -71,6 +86,11 @@
 					<!-- <input type="text" class="text" name="description" id="description" maxlength="100" />-->
                                         <textarea cols="2" rows="2" name="description" id="description"></textarea>
 					<span class="required-icon tooltip"><?=lang('gal_required_label');?></span>
+				</div>
+
+                                 <div class="field">
+					<label><?=lang('gal_photo_show_in_homepage_label');?></label>
+					<span><?=lang('gal_photo_no_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="0" checked="true" /><span><?=lang('gal_photo_yes_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="1" />
 				</div>
 				
 				<div class="spacer-left">
