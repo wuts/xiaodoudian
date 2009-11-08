@@ -21,6 +21,7 @@ $lang['service_per_year_label'] 							= '每年';
 $lang['service_title'] 												= '服务';
 $lang['service_create_title'] 								= '创建新服务';
 $lang['service_edit_title'] 									= '编辑服务 "%s"';
+$lang['service_enrollment_title'] 									= '招生';
 
 // messages
 $lang['service_no_services'] 									= '目前没有服务';

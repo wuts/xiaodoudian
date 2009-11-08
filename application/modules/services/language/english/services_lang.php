@@ -21,6 +21,8 @@ $lang['service_per_year_label'] 							= 'per Year';
 $lang['service_title'] 												= 'Services';
 $lang['service_create_title'] 								= 'Create service';
 $lang['service_edit_title'] 									= 'Edit service "%s"';
+$lang['service_enrollment_title'] 									= 'Edit service "%s"';
+
 
 // messages
 $lang['service_no_services'] 									= 'There are no services.';
