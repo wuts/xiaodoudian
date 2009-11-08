@@ -28,7 +28,7 @@
 
          <a href="<?= image_path('galleries/'.$photo->gallery_slug .'/' . $photo->filename); ?>" title="<?=$photo->description;?>" rel="modal"><?=image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description));?></a>
 	 
-         <dl><dt class="float-left width-third" style="color:white;"><span style="font-size:18px;font-weight:bold;color:#FFB323;"><?=$photo->title; ?></span><br /><?=mb_substr($photo->description,0,80,'UTF-8'); ?></dt><dt class="float-right width-third"><?=mb_substr($photo->description,80,70,'UTF-8'); ?><br /><?=anchor('galleries/photo/'.$photo->id,lang('gal_more_label'), array('style'=>'height:20px;color:#FFB323;'));?></dt></dl>
+         <dl><dt class="float-left width-third" style="color:white;"><span style="font-size:16px;font-weight:bold;color:#FFB323;"><?=$photo->title; ?></span><br /><?=mb_substr($photo->description,0,70,'UTF-8'); ?></dt><dt class="float-right width-third" style="color:white;"><?=mb_substr($photo->description,70,60,'UTF-8'); ?><br /><?=anchor('galleries/photo/'.$photo->id,lang('gal_more_label'), array('style'=>'height:20px;color:#FFB323;'));?></dt></dl>
           </li>
         <? endforeach; ?>
      </ul>
