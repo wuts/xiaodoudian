@@ -529,3 +529,16 @@ ERROR - 2009-11-08 13:48:11 --> Severity: Notice  --> Undefined index:  order D:
 ERROR - 2009-11-08 13:48:56 --> 404 Page Not Found --> galleries/ed05c499256aaef0095945b00a4426bf
 ERROR - 2009-11-08 13:53:04 --> Query error: Unknown column '5' in 'where clause'
 ERROR - 2009-11-08 13:53:09 --> Query error: Unknown column '5' in 'where clause'
+ERROR - 2009-11-08 14:10:03 --> Severity: Notice  --> Undefined property: stdClass::$update_on D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\index.php 31
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 14:11:02 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
