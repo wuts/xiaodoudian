@@ -160,3 +160,81 @@ ERROR - 2009-11-08 08:18:33 --> Severity: Notice  --> Undefined index:  order D:
 ERROR - 2009-11-08 08:18:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
 ERROR - 2009-11-08 08:18:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
 ERROR - 2009-11-08 08:18:35 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 9
+ERROR - 2009-11-08 08:33:16 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\index.php 10
+ERROR - 2009-11-08 08:33:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:26 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:26 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:26 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:26 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:26 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:26 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:26 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:26 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 08:33:30 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 08:33:30 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 12:18:37 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-08 12:18:37 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-08 12:18:37 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-08 12:18:40 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-08 12:18:40 --> 404 Page Not Found --> 
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 13
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 14
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 14
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 14
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 14
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 19
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 26
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 32
+ERROR - 2009-11-08 12:24:18 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\galleries\views\admin\photo_edit_form.php 32

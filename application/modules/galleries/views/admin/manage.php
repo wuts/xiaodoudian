@@ -25,9 +25,9 @@
                                 <? foreach($photos as $photo): ?>
                                 <tr>
                                    <td><input type="checkbox" name="action_to[]" value="<?=$photo->id?>" /></td>
-                                   <td><a href="#" onclick="toggle_photo_description('#photo-description<?=$photo->id?>');"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>'width:100px;'));?></a></td>
+                                   <td><a href="../edit_photo/<?=$photo->id; ?>"><?=image('galleries/' . $gallery->slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description,'style'=>'width:100px;'));?></a></td>
                                    <td style="width:300px;"><h3><?=$photo->title;?></h3><?=mb_substr($photo->description,0,100,'UTF-8'); ?>......</td>
-                                   <td><a href="#" onclick="ajax_change_show_in_homepage(<?=$photo->id?>,<?=$photo->show_in_homepage; ?>);"><?if($photo->show_in_homepage): ?><?=image('icons/yes.png','_theme_');?><? else: ?><?=image('icons/no.png','_theme_');?><? endif; ?></a></td>
+                                   <td><a href="javascript:void:0;" onclick="ajax_change_show_in_homepage(<?=$photo->id?>,<?=$photo->show_in_homepage; ?>);"><?if($photo->show_in_homepage): ?><?=image('icons/yes.png','_theme_');?><? else: ?><?=image('icons/no.png','_theme_');?><? endif; ?></a></td>
                                    <td><?= anchor('galleries/photo/' . $photo->id, lang('gal_view_label'), 'target="_blank"') . ' | ' .                                            
 					    anchor('admin/galleries/edit_photo/' . $photo->id, lang('gal_edit_label')) . ' | ' .
 					    anchor('admin/galleries/delete_photo/' . $photo->id, lang('gal_delete_label'), array('class'=>'confirm')); ?>

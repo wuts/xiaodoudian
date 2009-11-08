@@ -196,7 +196,8 @@ class Galleries_m extends Model {
     function galleryGetLatestPhotos($gallery = '', $numPhotos = 5){
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
-            $query = $this->db->getwhere('photos',array('show_in_homepage'=>1),$numPhotos, 0);
+            $query = $this->db->getwhere
+            ('photos',array('show_in_homepage'=>1),$numPhotos, 0);
 
         } else {
             $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'show_in_homepage'=>1), $numPhotos, 0);
