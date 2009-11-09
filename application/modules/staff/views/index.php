@@ -1,4 +1,3 @@
-<h2><?=lang('staff_train_teachers_title');?></h2>
 <div class="width-quater float-left leftColumn">
   <h3><?=lang('staff_train_teachers_title');?></h3>
 </div>

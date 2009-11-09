@@ -1,5 +1,5 @@
 <div id="left-sidebar" class="width-quater float-left leftColumn">
-   <div class="col-title"><?=lang('home_news');?></div>
+   <h3><?=lang('home_news');?></h3>
    <? if(!empty($news)): ?>
       <ul>
         <? foreach($news as $article): ?>
@@ -11,7 +11,7 @@
     <table><tr><td><?=image("icons/chat_online.jpg.png","_theme_");?></td></tr></table>
 </div>
 <div id="main-content" class="float-left width-three-quaters">
-    <div class="col-title"><?=lang('home_works_list');?></div>
+    <h3><?=lang('home_works_list');?></h3>
    
     <? if(!empty($photos)): ?>
        <ul class="photos-list">

@@ -1,5 +1,5 @@
 <div class="width-quater float-left leftColumn">
-              <div class="col-title"><?=lang('news_catagories_label');?></div>
+              <h3><?=lang('news_catagories_label');?></h3>
                  <div id="catagories">
 			<?php foreach ($this->news_m->getCategories() as $category): ?>
                                 <? if(!empty($category->category_title)): ?>
@@ -10,7 +10,7 @@
 				  <?php endforeach ?>
 				</div>
 			<div id="recent-posts">
-				<div class="col-title"><?=lang('news_latest_posts_label');?></div>
+				<h3><?=lang('news_latest_posts_label');?></h3>
 				<?= $this->news_m->getNewsHome(); ?>
 			</div>
 
