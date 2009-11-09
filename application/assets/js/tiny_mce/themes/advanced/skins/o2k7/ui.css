@@ -43,7 +43,7 @@
 .o2k7Skin .mceButtonDisabled .mceIcon {opacity:0.3; -ms-filter:'alpha(opacity=30)'; filter:alpha(opacity=30)}
 .o2k7Skin .mceButtonLabeled {width:auto}
 .o2k7Skin .mceButtonLabeled span.mceIcon {float:left}
-.o2k7Skin span.mceButtonLabel {display:block; font-size:10px; padding:4px 6px 0 22px; font-family:Tahoma,Verdana,Arial,Helvetica}
+.o2k7Skin span.mceButtonLabel {display:block; font-size:12px; padding:4px 6px 0 22px; font-family:Tahoma,Verdana,Arial,Helvetica}
 .o2k7Skin .mceButtonDisabled .mceButtonLabel {color:#888}
 
 /* Separator */
@@ -66,7 +66,7 @@
 .o2k7Skin .mceSplitButton {background:url(img/button_bg.png)}
 .o2k7Skin .mceSplitButton a.mceAction {width:22px}
 .o2k7Skin .mceSplitButton span.mceAction {width:22px; background:url(../../img/icons.gif) 20px 20px}
-.o2k7Skin .mceSplitButton a.mceOpen {width:10px; background:url(img/button_bg.png) -44px 0}
+.o2k7Skin .mceSplitButton a.mceOpen {width:12px; background:url(img/button_bg.png) -44px 0}
 .o2k7Skin .mceSplitButton span.mceOpen {display:none}
 .o2k7Skin table.mceSplitButtonEnabled:hover a.mceAction, .o2k7Skin .mceSplitButtonHover a.mceAction, .o2k7Skin .mceSplitButtonSelected {background:url(img/button_bg.png) 0 -22px}
 .o2k7Skin table.mceSplitButtonEnabled:hover a.mceOpen, .o2k7Skin .mceSplitButtonHover a.mceOpen, .o2k7Skin .mceSplitButtonSelected a.mceOpen {background-position:-44px -44px}
@@ -87,7 +87,7 @@
 /* Menu */
 .o2k7Skin .mceMenu {position:absolute; left:0; top:0; z-index:1000; border:1px solid #ABC6DD}
 .o2k7Skin .mceNoIcons span.mceIcon {width:0;}
-.o2k7Skin .mceNoIcons a .mceText {padding-left:10px}
+.o2k7Skin .mceNoIcons a .mceText {padding-left:12px}
 .o2k7Skin .mceMenu table {background:#FFF}
 .o2k7Skin .mceMenu a, .o2k7Skin .mceMenu span, .o2k7Skin .mceMenu {display:block}
 .o2k7Skin .mceMenu td {height:20px}
@@ -112,7 +112,7 @@
 .o2k7Skin .mcePlaceHolder {border:1px dotted gray}
 
 /* Formats */
-.o2k7Skin .mce_formatPreview a {font-size:10px}
+.o2k7Skin .mce_formatPreview a {font-size:12px}
 .o2k7Skin .mce_p span.mceText {}
 .o2k7Skin .mce_address span.mceText {font-style:italic}
 .o2k7Skin .mce_pre span.mceText {font-family:monospace}

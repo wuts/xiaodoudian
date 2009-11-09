@@ -78,7 +78,7 @@
 .clearlooks2 a.mceResizeSE {bottom:0; right:0; cursor:se-resize}
 
 /* Alert/Confirm */
-.clearlooks2 .mceButton {font-weight:bold; bottom:10px; width:80px; height:30px; background:url(img/button.gif); line-height:30px; vertical-align:middle; text-align:center; outline:0}
+.clearlooks2 .mceButton {font-weight:bold; bottom:12px; width:80px; height:30px; background:url(img/button.gif); line-height:30px; vertical-align:middle; text-align:center; outline:0}
 .clearlooks2 .mceMiddle .mceIcon {left:15px; top:35px; width:32px; height:32px}
 .clearlooks2 .mceAlert .mceMiddle span, .clearlooks2 .mceConfirm .mceMiddle span {background:transparent;left:60px; top:35px; width:320px; height:50px; font-weight:bold; overflow:auto; white-space:normal}
 .clearlooks2 a:hover {font-weight:bold;}

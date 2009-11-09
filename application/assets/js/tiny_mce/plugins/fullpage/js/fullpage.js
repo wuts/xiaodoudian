@@ -34,7 +34,7 @@ var defaultMediaTypes =
 	'aural=aural';
 
 var defaultFontNames = 'Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings';
-var defaultFontSizes = '10px,11px,12px,13px,14px,15px,16px';
+var defaultFontSizes = '12px,11px,12px,13px,14px,15px,16px';
 
 function init() {
 	var f = document.forms['fullpage'], el = f.elements, e, i, p, doctypes, encodings, mediaTypes, fonts, ed = tinyMCEPopup.editor, dom = tinyMCEPopup.dom, style;
@@ -104,7 +104,7 @@ function init() {
 		document.getElementById('element_link_href').style.width = '230px';
 
 	if (isVisible('bgimage_browser'))
-		document.getElementById('bgimage').style.width = '210px';
+		document.getElementById('bgimage').style.width = '212px';
 
 	// Add iframe
 	dom.add(document.body, 'iframe', {id : 'documentIframe', src : 'javascript:""', style : {display : 'none'}});
