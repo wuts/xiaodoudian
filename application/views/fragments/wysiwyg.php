@@ -39,8 +39,8 @@
                 language : "<?php echo CURRENT_LANGUAGE;?>",
                 convert_urls : false,
                 
-		width : 500,
-		height : 600,
+		width : 650,
+		height : 400,
 		constrain_menus : true,	
 
 		theme : "advanced",
@@ -73,7 +73,6 @@
 		media_strict: false,
 
                 file_browser_callback : 'tinycimm',
-                
 		<?php
 			$this->config->load('tinycimm');
 		?>
@@ -85,7 +84,7 @@
 		tinycimm_thumb_height : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_height');?>',
 		tinycimm_thumb_lightbox_class : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_lightbox_class');?>',
 		tinycimm_thumb_lightbox_gallery : '<?php echo $this->config->item('tinycimm_image_thumbnail_default_lightbox_gallery');?>',
-
+                
 		// Default ruleset
 		valid_elements : "@[id|class|style|title|dir|lang|xml::lang|onclick|ondblclick|"
 			+ "onmousedown|onmouseup|onmouseover|onmousemove|onmouseout|onkeypress|"
