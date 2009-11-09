@@ -31,7 +31,7 @@
 				</div>
 				
 				<div class="field spacer-left">
-					<?=form_textarea(array('id'=>'body', 'name'=>'body', 'value' =>  stripslashes($article->body), 'rows' => 50, 'class'=>'wysiwyg-advanced')); ?>
+					<?=form_textarea(array('id'=>'body', 'name'=>'body', 'value' =>  stripslashes($article->body), 'rows' => 50, 'clos'=>"50",'class'=>'wysiwyg-advanced')); ?>
 				</div>
 		
 			</fieldset>
@@ -49,7 +49,7 @@
 				
 				<div class="field">
 					<label for="category_id"><?=lang('news_status_label');?></label>
-					<?=form_dropdown('status', array('draft'=>lang('news_draft_label'), 'live'=>lang('news_live_label')), $article->status) ?>	
+					<?=form_dropdown('status', array('live'=>lang('news_live_label'),'draft'=>lang('news_draft_label')), $article->status) ?>
 				</div>
 				
 				<div class="field">

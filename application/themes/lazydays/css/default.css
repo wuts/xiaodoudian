@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p, dl {
 }
 
 a {
-  color: #4E7ED1;
+  color: #E4F6F8;
 }
 
 .current{background-color:red;}
@@ -103,7 +103,7 @@ a:visited {
 } */
 
 a:hover {
-  color: #FFF;
+  color: #F39F01;
 }
 
 b {

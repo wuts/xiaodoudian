@@ -39,7 +39,7 @@
                 language : "<?php echo CURRENT_LANGUAGE;?>",
                 convert_urls : false,
                 
-		width : 650,
+		width : 500,
 		height : 600,
 		constrain_menus : true,	
 
@@ -48,8 +48,8 @@
 
 		// Theme options
 		theme_advanced_buttons1 : "bold,italic,underline,strikethrough,blockquote,|,sub,sup,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
-		theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,undo,redo,|,search,replace,|,bullist,numlist,|,outdent,indent,|,insertdate,inserttime,|,forecolor,backcolor,|,print,preview,fullscreen,code",
-		theme_advanced_buttons3 : "image,anchor,link,unlink,|,charmap,emotions,media,advhr",
+		theme_advanced_buttons2 : "cut,copy,paste,pastetext,pasteword,|,undo,redo,|,search,replace,|,bullist,numlist,|,outdent,indent,|,insertdate,inserttime",
+		theme_advanced_buttons3 : "image,anchor,link,unlink,|,charmap,emotions,media,advhr,|,forecolor,backcolor,|,print,preview,fullscreen,code",
                 
 	        theme_advanced_buttons3_add : "tablecontrols",
 	        table_styles : "Header 1=header1;Header 2=header2;Header 3=header3",
