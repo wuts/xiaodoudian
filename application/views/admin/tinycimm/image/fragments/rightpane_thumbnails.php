@@ -1,6 +1,6 @@
 <div id="filelist" class="clearfix">
 	<?if (sizeof($images) == 0) {?>
-		(folder is empty)
+		(空目录)
 	<?} else {?>
 		<?foreach($images as $image):?>
 			<span class="thumb-wrapper">

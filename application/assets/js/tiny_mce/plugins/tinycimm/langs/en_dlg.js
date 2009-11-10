@@ -1,4 +1,3 @@
 tinyMCE.addI18n('en.tinycimmimage_dlg',{
-	title : 'Image Manager',
-        upload:'Upload'
+	title : 'Image Manager'
 });

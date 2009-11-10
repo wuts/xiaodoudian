@@ -1,4 +1,4 @@
-<input type="text" id="search-input" value="search.." 
+<input type="text" id="search-input" value="搜索..." 
 	onkeypress="TinyCIMMImage.doSearch(event, this);"
 	onblur="this.value=this.value==''?'search..':this.value;" 
 	onfocus="this.value=this.value=='search..'?'':this.value;" />

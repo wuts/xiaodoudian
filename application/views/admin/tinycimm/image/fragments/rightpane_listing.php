@@ -1,7 +1,7 @@
 <div id="filelist">
 	<ul class="folderlist clearfix">
 	<?if (sizeof($images) == 0) {?>
-		<li>(folder is empty)</li>
+		<li>(空目录)</li>
 	<?} else {?>
 		<?foreach($images as $image):?>
 		<li>
