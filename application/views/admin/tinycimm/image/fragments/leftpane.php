@@ -1,5 +1,5 @@
 <div id="add-folder" class="clearfix">
-	<div class="heading">&raquo; Add Folder</div>
+	<div class="heading">&raquo; 添加目录</div>
 	<input type="text" id="add-folder-caption" class="input">
 	<img id="add-folder-image" src="img/save.gif" class="state-out"
 	onclick="TinyCIMMImage.addFolder();" 
