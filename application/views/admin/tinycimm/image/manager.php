@@ -1,6 +1,6 @@
 <fieldset style="padding:0em 1em">
-	<legend>Manage Image</legend>
-	<span id="loading" style="margin-top:1em;">caching image</span>
+	<legend>管理图片</legend>
+	<span id="loading" style="margin-top:1em;">缓存图片</span>
 	<div id="image-manager-details">
 		<input type="hidden" id="image-name" value="<?=$image->name;?>" />
 		<div class="left" style="margin-right:20px">
@@ -17,25 +17,25 @@
 			</p>
 		</div>
 		<div class="left">
-			<strong>Filename:</strong>
+			<strong>文件名:</strong>
 			<p>
 				<input type="text" id="image-filename" value="<?=$image->filename;?>" />
 			</p>
-			<strong>Image Description:</strong>
+			<strong>图片描述:</strong>
 			<p id="alttext-container">
 				<textarea id="image-alttext" rows="4" cols="12"><?=$image->description;?></textarea>
 			</p>
 			<p id="folder-select-list" style="margin-bottom:20px">
-				<strong>Image Folder:</strong><br/>
+				<strong>图片目录:</strong><br/>
 				<?=$this->tinycimm->get_folders('select', $image->folder_id);?>
 			</p>
 			<input class="button" value="Update" type="button" id="update-image" />
 			or
 			<select id="manager-actions">
-				<option value="">select..</option>
-				<option value="delete">Delete</option>
-				<option value="insert">Insert</option>
-				<option value="download">Download</option>
+				<option value="">选择...</option>
+				<option value="delete">删除</option>
+				<option value="insert">插入</option>
+				<option value="download">下载</option>
 			</select>
 		</div>
 	</div>
