@@ -1,8 +1,8 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 // controllers
-$config['tinycimm_image_controller'] = 'image_manager/'; // as a uri segment
-$config['tinycimm_link_controller'] = 'link_manager/'; // as a uri segment
+$config['tinycimm_image_controller'] = '/image_manager/'; // as a uri segment
+$config['tinycimm_link_controller'] = '/link_manager/'; // as a uri segment
 
 // views
 $config['tinycimm_views_root'] = '/admin/tinycimm/';

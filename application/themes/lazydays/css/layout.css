@@ -119,8 +119,9 @@
   float: left;
   width: 100%;
   clear: both;
- padding-top:10px;
-  background-color: #8C8C8C;
+  padding-top:10px;
+  background: #8C8C8C url(../img/bg/menu_bg.png) no-repeat;
+  color:#000;
 }
 
 #mainMenu ul {
