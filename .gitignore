@@ -8,7 +8,7 @@ application/cache/pages_m/*.cache
 application/cache/simplepie/*.spc
 codeigniter/logs/*.php
 *.cache
-*.spec
+*.spc
 *.git
 *.gitignore
 
