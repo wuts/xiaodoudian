@@ -1,8 +1,8 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 // controllers
-$config['tinycimm_image_controller'] = '/image_manager/'; // as a uri segment
-$config['tinycimm_link_controller'] = '/link_manager/'; // as a uri segment
+$config['tinycimm_image_controller'] = 'image_manager/'; // as a uri segment
+$config['tinycimm_link_controller'] = 'link_manager/'; // as a uri segment
 
 // views
 $config['tinycimm_views_root'] = '/admin/tinycimm/';
@@ -28,7 +28,7 @@ $config['tinycimm_asset_cache_path_full'] = realpath(APPPATH).'/uploads/assets/c
 //exit(($config['tinycimm_asset_path_full']));
 
 // set to either 0777 or 0755 depending on your server setup
-$config['tinycimm_asset_path_chmod'] = '0777';
+$config['tinycimm_asset_path_chmod'] = '0644';
 
 // image upload config
 $config['tinycimm_image_upload_config']['field_name'] = 'fileupload';

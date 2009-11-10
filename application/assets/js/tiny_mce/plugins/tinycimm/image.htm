@@ -8,30 +8,30 @@
 	<div class="tabs">
 		<ul>
 			<li id="browser_tab" class="current">
-				<span>
-					<a href="javascript:TinyCIMMImage.showBrowser();" onmousedown="return false;">
-						Browse
+                            <span >
+					<a href="javascript:TinyCIMMImage.showBrowser();" onmousedown="return false;" style="font-size:14px">
+						 浏览
 					</a>
 				</span>
 			</li>
 			<li id="upload_tab">
 				<span>
-					<a href="javascript:TinyCIMMImage.showUploader();" onmousedown="return false;">
-						Upload
+                                    <a href="javascript:TinyCIMMImage.showUploader();" onmousedown="return false;" style="font-size:14px">
+						  上传
 					</a>
 				</span>
 			</li>
 			<li id="resize_tab">
-				<span>
-					<a href="javascript:TinyCIMMImage.loadresizer();" onmousedown="return false;">
-						Resize
+				<span style="font-size:14px">
+					<a href="javascript:TinyCIMMImage.loadresizer();" onmousedown="return false;" style="font-size:14px">
+						缩放
 					</a>
 				</span>
 			</li>
 			<li id="manager_tab">
 				<span>
-					<a href="#" onmousedown="return false;">
-						Manage
+					<a href="#" onmousedown="return false;" style="font-size:14px">
+						管理
 					</a>
 				</span>
 			</li>
@@ -51,9 +51,9 @@
 		<!-- BROWSER PANEL -->
 		<div id="browser_panel" class="panel">
 			<fieldset>
-				<legend>File Browser</legend>
+				<legend>文件浏览</legend>
 				<div id="filebrowser">
-					<span id="loading">loading</span>
+					<span id="loading">载入</span>
 				</div>
 			</fieldset>
 		</div>
@@ -61,9 +61,9 @@
 		<!-- IMAGE RESIZER PANEL -->
 		<div id="resize_panel" class="panel">
 			<fieldset>
-				<legend>Image Resizer</legend>
+				<legend>图片缩放</legend>
 				<div id="save_size">
-					<input type="submit" class="button" value="Insert" onclick="TinyCIMMImage.insertResizeImage();this.value='Please wait..';" />
+					<input type="submit" class="button" value="Insert" onclick="TinyCIMMImage.insertResizeImage();this.value='请稍等...';" />
 				</div>
 				<div class="clear" style="height:3px">&nbsp;</div>
 				<div id="resizer">
