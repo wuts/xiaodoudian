@@ -5,7 +5,8 @@ application/cache/modules_m/*.cache
 application/cache/navigation_m/*.cache
 application/cache/news_m/*.cache
 application/cache/pages_m/*.cache
-codeigniter/logs/*.log
+application/cache/simplepie/*.spc
+codeigniter/logs/*.php
 *.cache
 *.spec
 *.git

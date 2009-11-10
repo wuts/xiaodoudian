@@ -1133,3 +1133,97 @@ ERROR - 2009-11-09 16:34:46 --> 404 Page Not Found -->
 ERROR - 2009-11-09 16:35:31 --> 404 Page Not Found --> admin/images
 ERROR - 2009-11-09 16:36:12 --> 404 Page Not Found --> 
 ERROR - 2009-11-09 16:36:45 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:24 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:24 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:24 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:24 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:24 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:24 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:25 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:25 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:26 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:26 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:27 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:27 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:28 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:28 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:29 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:29 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:30 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:30 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:30 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:30 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:30 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:30 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:30 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:30 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:38 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:38 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:38 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:38 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:38 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:38 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:38 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:38 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:38 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:38 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:39 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:39 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:39 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:39 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:40 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:40 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:40 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:40 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:40 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:40 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:40 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:40 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:41 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:41 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:41 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:41 --> 404 Page Not Found --> 
+ERROR - 2009-11-09 17:21:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-09 17:21:41 --> 404 Page Not Found --> 
