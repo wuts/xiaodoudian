@@ -1,5 +1,5 @@
 <p>
-	选择你希望链接的页面:
+	Select the page you wish to link to:
 </p>
 
 <?php echo $pages_html;?>

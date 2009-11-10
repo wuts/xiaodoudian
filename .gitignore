@@ -1,12 +1,8 @@
 #config files
 application/config/config.php
 application/config/database.php
-application/cache/modules_m/*.cache
-application/cache/navigation_m/*.cache
-application/cache/news_m/*.cache
-application/cache/pages_m/*.cache
-application/cache/simplepie/*.spc
-codeigniter/logs/*.php
+/cache
+/logs
 *.cache
 *.spc
 *.git
