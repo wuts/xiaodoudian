@@ -32,6 +32,11 @@
 					<span><?=lang('gal_photo_no_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="0" <? if($photo->show_in_homepage): ?><?else:?>checked<?endif;?> /><span><?=lang('gal_photo_yes_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="1" <? if($photo->show_in_homepage): ?>checked<?else:?><?endif;?> />
 				</div>
 
+                                 <div class="field">
+					<label><?=lang('gal_photo_publish_label');?></label>
+					<span><?=lang('gal_photo_no_label');?></span><input type="radio" class="text" name="publish" id="publish" value="0" <? if($photo->publish): ?><?else:?>checked<?endif;?> /><span><?=lang('gal_photo_yes_label');?></span><input type="radio" class="text" name="publish" id="publish" value="1" <? if($photo->publish): ?>checked<?else:?><?endif;?> />
+				</div>
+
 				<div class="spacer-left">
 					<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('save', 'cancel') )); ?>
 				</div>

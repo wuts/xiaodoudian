@@ -210,6 +210,7 @@ class Admin extends Admin_Controller
 		$rules['userfile'] = 'trim';
 		$rules['description'] = 'trim|required';
                 $rules['show_in_homepage'] = 'trim|required';
+                $rules['publish'] = 'trim|required';
 		$this->validation->set_rules($rules);
 		$this->validation->set_fields();
 		
@@ -224,7 +225,7 @@ class Admin extends Admin_Controller
 			if($this->upload->do_upload())
 			{
 				$image = $this->upload->data();			
-				if( $this->galleries_m->addPhoto($image, $slug, $this->input->post('title'),$this->input->post('description'),$this->input->post('show_in_homepage')) )
+				if( $this->galleries_m->addPhoto($image, $slug, $this->input->post('title'),$this->input->post('description'),$this->input->post('show_in_homepage'),$this->input->post('publish')) )
 				{
 					$this->session->set_flashdata('success', sprintf($this->lang->line('gal_upload_success'), $image['file_name']));
 				}				
@@ -263,9 +264,10 @@ class Admin extends Admin_Controller
                 $title=$this->input->post('title');
                 $description=$this->input->post('description');
                 $show_in_homepage=$this->input->post('show_in_homepage');
+                $publish=$this->input->post('publish');
                 $slug=$this->input->post('slug');
                 if($this->validation->run()){
-                    if($this->galleries_m->updatePhoto($title,$description,$show_in_homepage,$id)){
+                    if($this->galleries_m->updatePhoto($title,$description,$show_in_homepage,$publish,$id)){
                         $this->session->set_flashdata('success',$this->lang->line('gal_photo_update_success'));
                     }else{
                         $this->session->set_flashdata('error',$this->lang->line('gal_photo_update_error'));
@@ -314,6 +316,17 @@ class Admin extends Admin_Controller
            $id=$this->input->post('id');
            $show_in_homepage=$this->input->post('show_in_homepage');
            if($this->galleries_m->change_show_in_homepage($id,$show_in_homepage)){
+               echo "success";
+           }else{
+               echo "failure";
+           }
+        }
+
+        //admin:publish photo
+        function ajax_publish(){
+           $id=$this->input->post('id');
+           $publish=$this->input->post('publish');
+           if($this->galleries_m->publish($id,$publish)){
                echo "success";
            }else{
                echo "failure";

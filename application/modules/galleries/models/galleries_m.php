@@ -6,7 +6,7 @@ class Galleries_m extends Model {
         parent::Model();       
     }
     
-    function addPhoto($image = array(), $gallery_slug = '', $title='',$description='',$show_in_homepage=0) {
+    function addPhoto($image = array(), $gallery_slug = '', $title='',$description='',$show_in_homepage=0,$pulish=1) {
         $this->load->helper('date');
         $filename = $image['file_name'];
         
@@ -24,6 +24,7 @@ class Galleries_m extends Model {
                                           'gallery_slug'=>$gallery_slug,
                                           'description'=>$description,
                                           'show_in_homepage'=>$show_in_homepage,
+                                          'publish'=>$pulish,
                                           'updated_on'=>now()));
         return $this->db->insert_id();
     }
@@ -57,13 +58,23 @@ class Galleries_m extends Model {
         }
     }
 
+    function publish($id,$publish=1){
+        $publish=(empty($publish))?1:0;
+        if($this->db->update('photos',array('publish'=>$publish),array('id'=>$id))){
+            return TRUE;
+        }else{
+            return FALSE;
+        }
+    }
 
-    function updatePhoto($title,$description,$show_in_homepage,$id){
+
+    function updatePhoto($title,$description,$show_in_homepage,$publish,$id){
         $this->load->helper('date');
         if($this->db->update('photos', array(
                 'title'=>$title,
         	'description' 	=> $description,
                 'show_in_homepage'=>$show_in_homepage,
+                'publish'=>$publish,
         	'updated_on'	=> now()
         ), array('id'=>$id))){
            return TRUE;
@@ -183,7 +194,7 @@ class Galleries_m extends Model {
             $query = $this->db->get('photos', 5, 0);
 
         } else {
-            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), $numPhotos, 0);
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'publish'=>1), $numPhotos, 0);
         }
         foreach ($query->result() as $photo) {
             $string .= '<li><a href="'. image_path('galleries/' . $photo->gallery_slug . '/' . $photo->filename) . '" rel="modal" title="' . $photo->description . '">' . image('galleries/' . $photo->gallery_slug . '/' . substr($photo->filename, 0, -4) . '_thumb' . substr($photo->filename, -4), '', array('title'=>$photo->description)) . '</a></li>';
@@ -200,7 +211,7 @@ class Galleries_m extends Model {
             ('photos',array('show_in_homepage'=>1),$numPhotos, 0);
 
         } else {
-            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'show_in_homepage'=>1), $numPhotos, 0);
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'show_in_homepage'=>1,'publish'=>1), $numPhotos, 0);
         }        
         return $query->result();
     }
@@ -208,9 +219,9 @@ class Galleries_m extends Model {
     function galleryListPhotos($gallery = ''){
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
-            $query = $this->db->getwhere('photos');
+            $query = $this->db->getwhere('photos',array('publish'=>1));
         } else {
-            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery));
+            $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery,'publish'=>1));
         }
         return $query->result();
     }
