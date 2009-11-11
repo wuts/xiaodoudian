@@ -32,3 +32,10 @@ ERROR - 2009-11-11 13:51:11 --> Severity: Notice  --> Trying to get property of 
 ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
 ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
 ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 15:11:31 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 15:11:31 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 15:11:31 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 15:11:35 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-11 15:11:35 --> 404 Page Not Found --> 
+ERROR - 2009-11-11 15:11:41 --> Severity: Notice  --> Undefined index:  __cache_expires D:\xampp\htdocs\xiaodoudian.com\application\libraries\Cache.php 225
+ERROR - 2009-11-11 15:11:41 --> 404 Page Not Found --> 

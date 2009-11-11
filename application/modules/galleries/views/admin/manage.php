@@ -105,6 +105,11 @@
 					<label><?=lang('gal_photo_show_in_homepage_label');?></label>
 					<span><?=lang('gal_photo_no_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="0" checked="true" /><span><?=lang('gal_photo_yes_label');?></span><input type="radio" class="text" name="show_in_homepage" id="show_in_homepage" value="1" />
 				</div>
+
+                                <div class="field">
+					<label><?=lang('gal_photo_publish_label');?></label>
+					<span><?=lang('gal_photo_yes_label');?></span><input type="radio" class="text" name="publish" id="publish" value="1" checked="true" /><span><?=lang('gal_photo_no_label');?></span><input type="radio" class="text" name="publish" id="publish" value="0" />
+				</div>
 				
 				<div class="spacer-left">
 					<? $this->load->view('admin/fragments/table_buttons', array('buttons' => array('save', 'cancel') )); ?>
