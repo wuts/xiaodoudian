@@ -29,3 +29,6 @@ ERROR - 2009-11-11 13:51:06 --> Severity: Notice  --> Trying to get property of 
 ERROR - 2009-11-11 13:51:06 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\news\views\admin\form.php 52
 ERROR - 2009-11-11 13:51:11 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\categories\views\admin\form.php 4
 ERROR - 2009-11-11 13:51:11 --> Severity: Notice  --> Trying to get property of non-object D:\xampp\htdocs\xiaodoudian.com\application\modules\categories\views\admin\form.php 9
+ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
+ERROR - 2009-11-11 14:32:33 --> Severity: Notice  --> Undefined index:  order D:\xampp\htdocs\xiaodoudian.com\application\modules\comments\models\comments_m.php 80
