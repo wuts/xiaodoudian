@@ -1,3 +1,8 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#left-sidebar').corner("round 10px")
+    ;})
+</script>
 <div id="left-sidebar" class="width-quater float-left leftColumn">
    <h3><?=lang('home_news');?></h3>
    <? if(!empty($news)): ?>
@@ -8,7 +13,7 @@
       </ul>
    <? else: ?>
    <? endif; ?>
-    <table><tr><td><?=image("icons/chat_online.jpg.png","_theme_");?></td></tr></table>
+    
 </div>
 <div id="main-content" class="float-left width-three-quaters">
     <h3><?=lang('home_works_list');?></h3>

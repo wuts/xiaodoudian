@@ -18,7 +18,9 @@
 <div class="float-left width-half padding-top-dbl">
 	<? if (!empty($news)): ?>	
 		<? foreach ($news as $article): ?>
-			<h4><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
+                       
+                       <h4><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
+
                         <div style="padding-left:10px;color:teal;">
 				<em><?=lang('news_posted_label');?>: <?= date('Y-m-d', $article->created_on); ?></em>&nbsp;
                                 <em><?= $article->click_count; ?><?=lang('news_click_count_label');?></em>&nbsp;
@@ -27,8 +29,9 @@
 				<? endif; ?>
 			</div>
 			<p><?= nl2br($article->intro) ?> <?= anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, lang('news_read_more_label'))?></p>
-				
+
 			<hr/>
+			
 		<? endforeach; ?>		
 		<p><?=$pagination['links']; ?></p>		
 	<? else: ?>

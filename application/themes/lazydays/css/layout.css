@@ -226,8 +226,27 @@ ul.sideMenu {
    #left sidebar: Holds the left sidebar content.
  **************************************************************/
 #left-sidebar{
+  margin-top:30px;
+  padding-bottom:20px;
+  background-color:#42B4AC;
  
 }
+
+#left-sidebar h3{
+  margin-top:5px;
+  background-color:#42B4AC;
+  font:18px bold;
+}
+
+#left-sidebar ul{
+  padding-top:5px;
+}
+
+#left-sidebar ul li a{
+
+}
+
+
 
 
 /**************************************************************

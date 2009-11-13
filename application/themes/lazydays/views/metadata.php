@@ -14,6 +14,7 @@
 <?php echo js('jquery/jquery.js'); ?>
 <?php echo js('facebox.js').css('facebox.css');?>
 <?php echo js('jquery/jquery.url.packed.js'); ?>
+<?php echo js('jquery/jquery.corner.js'); ?>
 		
 <?php echo js('front.js'); ?>
 		

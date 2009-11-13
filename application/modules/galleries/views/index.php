@@ -1,4 +1,10 @@
-<div class="width-quater float-left leftColumn">
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#left-sidebar').corner("round 10px");
+        $('ul.photos-list-intro li').corner("round 10px");
+    ;})
+</script>
+<div id="left-sidebar" class="width-quater float-left">
    <h3><?=lang('gal_catagories_label');?></h3>
    <div id="catagories">
 	<ul class="galleryHolder">
@@ -19,7 +25,7 @@
    </div>
 </div>
 
-<div class="float-left width-three-quaters">
+<div class="float-right width-three-quaters">
 <h3><?=lang('gal_photos_list_label');?></h3>
 <? if ($galleries): ?>
     <ul class="photos-list-intro">

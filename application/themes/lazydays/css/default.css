@@ -266,6 +266,7 @@ ul.photos-list li a:hover img {
 
 
 ul.photos-list-intro{
+  list-style-image: none;
   list-style-type :none;
   list-style-position:outside;
   margin:5px 0px;
