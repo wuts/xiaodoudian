@@ -19,14 +19,15 @@
 	<? if (!empty($news)): ?>	
 		<? foreach ($news as $article): ?>
 			<h4><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
-			<p><?= nl2br($article->intro) ?> <?= anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, lang('news_read_more_label'))?></p>
-			<p>
+                        <div style="padding-left:10px;color:teal;">
 				<em><?=lang('news_posted_label');?>: <?= date('Y-m-d', $article->created_on); ?></em>&nbsp;
-                                <em><?=lang('news_click_count_label');?>: <?= $article->click_count; ?></em>&nbsp;
+                                <em><?= $article->click_count; ?><?=lang('news_click_count_label');?></em>&nbsp;
 				<? if($article->category_slug): ?>
 					<em><?=lang('news_category_label');?>: <?=anchor('news/category/'.$article->category_slug, $article->category_title);?></em>
 				<? endif; ?>
-			</p>			
+			</div>
+			<p><?= nl2br($article->intro) ?> <?= anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, lang('news_read_more_label'))?></p>
+				
 			<hr/>
 		<? endforeach; ?>		
 		<p><?=$pagination['links']; ?></p>		

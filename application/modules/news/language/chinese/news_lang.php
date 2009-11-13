@@ -40,7 +40,7 @@ $lang['news_comments_title'] 								= '评论';
 $lang['news_articles_title'] 								= '文章';
 $lang['news_rss_articles_title'] 						= 'News articles for %s';
 $lang['news_news_title'] 										= '日志';
-$lang['news_click_count_label'] 		=                            '点击数';
+$lang['news_click_count_label'] 		=                            '人读过';
 $lang['news_latest_posts_label'] 		=                            '最新日志';
 $lang['news_catagories_label'] 		=                            '日志分类';
 

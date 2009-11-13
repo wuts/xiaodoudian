@@ -17,7 +17,7 @@ class Galleries extends Public_Controller
 
 		// Get Galleries and create pages tree
 		$tree = array();
-		if($galleries = $this->galleries_m->getGalleries())
+		if($galleries = $this->galleries_m->getGalleries('photos.publish',1))
 		{
 			foreach($galleries as $gallery)
 			{
