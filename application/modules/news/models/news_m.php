@@ -40,8 +40,10 @@ class News_m extends Model {
     }
 
     function getCategories(){
-        $this->db->select('Distinct news.category_id,categories.title AS category_title,categories.slug AS category_slug');
-        $this->db->join('categories','news.category_id=categories.id','left');     
+        $this->db->select('Distinct news.category_id,categories.title AS category_title,categories.slug AS category_slug,news.status AS status');
+        $this->db->join('categories','news.category_id=categories.id','left'); 
+        $this->db->where('status','live');
+        
         $query = $this->db->get('news');
         if ($query->num_rows() == 0) {
             return FALSE;
