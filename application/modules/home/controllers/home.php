@@ -16,7 +16,7 @@ class Home extends Public_Controller{
 	$this->load->helper('text');
 
         //get latest news
-        $this->data->news=$this->news_m->getNews();
+        $this->data->news=$this->news_m->getNews(array('limit'=>10));
         //get latest photos
         $this->data->photos=$this->galleries_m->galleryGetLatestPhotos('',20);
 
