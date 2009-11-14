@@ -7,18 +7,12 @@
     ;})
 </script>
 <div id="left-sidebar" class="width-quater float-left">
-              <h3><?=lang('news_catagories_label');?></h3>
-                 <div id="catagories">
-			<?php foreach ($this->news_m->getCategories() as $category): ?>
-                                <? if(!empty($category->category_title)): ?>
-				  <h4><?php echo anchor('news/category/'.$category->category_id,$category->category_title); ?></h4>
-                                    <? endif;?>
-					  <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
-					  <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
-				  <?php endforeach ?>
-				</div>
+              
 			
-
+            <div id="recent-posts">
+		<h4><?=lang('news_latest_posts_label');?></h4>
+		<?= $this->news_m->getNewsHome(); ?>
+	    </div>
 	    </div>
 <div id="middle-content" class="float-left width-half padding-top-dbl">
 	<? if (!empty($news)): ?>	
@@ -44,8 +38,14 @@
 </div>
 
 <div id="right-sidebar" class="float-right width-quater">
-	<div id="recent-posts">
-		<h4><?=lang('news_latest_posts_label');?></h4>
-		<?= $this->news_m->getNewsHome(); ?>
-	</div>
+	<h3><?=lang('news_catagories_label');?></h3>
+                 <div id="catagories">
+			<?php foreach ($this->news_m->getCategories() as $category): ?>
+                             <? if(!empty($category->category_title)): ?>
+			 <h4><?php echo anchor('news/category/'.$category->category_id,$category->category_title); ?></h4>
+                            <? endif;?>
+					  <!-- <p class="post-info">Posted in category : <?php echo anchor('news/category/'.$news->category_slug, $news->category_title);?></p> -->
+					  <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
+			<?php endforeach ?>
+		</div>
 </div>
