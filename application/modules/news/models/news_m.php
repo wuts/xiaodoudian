@@ -259,10 +259,12 @@ class News_m extends Model {
         $this->db->limit(5);
         $query = $this->db->get('news');
         if ($query->num_rows() > 0) {
-        		$this->load->helper('text');
+            $this->load->helper('text');
+            $string.='<ul>';
             foreach ($query->result() as $blogs) {
-                $string .= '<p>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'&nbsp;&nbsp;<em>'.date('Y-m-d', $blogs->created_on).'</em></p>';
+                $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'&nbsp;&nbsp;'.date('Y-m-d', $blogs->created_on).'</li>';
             }
+            $string.='</ul>';
         }
         return $string ;
     }

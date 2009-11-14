@@ -1,7 +1,7 @@
 PyroCMS
 =======
 
-VERSION: 0.9.7
+VERSION: 0.9.7.2
 AUTHOR: Philip Sturgeon < email[at]philsturgeon[dot]co[dot]uk >
 
 DESCRIPTION
@@ -47,4 +47,4 @@ Richard Willis		http://badsyntax.co.uk/
 Translations
 
 Demostenes Garcia	dgarcia[at]pixmatstudios[dot]com	(Spanish)
-Frédéric Quié 		http://www.bleekom.org				(French)
+Frederic Quie 		http://www.bleekom.org				(French)

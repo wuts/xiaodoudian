@@ -1,4 +1,10 @@
-<div class="width-quater float-left leftColumn">
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#left-sidebar').corner("round 10px");
+        $('ul.photos-list-intro li').corner("round 10px");
+    ;})
+</script>
+<div id="left-sidebar" class="width-quater float-left">
               <h3><?=lang('news_catagories_label');?></h3>
                  <div id="catagories">
 			<?php foreach ($this->news_m->getCategories() as $category): ?>
@@ -10,17 +16,16 @@
 				  <?php endforeach ?>
 				</div>
 			<div id="recent-posts">
-				<h3><?=lang('news_latest_posts_label');?></h3>
+				<h4><?=lang('news_latest_posts_label');?></h4>
 				<?= $this->news_m->getNewsHome(); ?>
 			</div>
 
 	    </div>
-<div class="float-left width-half padding-top-dbl">
+<div class="float-right width-three-quaters padding-top-dbl">
 	<? if (!empty($news)): ?>	
 		<? foreach ($news as $article): ?>
                        
-                       <h4><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
-
+                       <h4><?=image('icons/blog.gif','_theme_');?><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
                         <div style="padding-left:10px;color:teal;">
 				<em><?=lang('news_posted_label');?>: <?= date('Y-m-d', $article->created_on); ?></em>&nbsp;
                                 <em><?= $article->click_count; ?><?=lang('news_click_count_label');?></em>&nbsp;
@@ -29,7 +34,7 @@
 				<? endif; ?>
 			</div>
 			<p><?= nl2br($article->intro) ?> <?= anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, lang('news_read_more_label'))?></p>
-
+                        
 			<hr/>
 			
 		<? endforeach; ?>		
@@ -40,7 +45,5 @@
 </div>
 
 <div class="float-right width-quater">
-	<? $this->load->view('fragments/rss_box') ?>	
-	<hr />	
-	<? $this->load->view('fragments/archive_box') ?>	
+	
 </div>
