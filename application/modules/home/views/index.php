@@ -4,7 +4,7 @@
     ;})
 </script>
 <div id="left-sidebar" class="width-quater float-left leftColumn">
-   <h3><?=lang('home_news');?></h3>
+   <h3><?=lang('home_latest_news');?></h3>
    <? if(!empty($news)): ?>
       <ul>
         <? foreach($news as $article): ?>

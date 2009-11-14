@@ -1,13 +1,19 @@
+<script type="text/javascript">
+    $(document).ready(function(){   
+        $('#right-sidebar').corner("round 10px");
+        $('#middle-content').corner("round 10px");
+    ;})
+</script>
 <?php $this->load->helper('typography'); ?>
 <!-- News module -->
-<div id="left-sidebar" class="width-quater float-left">
-
-            <div id="recent-posts">
-		<h4><?=lang('news_latest_posts_label');?></h4>
-		<?= $this->news_m->getNewsHome(); ?>
+<div id="right-sidebar" class="width-quater float-right">
+            <div id="hot-posts">
+		<h4><?=lang('news_hot_posts_label');?></h4>
+		<?= $this->news_m->getHotNews(); ?>
 	    </div>
+
 </div>
-<div style="padding-top:10px;" class="float-right width-three-quaters">
+<div id="middle-content" style="padding-left:20px;padding-top:10px;padding-right:30px;" class="float-left width-two-thirds">
 	<!-- Module heading -->
 	<div class="module_heading">
 		<h3><?php echo $article->title; ?></h3>
@@ -45,7 +51,7 @@
 		<h3><?php echo lang('news_your_comments_label');?></h3>
 		<?php echo $this->load->module_view('comments', 'form', array('module'=>$this->module, 'id' => $article->id)); ?>
 	</div>
-</div>
+        </div>
 </div>
 
 
