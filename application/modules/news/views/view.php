@@ -1,9 +1,16 @@
 <?php $this->load->helper('typography'); ?>
 <!-- News module -->
-<div class="module news_module">
+<div id="left-sidebar" class="width-quater float-left">
+
+            <div id="recent-posts">
+		<h4><?=lang('news_latest_posts_label');?></h4>
+		<?= $this->news_m->getNewsHome(); ?>
+	    </div>
+</div>
+<div class="float-right width-three-quaters padding-top-dbl">
 	<!-- Module heading -->
 	<div class="module_heading">
-		<h2><?php echo $article->title; ?></h2>	
+		<h3><?php echo $article->title; ?></h3>
 		<?php if($article->category_slug): ?>
 			<p><?php echo lang('news_posted_label'); ?> <?php echo anchor('news/category/'.$article->category_slug, $article->category_title); ?> <?php echo lang('news_date_at'); ?> <?php echo date('M d, Y', $article->created_on); ?></p>
 		<?php else: ?>
@@ -23,9 +30,8 @@
 		}		
 		?>
 	</div>
-</div>
-<!-- Comments module -->
-<div class="module comments_module">
+        <!-- Comments module -->
+        <div class="module comments_module">
 	<!-- Module heading -->
 	<div class="module_heading">
 		<h3><?php echo lang('news_comments_title');?></h3>
@@ -37,6 +43,9 @@
 	<!-- Module bottom -->
 	<div class="module_bottom">
 		<h3><?php echo lang('news_your_comments_label');?></h3>
-		<?php echo $this->load->module_view('comments', 'form', array('module'=>$this->module, 'id' => $article->id)); ?> 
+		<?php echo $this->load->module_view('comments', 'form', array('module'=>$this->module, 'id' => $article->id)); ?>
 	</div>
 </div>
+</div>
+
+
