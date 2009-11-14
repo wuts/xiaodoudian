@@ -8,10 +8,12 @@
 </script>
 <div id="left-sidebar" class="width-quater float-left">
               
-            <div id="recent-posts">
-		<h4><?=lang('news_latest_posts_label');?></h4>
-		<?= $this->news_m->getNewsHome(); ?>
+    
+            <div id="hot-posts">
+		<h4><?=lang('news_hot_posts_label');?></h4>
+		<?= $this->news_m->getHotNews(); ?>
 	    </div>
+
 </div>
 <div id="middle-content" class="float-left width-half padding-top-dbl">
 	<? if (!empty($news)): ?>	

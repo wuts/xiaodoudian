@@ -42,6 +42,7 @@ $lang['news_rss_articles_title'] 						= 'News articles for %s';
 $lang['news_news_title'] 										= '日志';
 $lang['news_click_count_label'] 		=                            '人读过';
 $lang['news_latest_posts_label'] 		=                            '最新日志';
+$lang['news_hot_posts_label'] 		=                            '热门日志';
 $lang['news_catagories_label'] 		=                            '日志分类';
 
 // messages

@@ -13,8 +13,12 @@
       </ul>
    <? else: ?>
    <? endif; ?>
-    
-</div>
+<hr />
+      <div id="hot-posts">
+	<h4><?=lang('home_hot_posts_label');?></h4>
+	  <?= $this->news_m->getHotNews(); ?>
+       </div>
+     </div>
 <div id="main-content" class="float-right width-three-quaters">
     <h3><?=lang('home_works_list');?></h3>
    

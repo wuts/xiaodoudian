@@ -7,7 +7,7 @@
 		<?= $this->news_m->getNewsHome(); ?>
 	    </div>
 </div>
-<div class="float-right width-three-quaters padding-top-dbl">
+<div style="padding-top:10px;" class="float-right width-three-quaters">
 	<!-- Module heading -->
 	<div class="module_heading">
 		<h3><?php echo $article->title; ?></h3>

@@ -28,7 +28,6 @@ class Statistics_m extends Model
     		return $query->result();
             }
   	}
-
        	
 	public function getModule($id)
 	{

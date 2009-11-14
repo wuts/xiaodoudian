@@ -35,6 +35,7 @@ $lang['news_author_name_label'] 					= 'Author name';
 $lang['news_read_more_label'] 						= 'Read More&nbsp;&raquo;';
 $lang['news_click_count_label'] 		=                            'click';
 $lang['news_latest_posts_label'] 		=                            'Lastest Post';
+$lang['news_hot_posts_label'] 		=                            'Hot Post';
 $lang['news_catagories_label'] 		=                            'catagories';
 
 // titles

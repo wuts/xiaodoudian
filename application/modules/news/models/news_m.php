@@ -245,8 +245,7 @@ class News_m extends Model {
     	
     }
 
-    // DIRTY frontend functions. Move to views
-    
+    // DIRTY frontend functions. Move to views    
     function getNewsHome($params = array())
     {
     	$this->load->helper('date');
@@ -262,7 +261,30 @@ class News_m extends Model {
             $this->load->helper('text');
             $string.='<ul>';
             foreach ($query->result() as $blogs) {
-                $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'&nbsp;&nbsp;'.date('Y-m-d', $blogs->created_on).'</li>';
+                $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'</li>';
+            }
+            $string.='</ul>';
+        }
+        return $string ;
+    }
+
+    // Get hot news
+    function getHotNews($params = array())
+    {
+    	$this->load->helper('date');
+        $this->db->select('news.*, statistics.click_count AS click_count');
+       	$this->db->join('statistics', 'news.id = statistics.module_id', 'left');
+        $this->db->where('statistics.module', 'news');
+    	$this->db->where('news.status', 'live');    	
+       	$string = '';
+        $this->db->order_by('statistics.click_count', 'DESC');
+        $this->db->limit(10);
+        $query = $this->db->get('news');
+        if ($query->num_rows() > 0) {
+            $this->load->helper('text');
+            $string.='<ul>';
+            foreach ($query->result() as $blogs) {
+                $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'('.$blogs->click_count.')</li>';
             }
             $string.='</ul>';
         }
