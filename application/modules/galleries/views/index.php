@@ -2,6 +2,7 @@
     $(document).ready(function(){
         $('#left-sidebar').corner("round 10px");
         $('ul.photos-list-intro li').corner("round 10px");
+        
     ;})
 </script>
 <div id="left-sidebar" class="width-quater float-left">

@@ -2,6 +2,8 @@
     $(document).ready(function(){
         $('#left-sidebar').corner("round 10px");
         $('ul.photos-list-intro li').corner("round 10px");
+        $('#right-sidebar').corner("round 10px");
+        $('#middle-content').corner("round 10px");
     ;})
 </script>
 <div id="left-sidebar" class="width-quater float-left">
@@ -15,13 +17,10 @@
 					  <!-- <p><?php echo strip_tags($news->intro); ?></p> -->
 				  <?php endforeach ?>
 				</div>
-			<div id="recent-posts">
-				<h4><?=lang('news_latest_posts_label');?></h4>
-				<?= $this->news_m->getNewsHome(); ?>
-			</div>
+			
 
 	    </div>
-<div class="float-right width-three-quaters padding-top-dbl">
+<div id="middle-content" class="float-left width-half padding-top-dbl">
 	<? if (!empty($news)): ?>	
 		<? foreach ($news as $article): ?>
                        
@@ -44,6 +43,9 @@
 	<? endif; ?>
 </div>
 
-<div class="float-right width-quater">
-	
+<div id="right-sidebar" class="float-right width-quater">
+	<div id="recent-posts">
+		<h4><?=lang('news_latest_posts_label');?></h4>
+		<?= $this->news_m->getNewsHome(); ?>
+	</div>
 </div>

@@ -226,10 +226,10 @@ ul.sideMenu {
    #left sidebar: Holds the left sidebar content.
  **************************************************************/
 #left-sidebar{
-  margin-top:30px;
+  margin-top:20px;
   padding-bottom:20px;
   background-color:#42B4AC;
- 
+  height:600px;
 }
 
 #left-sidebar h3{
@@ -243,6 +243,41 @@ ul.sideMenu {
 }
 
 #left-sidebar ul li a{
+
+}
+
+/**************************************************************
+   #main content: Holds the main  content.
+ **************************************************************/
+#middle-content{
+  margin-left:4px;
+  background-color:#42B4AC;
+  margin-top:20px;
+  padding-right:20px;
+}
+
+
+/**************************************************************
+   #right sidebar: Holds the right sidebar content.
+ **************************************************************/
+#right-sidebar{
+  margin-top:20px;
+  padding-bottom:20px;
+  background-color:#42B4AC;
+  height:600px;
+}
+
+#right-sidebar h3{
+  margin-top:5px;
+  background-color:#42B4AC;
+  font:18px bold;
+}
+
+#right-sidebar ul{
+  padding-top:5px;
+}
+
+#right-sidebar ul li a{
 
 }
 

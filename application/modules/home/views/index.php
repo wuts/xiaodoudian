@@ -15,7 +15,7 @@
    <? endif; ?>
     
 </div>
-<div id="main-content" class="float-left width-three-quaters">
+<div id="main-content" class="float-right width-three-quaters">
     <h3><?=lang('home_works_list');?></h3>
    
     <? if(!empty($photos)): ?>
