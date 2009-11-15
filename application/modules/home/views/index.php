@@ -15,7 +15,7 @@
    <? endif; ?>
 <hr />
       <div id="hot-posts">
-	<h4><?=lang('home_hot_posts_label');?></h4>
+	<h3><?=lang('home_hot_posts_label');?></h3>
 	  <?= $this->news_m->getHotNews(); ?>
        </div>
      </div>
