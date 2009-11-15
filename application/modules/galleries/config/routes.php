@@ -26,4 +26,5 @@ $route['photos'] = "galleries";
 $route['photos/view'] = "galleries";
 $route['photos/([a-zA-Z0-9_-]+)'] = "galleries/view/$1";
 $route['galleries/photo/([a-zA-Z0-9_-]+)'] = "galleries/photo/view/$1";
+$route['galleries/page/(:num)'] = "galleries/index/$1";
 ?>

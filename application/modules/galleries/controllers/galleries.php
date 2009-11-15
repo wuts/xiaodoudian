@@ -2,9 +2,11 @@
 
 class Galleries extends Public_Controller
 {
-	function __construct()
+	public $limit = 10; // TODO: PS - Make me a settings option
+        function __construct()
 	{
-		parent::Public_Controller();
+		
+                parent::Public_Controller();
 		$this->load->model('galleries_m');
 		$this->lang->load('galleries');
 	}
@@ -13,8 +15,8 @@ class Galleries extends Public_Controller
 	function index()
 	{
 		//$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
-                $this->load->helper('string');
-
+                $this->load->helper('string');                
+                $this->data->pagination = create_pagination('galleries/page', $this->galleries_m->countPhotos(), $this->limit, 3);
 		// Get Galleries and create pages tree
 		$tree = array();
 		if($galleries = $this->galleries_m->getGalleries(array('photos.publish'=>1)))

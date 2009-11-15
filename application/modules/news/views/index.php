@@ -6,8 +6,7 @@
         $('#middle-content').corner("round 10px");
     ;})
 </script>
-<div id="left-sidebar" class="width-quater float-left">
-              
+<div id="left-sidebar" class="width-quater float-left">             
     
             <div id="hot-posts">
 		<h4><?=lang('news_hot_posts_label');?></h4>

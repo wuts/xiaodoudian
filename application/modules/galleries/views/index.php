@@ -1,8 +1,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $('#left-sidebar').corner("round 10px");
-        $('ul.photos-list-intro li').corner("round 10px");
-        
+        $('ul.photos-list-intro li').corner("round 10px");        
     ;})
 </script>
 <div id="left-sidebar" class="width-quater float-left">
@@ -38,6 +37,7 @@
          <dl><dt class="float-left width-third" style="color:white;"><span style="font-size:16px;font-weight:bold;color:#FFB323;"><?=$photo->title; ?></span><br /><?=mb_substr($photo->description,0,70,'UTF-8'); ?></dt><dt class="float-right width-third" style="color:white;"><?=mb_substr($photo->description,70,60,'UTF-8'); ?><br /><?=anchor('galleries/photo/'.$photo->id,lang('gal_more_label'), array('style'=>'height:20px;color:#FFB323;'));?></dt></dl>
           </li>
         <? endforeach; ?>
+        <p><?=$pagination['links']; ?></p>
      </ul>
 <? else: ?>
 	<p><?=lang('gal_currently_no_photos_error');?></p>

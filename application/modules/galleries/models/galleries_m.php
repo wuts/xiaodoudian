@@ -37,6 +37,13 @@ class Galleries_m extends Model {
             return $query->row();
         }
     }
+
+     function countPhotos($params = array()){
+        $this->db->select('COUNT(photos.id) as num_photos');
+        $query= $this->db->getwhere('photos',$params);
+        $row=$query->row();
+        return $row->num_photos;
+    }
     
     function checkTitle($title = '') {
         $this->db->select('COUNT(title) AS total');
@@ -104,6 +111,10 @@ class Galleries_m extends Model {
     function getGalleries($params = array()) {
         $this->db->select('galleries.*, COUNT(photos.id) AS num_photos');
         $this->db->join('photos', 'galleries.slug = photos.gallery_slug', 'LEFT');
+       
+        // Limit the results based on 1 number or 2 (2nd is offset)
+       	if(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
+       	elseif(isset($params['limit'])) $this->db->limit($params['limit']);
         $this->db->groupby('galleries.slug', 'ASC');
         $query = $this->db->getwhere('galleries', $params);
         if ($query->num_rows() == 0) {

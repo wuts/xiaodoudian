@@ -2,10 +2,10 @@
 
 // labels
 $lang['contact_details_label'] 								= '明细';
-$lang['contact_name_label']										= '全名';
-$lang['contact_email_label']									= '电子邮箱';
+$lang['contact_name_label']										= '尊姓大名';
+$lang['contact_email_label']									= '联系方式';
 $lang['contact_company_name_label']						= '公司';
-$lang['contact_subject_label']								= '主题';
+$lang['contact_subject_label']								= '预约时间';
 $lang['contact_other_label']									= '其他';
 $lang['contact_message_label']								= '留言';
 $lang['contact_captcha_label'] 								= '验证码';

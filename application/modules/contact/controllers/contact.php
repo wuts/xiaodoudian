@@ -2,12 +2,13 @@
 class Contact extends Public_Controller
 {	
 	var $subjects = array(
-		'support'	=>	'技术支持',
-		'sales'		=>	'售后服务',
-		'payments'	=>	'付款方式',
-		'business'	=>	'商务合作',
-		'feedback'	=>	'反馈/建议',
-		'other'		=>	'其他'
+               'time1'	=>	'本周五下午：16：30----18：00 美术手工创意班',
+	       'time2'	=>	'本周六下午15：30----17：00 美术手工创意班',
+	       'time3'  =>      '本周日下午15：30----17：00 美术手工创意班',
+               'time4'	=>	'下周五下午：16：30----18：00 美术手工创意班',
+	       'time5'	=>	'下周六下午15：30----17：00 美术手工创意班',
+	       'time6'		=>'下周日下午15：30----17：00 美术手工创意班',
+	       'other_times'	=>'其他时间'
 	);
 	
 	// Fields must match this certain criteria
