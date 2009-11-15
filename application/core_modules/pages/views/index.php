@@ -1,4 +1,3 @@
-<h3><?= $page->title; ?></h3>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#left-sidebar').corner("round 10px");
