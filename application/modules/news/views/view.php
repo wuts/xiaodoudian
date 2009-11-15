@@ -24,7 +24,7 @@
 		<?php endif; ?>
 	</div>
 	<!-- Module body -->
-	<div class="module_body" style="font-size:12px;text-indent:2em;">
+	<div class="module_body" style="font-size:12px;text-indent:1.5em;">
 		<?php echo stripslashes($article->body); ?>
 	</div>
 	<!-- Module bottom -->
