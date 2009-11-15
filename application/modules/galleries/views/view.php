@@ -1,18 +1,36 @@
-<h2><?= $gallery->title; ?></h2>
-<p><?= $gallery->description; ?></p>
-<hr />
-	
-<? if(!empty($children)): ?>
-	<? foreach ($children as $child): ?>				
-		<li<?=$child->slug == 'home' ? 'class="box-hidden"' : '' ?>>
-			<?=anchor('galleries/' . $child->slug, $child->title);?><br />
-			<?=$child->description; ?><br />
-			<?=$this->galleries_m->galleryPhotosList($child->slug);?>
-		</li>			
-	<? endforeach; ?>
-	<hr />
-<? endif; ?>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#left-sidebar').corner("round 10px");
+        $('ul.photos-list-intro li').corner("round 10px");
+    ;})
+</script>
+<div id="left-sidebar" class="width-quater float-left">
+   <h3><?=lang('gal_catagories_label');?></h3>
+   <div id="catagories">
+	<ul class="galleryHolder">
+	   <? if (!empty($galleries)): ?>
+		<? function gallery_row($tree, $parent, $lvl) { ?>
+		<? if(isset($tree[$parent])) foreach ($tree[$parent] as $gallery): ?>
+
+        <li><?=repeater('    ', $lvl);?><?= anchor('galleries/' . $gallery->slug, $gallery->title."(".lang("gal_number_of_photo_label").$gallery->num_photos.")", 'target="_blank"');?></li>
+      <? gallery_row($tree, $gallery->id, $lvl+1) ?>
+      <? endforeach; }?>
+		<? gallery_row($galleries, 0, 0); ?>
+      <? else: ?>
+
+	<?=lang('gal_no_galleries_error');?>
+
+      <? endif;?>
+    </ul>
+   </div>
+</div>
+
+
+<div class="float-right width-three-quaters">
+    <h3><?= $gallery->title; ?></h3>
+    
+<hr />
 <? // Show photos in this gallery ?>
 <? if(!empty($photos)): ?>
 
@@ -42,3 +60,4 @@
 <? else: ?>
 	<p><?=lang('gal_no_photos_in_gallery_error');?></p>
 <? endif; ?>
+</div>

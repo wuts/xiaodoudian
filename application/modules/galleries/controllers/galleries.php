@@ -12,11 +12,11 @@ class Galleries extends Public_Controller
 	}
 	
 	// Public: List Galleries
-	function index($slug="")
+	function index()
 	{
 		//$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
                 $this->load->helper('string');                
-                $this->data->pagination = create_pagination('galleries/'.$slug.'/page', $this->galleries_m->countPhotos($slug), $this->limit, 3);
+                $this->data->pagination = create_pagination('galleries/page', $this->galleries_m->countPhotos(), $this->limit, 3);
 		// Get Galleries and create pages tree
 		$tree = array();
 		if($galleries = $this->galleries_m->getGalleries(array('photos.publish'=>1)))
@@ -29,7 +29,7 @@ class Galleries extends Public_Controller
 		unset($galleries);
 		$this->data->galleries =& $tree;
                
-               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']),$slug);
+               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']));
                 
 		$this->layout->create('index', $this->data);
 	}
@@ -37,7 +37,18 @@ class Galleries extends Public_Controller
 	// Public: View an Gallery
 	function view($slug = '')
 	{
-		$this->load->module_model('comments', 'comments_m');		
+		$this->load->helper('string');           
+                $tree = array();
+		if($galleries = $this->galleries_m->getGalleries(array('photos.publish'=>1)))
+		{
+			foreach($galleries as $gallery)
+			{
+				$tree[$gallery->parent][] = $gallery;
+			}
+		}
+		unset($galleries);
+		$this->data->galleries =& $tree;
+                $this->load->module_model('comments', 'comments_m');
 		if($this->data->gallery = $this->galleries_m->getGallery($slug))
 		{
 			$this->data->photos = $this->galleries_m->getPhotos($slug);		

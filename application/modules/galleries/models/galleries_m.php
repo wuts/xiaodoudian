@@ -38,7 +38,7 @@ class Galleries_m extends Model {
         }
     }
 
-     function countPhotos($slug){
+     function countPhotos($slug=''){
         $this->db->select('COUNT(photos.id) as num_photos');
         if(empty($slug)){
             $query= $this->db->get('photos');
