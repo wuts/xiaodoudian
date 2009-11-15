@@ -12,11 +12,11 @@ class Galleries extends Public_Controller
 	}
 	
 	// Public: List Galleries
-	function index()
+	function index($slug="")
 	{
 		//$this->data->galleries = $this->galleries_m->getGalleries(array('parent'=>0));
                 $this->load->helper('string');                
-                $this->data->pagination = create_pagination('galleries/page', $this->galleries_m->countPhotos(), $this->limit, 3);
+                $this->data->pagination = create_pagination('galleries/'.$slug.'/page', $this->galleries_m->countPhotos($slug), $this->limit, 3);
 		// Get Galleries and create pages tree
 		$tree = array();
 		if($galleries = $this->galleries_m->getGalleries(array('photos.publish'=>1)))
@@ -29,7 +29,7 @@ class Galleries extends Public_Controller
 		unset($galleries);
 		$this->data->galleries =& $tree;
                
-               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']));
+               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']),$slug);
                 
 		$this->layout->create('index', $this->data);
 	}
