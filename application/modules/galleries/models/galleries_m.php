@@ -110,11 +110,7 @@ class Galleries_m extends Model {
 
     function getGalleries($params = array()) {
         $this->db->select('galleries.*, COUNT(photos.id) AS num_photos');
-        $this->db->join('photos', 'galleries.slug = photos.gallery_slug', 'LEFT');
-       
-        // Limit the results based on 1 number or 2 (2nd is offset)
-       	if(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
-       	elseif(isset($params['limit'])) $this->db->limit($params['limit']);
+        $this->db->join('photos', 'galleries.slug = photos.gallery_slug', 'LEFT');     
         $this->db->groupby('galleries.slug', 'ASC');
         $query = $this->db->getwhere('galleries', $params);
         if ($query->num_rows() == 0) {
@@ -186,7 +182,6 @@ class Galleries_m extends Model {
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
             $query = $this->db->get('photos', 5, 0);
-
         } else {
             $query = $this->db->getwhere('photos', array('gallery_slug'=>$gallery), 5, 0);
         }
@@ -227,7 +222,10 @@ class Galleries_m extends Model {
         return $query->result();
     }
 
-    function galleryListPhotos($gallery = ''){
+    function galleryListPhotos($params,$gallery = ''){
+        // Limit the results based on 1 number or 2 (2nd is offset)
+       	if(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
+       	elseif(isset($params['limit'])) $this->db->limit($params['limit']);
         if (empty($gallery)) {
             $this->db->order_by('updated_on', 'DESC');
             $query = $this->db->getwhere('photos',array('publish'=>1));

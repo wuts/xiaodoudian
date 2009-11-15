@@ -29,7 +29,7 @@ class Galleries extends Public_Controller
 		unset($galleries);
 		$this->data->galleries =& $tree;
                
-               $this->data->photos=$this->galleries_m->galleryListPhotos();
+               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']));
                 
 		$this->layout->create('index', $this->data);
 	}
