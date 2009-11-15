@@ -29,6 +29,7 @@ $lang['gal_other_comments_label'] 					= '他们说...';
 $lang['gal_your_comments_label'] 						= '你想说...?';
 $lang['gal_catagories_label'] 						= '图片目录';
 $lang['gal_more_label'] 						= '更多...';
+$lang['gal_photo_posted_label_alt_label'] 				= '发布日期';
 
 // titles
 $lang['gal_manage_title'] 									= '图库中的照片';

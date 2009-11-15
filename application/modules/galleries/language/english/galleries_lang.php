@@ -9,6 +9,8 @@ $lang['gal_photo_description_label'] 										= 'Description';
 $lang['gal_photos_list_label'] 										= 'Photos List';
 $lang['gal_photo_show_in_homepage_label'] 								= 'Show In Homepage';
 $lang['gal_photo_publish_label'] 								= 'Publish';
+$lang['gal_photo_posted_label_alt_label'] 								= 'Posted Date';
+
 
 $lang['gal_photo_yes_label'] 								= 'Yes';
 $lang['gal_photo_no_label'] 								= 'No';
