@@ -38,7 +38,7 @@ class Galleries_m extends Model {
         }
     }
 
-     function countPhotos($slug=''){
+     function countPhotos($slug=''){        
         $this->db->select('COUNT(photos.id) as num_photos');
         if(empty($slug)){
             $query= $this->db->get('photos');
@@ -133,8 +133,12 @@ class Galleries_m extends Model {
         }
     }
     
-    function getPhotos($slug = '') {     
-        $query = $this->db->getwhere('photos', array('gallery_slug'=>$slug));       
+    function getPhotos($params,$slug = '') {
+         // Limit the results based on 1 number or 2 (2nd is offset)
+       	if(isset($params['limit']) && is_array($params['limit'])) $this->db->limit($params['limit'][0], $params['limit'][1]);
+       	elseif(isset($params['limit'])) $this->db->limit($params['limit']);
+        $query = $this->db->getwhere('photos', array('gallery_slug'=>$slug));
+        
         if ($query->num_rows() == 0) {
             return FALSE;
         } else {

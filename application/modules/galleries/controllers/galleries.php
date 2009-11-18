@@ -28,16 +28,19 @@ class Galleries extends Public_Controller
 		}
 		unset($galleries);
 		$this->data->galleries =& $tree;
-               
-               $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']));
+                $this->data->pagination['limit'];
+                
+                $this->data->photos=$this->galleries_m->galleryListPhotos(array('limit' => $this->data->pagination['limit']));
                 
 		$this->layout->create('index', $this->data);
+               
 	}
 	
 	// Public: View an Gallery
 	function view($slug = '')
 	{
-		$this->load->helper('string');           
+		$this->load->helper('string');
+                $this->data->pagination = create_pagination('galleries/'.$slug.'/page', $this->galleries_m->countPhotos($slug), $this->limit, 4);
                 $tree = array();
 		if($galleries = $this->galleries_m->getGalleries(array('photos.publish'=>1)))
 		{
@@ -51,7 +54,7 @@ class Galleries extends Public_Controller
                 $this->load->module_model('comments', 'comments_m');
 		if($this->data->gallery = $this->galleries_m->getGallery($slug))
 		{
-			$this->data->photos = $this->galleries_m->getPhotos($slug);		
+			$this->data->photos = $this->galleries_m->getPhotos(array('limit' => $this->data->pagination['limit']),$slug);
 			$this->data->children = $this->galleries_m->getGalleries(array('parent'=>$this->data->gallery->id));		
 			$this->layout->title($this->data->gallery->title);
 			$this->layout->create('view', $this->data);
@@ -61,6 +64,7 @@ class Galleries extends Public_Controller
 			$this->session->set_flashdata('notice', $this->lang->line('gal_already_exist_error'));
 			redirect('galleries');
 		}
+               
 	}    
 }
 ?>
