@@ -16,7 +16,7 @@
 				<? if( $this->user_lib->check_role('admin') ): ?>
 					 | <?=anchor('admin', lang('cp_title'), 'target="_blank"'); ?>
 				<? endif; ?>
-                                <div style="position:fixed !important;position:absolute;top:40px;right:30px;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA"><?=image("adv/freetry.gif","",array('style'=>'width:100px;'));?></a></div>
+                                <div style="position:fixed !important;position:absolute;top:38px;right:30px;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA"><?=image("adv/freetry.gif","",array('style'=>'width:115px;'));?></a></div>
 
 			<? else: ?>
 				<?=anchor('users/login', lang('user_login_btn')); ?> | <?=anchor('register', lang('user_register_btn')); ?>
