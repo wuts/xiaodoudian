@@ -107,10 +107,12 @@
   z-index: 2;
   top: 30px;
   left: 360px;
+  background: #58C1FB url(../img/bg/header-bg-leaf.gif) top left no-repeat;
 }
 
+
 #header span.slogan {
-  color:white;
+  color:yellow;
   display:block;
   position: absolute;
   z-index: 2;
@@ -118,6 +120,7 @@
   left: 360px;
   width:320px;
   text-align:left;
+  
 }
 
 
