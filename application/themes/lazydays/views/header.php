@@ -4,16 +4,12 @@
 
  <div class="float-right" style="padding:0.5em;text-align:right">
      <table>
-     <tr><td><?=image("icons/contact.gif","_theme_");?></td><td><span style="color:black;">13601834122</span></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA">免费试听</a></span> | </td><td>
+     <tr><td><?=image("icons/contact.gif","_theme_");?></td><td><span style="color:black;">13601834122</span></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA">免费试听</a></span> | </td>
+         <td>
                          <? if($this->user_lib->logged_in()): ?>
-				<?= sprintf(lang('logged_in_welcome'), $user->first_name.' '.$user->last_name );?> <a href="<?=site_url('users/logout');?>"><?= lang('logout_label');?></a>
-
-				<? if($this->settings->item('enable_profiles')): ?>
-					| <?=anchor('edit-profile', lang('edit_profile_label')); ?>
-				<? endif; ?>
-
-				| <?=anchor('edit-settings', lang('settings_label')); ?>
-
+				<a href="<?=site_url('users/logout');?>"><?= lang('logout_label');?></a>
+				
+				
 				<? if( $this->user_lib->check_role('admin') ): ?>
 					 | <?=anchor('admin', lang('cp_title'), 'target="_blank"'); ?>
 				<? endif; ?>
@@ -21,8 +17,9 @@
 
 			<? else: ?>
 				<?=anchor('users/login', lang('user_login_btn')); ?> | <?=anchor('register', lang('user_register_btn')); ?>
-			<?endif; ?></td>
-                       </tr>
+			<?endif; ?>
+         </td>
+       </tr>
     </table>     
      <img src="<?=image_path('bg/header-right.gif', '_theme_') ?>" alt="right slice" class="balloons" />
      <span class="slogan">孩子天生就是创意大师，我们要做的只是帮助他们将这种天分发扬光大，而不要任其埋没在世俗的教条中！</span>
