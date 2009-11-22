@@ -23,7 +23,9 @@
 				<?=anchor('users/login', lang('user_login_btn')); ?> | <?=anchor('register', lang('user_register_btn')); ?>
 			<?endif; ?></td>
                        </tr>
-    </table>
+    </table>     
+     <img src="<?=image_path('bg/header-right.gif', '_theme_') ?>" alt="right slice" class="balloons" />
+     <span class="slogan">孩子天生就是创意大师，我们要做的只是帮助他们将这种天分发扬光大，而不要任其埋没在世俗的教条中！</span>
      <div style="position:fixed !important;position:absolute;top:40px;right:30px;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA"><?=image("adv/freetry.gif","",array('style'=>'width:200px;'));?></a></div>
 </div>
 

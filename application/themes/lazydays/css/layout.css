@@ -45,8 +45,8 @@
 
 #header {
   position: relative;
-  height: 160px;
-  background: #58C1FB url(../img/bg/header-bg.png) top left no-repeat;
+  height: 118px;
+  background: #58C1FB url(../img/bg/header-bg.gif) top left no-repeat;
   
 }
 
@@ -105,9 +105,19 @@
 #header img.balloons {
   position: absolute;
   z-index: 2;
+  top: 30px;
+  left: 360px;
+}
 
-  top: 70px;
-  right: 400px;
+#header span.slogan {
+  color:white;
+  display:block;
+  position: absolute;
+  z-index: 2;
+  top: 64px;
+  left: 360px;
+  width:320px;
+  text-align:left;
 }
 
 
