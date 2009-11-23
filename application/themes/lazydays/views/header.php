@@ -4,7 +4,7 @@
 
  <div class="float-right" style="padding:0.5em;text-align:right">
      <table>
-     <tr><td><?=image("icons/contact.gif","_theme_");?></td><td><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA"><span>13601834122</span></a></td><td><?=image("icons/c_chat.gif");?></td><td><span style="color:black;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA">免费试听</a></span> | </td>
+     <tr><td><?=image("icons/contact.gif","_theme_");?></td><td><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA"><span>13601834122</span></a></td><td><?=image("icons/calendar.gif");?></td><td><span style="color:black;"><a href="http://spreadsheets.google.com/viewform?formkey=dGdQUmZMZ1p6VzJ2VGxJWURnV05FcHc6MA">免费试听</a></span> | </td>
          <td>
                          <? if($this->user_lib->logged_in()): ?>
 				<a href="<?=site_url('users/logout');?>"><?= lang('logout_label');?></a>
