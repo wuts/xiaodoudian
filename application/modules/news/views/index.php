@@ -18,7 +18,7 @@
 	<? if (!empty($news)): ?>	
 		<? foreach ($news as $article): ?>
                        
-                       <h4><?=image('icons/article.png','_theme_');?><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
+                       <h4><?=image('icons/blog.gif','_theme_');?><?=  anchor('news/' .date('Y/m', $article->created_on) .'/'. $article->slug, $article->title); ?></h4>
                         <div style="padding-left:10px;color:teal;">
 				<em><?=lang('news_posted_label');?>: <?= date('Y-m-d', $article->created_on); ?></em>&nbsp;
                                 <em><?= $article->click_count; ?><?=lang('news_click_count_label');?></em>&nbsp;

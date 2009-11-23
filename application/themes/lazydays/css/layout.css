@@ -112,7 +112,8 @@
 
 
 #header span.slogan {
-  color:yellow;
+  color:#F8F8F9;
+  font-size:1em;
   display:block;
   position: absolute;
   z-index: 2;
@@ -120,7 +121,16 @@
   left: 360px;
   width:320px;
   text-align:left;
-  
+}
+#header span.freetry {
+  color:#F8F8F9;
+  font-size:3em;
+  display:block;
+  position: absolute;
+  z-index: 3;
+  top: 40px;
+  right: 30px;
+  text-align:left;
 }
 
 
