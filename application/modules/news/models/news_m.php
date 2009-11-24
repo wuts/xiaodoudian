@@ -282,7 +282,7 @@ class News_m extends Model {
         $query = $this->db->get('news');
         if ($query->num_rows() > 0) {
             $this->load->helper('text');
-            $string.='<ul>';
+            $string.='<ul class="articles_list">';
             foreach ($query->result() as $blogs) {
                 $string .= '<li>' . anchor('news/' . date('Y/m') . '/'. $blogs->slug, $blogs->title) .'('.$blogs->click_count.')</li>';
             }
