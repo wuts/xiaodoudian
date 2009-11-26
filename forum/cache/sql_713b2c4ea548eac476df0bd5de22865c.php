@@ -3,7 +3,7 @@ if (!defined('IN_PHPBB')) exit;
 
 /* SELECT s.style_id, c.theme_id, c.theme_data, c.theme_path, c.theme_name, c.theme_mtime, i.*, t.template_path FROM forum_styles s, forum_styles_template t, forum_styles_theme c, forum_styles_imageset i WHERE s.style_id = 1 AND t.template_id = s.template_id AND c.theme_id = s.theme_id AND i.imageset_id = s.imageset_id */
 
-$expired = (time() > 1250091478) ? true : false;
+$expired = (time() > 1259239211) ? true : false;
 if ($expired) { return; }
 
 $this->sql_rowset[$query_id] = unserialize('a:1:{i:0;a:11:{s:8:"style_id";s:1:"1";s:8:"theme_id";s:1:"1";s:10:"theme_data";s:69946:"/*  phpBB 3.0 Style Sheet

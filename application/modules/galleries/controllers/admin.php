@@ -198,7 +198,7 @@ class Admin extends Admin_Controller
 		if (empty($slug)) redirect('admin/galleries/index');
 		
 		$this->data->gallery = $this->galleries_m->getGallery($slug); 
-		$this->data->photos = $this->galleries_m->getPhotos($slug);		
+		$this->data->photos = $this->galleries_m->getPhotos('',$slug);
 		$this->layout->create('admin/manage', $this->data);
 	}
 	
